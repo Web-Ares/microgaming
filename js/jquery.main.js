@@ -103,10 +103,8 @@ $(function(){
 
         //private properties
         var _self = this,
-            _next = obj.find($('.swiper-button-next')),
-            _prev = obj.find($('.swiper-button-prev')),
             _paginator = obj.find($('.swiper-promo__pagination')),
-            _paginator2 = obj.find($('.games-slider__pagination')),
+            _paginator2 = obj.find($('.games-slider__points')),
             _obj = obj;
 
         //private methods
@@ -130,26 +128,8 @@ $(function(){
                 slidesPerView: 1,
                 pagination: _paginator2,
                 loop: true,
-                autoplay: 10000,
-                paginationClickable: true
-            });
-        }
-        if (_obj.hasClass('swiper-customer')){
-            var swiper = new Swiper(_obj, {
-                effect: 'coverflow',
-                grabCursor: true,
-                centeredSlides: true,
-                slidesPerView: 'auto',
                 autoplay: 5000,
-                loop: true,
-                loopedSlides: 20,
-                coverflow: {
-                    rotate: 0,
-                    stretch: -150,
-                    depth: 450,
-                    modifier: 1,
-                    slideShadows : false
-                }
+                paginationClickable: true
             });
         }
         //public properties
@@ -164,10 +144,6 @@ $(function(){
     });
 
     $('.games-slider').each(function () {
-        Slider($(this));
-    });
-
-    $('.swiper-customer').each(function () {
         Slider($(this));
     });
 

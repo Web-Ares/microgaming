@@ -627,10 +627,10 @@ span.swiper-pagination-bullet-active:hover{
     margin: 0 auto;
     padding: 0px 0 10px 0;
     position: relative;
-    margin-bottom: 35px;
+    margin-bottom: 19px;
 }
 .newest-games__wrap h2 {
-    margin-bottom: 11px;
+    margin-bottom: 14px;
     background: #313534;
     line-height: 30px;
 }
@@ -639,7 +639,7 @@ span.swiper-pagination-bullet-active:hover{
     position: absolute;
     top: 30px;
     left: 50%;
-    margin-left: -16px;
+    margin-left: -12px;
     border: 11px solid transparent;
     border-top: 11px solid #313534;
 }
@@ -806,6 +806,7 @@ span.swiper-pagination-bullet-active:hover{
     position: absolute;
     top: 10px;
     right: 14px;
+    z-index: 2;
 }
 .games-slider__points {
     top: auto;
@@ -814,10 +815,11 @@ span.swiper-pagination-bullet-active:hover{
     right: auto;
     margin-left: -48px;
 }
-.games-slider__points li{
+.games-slider__points span{
     width: 18px;
     height: 18px;
     float: left;
+    opacity: 1;
     background: transparent;
     border-radius: 10px;
     margin-left: 7px;
@@ -827,24 +829,12 @@ span.swiper-pagination-bullet-active:hover{
     -webkit-transition: background 0.3s ease;
     transition: background 0.3s ease;
 }
-.games-slider__points li:first-child,
-.ares-slider__points li:first-child {
+.games-slider__points span:first-child{
     margin-left: 0;
 }
-.games-slider__points li:hover ,
-.games-slider__points li.active{
+.games-slider__points span:hover{
     background: #fff;
-}
-.games-slider__points li.active, {
-    cursor: default;
-}
-.ares-slider__text{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0,0,0,0.6);
-    padding: 14px 207px 10px 13px
+    opacity: 1;
 }
 .games-slider {
     position: relative;
@@ -857,7 +847,14 @@ span.swiper-pagination-bullet-active:hover{
     left: 0;
     width: 100%;
     height: 235px;
-    display: none;
+    display: inline-block;
+}
+span.swiper-pagination-bullet-active{
+    background-color: #fff;
+}
+span.swiper-pagination-bullet-active:hover{
+    opacity: 1;
+    cursor: default;
 }
 /* --------------- /slider --------------- */
 /* ----------- /game-slot ------------- */
@@ -1974,6 +1971,7 @@ span.swiper-pagination-bullet-active:hover{
     }
     .newest-games__wrap {
         padding: 30px 0 30px 0;
+        margin-bottom: 28px;
     }
     .content-title {
         font-size: 24px;
@@ -1994,12 +1992,14 @@ span.swiper-pagination-bullet-active:hover{
     .game-slot__description {
         font-size: 11px;}
 
-    .games-slider__points li {
+    .games-slider__points span {
         width: 11px;
         height: 11px;
         margin-left:5px;
     }
     .games-slider {
+        width: 1000px;
+        margin: 0 auto;
         height: 235px;
     }
     .games-slider__points{
