@@ -90,6 +90,13 @@
     background-color: #2b3231;
     z-index: 3;
 }
+.site__header-wrap{
+    position: relative;
+    width: 320px;
+    height: 31px;
+    margin: 0 auto;
+    padding: 0 7px;
+}
 .site__content {
     position: relative;
     z-index: 2;
@@ -121,9 +128,14 @@
 /* --------------- logo --------------- */
 .logo {
     position: absolute;
-    top: 5px;
-    left: 1px;
+    top: -1px;
+    left: 37px;
+    width: 125px;
     z-index: 2;
+}
+.logo img{
+    width: inherit;
+    height: inherit;
 }
 /* --------------- /logo --------------- */
 
@@ -141,10 +153,38 @@
 
 /* --------------- menu --------------- */
 .menu {
-
+    opacity: 0;
+    visibility: hidden;
 }
 .menu-icon{
     display: block;
+    position: relative;
+    top: 11px;
+    width: 17px;
+    padding: 5px 0;
+    z-index: 9;
+    cursor: pointer;
+}
+.menu-icon span,
+.menu-icon span:before,
+.menu-icon span:after{
+    content: '';
+    display: block;
+    height: 4px;
+    margin-bottom: 2px;
+    background-color: #fff;
+}
+.menu-icon span:before,
+.menu-icon span:after{
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.menu-icon span:before{
+    top: 0;
+}
+.menu-icon span:after{
+    bottom: 0;
 }
 /* --------------- /menu --------------- */
 
@@ -721,9 +761,7 @@ span.swiper-pagination-bullet-active:hover{
     }
     .site__header-wrap {
         width: 1000px;
-        margin: 0 auto;
         padding-top: 120px;
-        position: relative;
     }
     .site__header-wrap:after {
         content: url("../img/bg-header.png");
@@ -763,6 +801,14 @@ span.swiper-pagination-bullet-active:hover{
         padding: 37px 0 0;
     }
     /* --------------- /site -------------- */
+
+    /* --------------- logo --------------- */
+    .logo {
+        top: 5px;
+        left: 1px;
+        width: 426px;
+    }
+    /* --------------- /logo -------------- */
 
     /* ---------- header__social ----------- */
     .header-social {
@@ -868,9 +914,11 @@ span.swiper-pagination-bullet-active:hover{
 
     /* --------------- menu --------------- */
     .menu {
-        min-height: 96px;
         position: relative;
         left: -8px;
+        min-height: 96px;
+        opacity: 1;
+        visibility: visible;
     }
     .menu ul {
         display: table;
