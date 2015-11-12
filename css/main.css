@@ -200,7 +200,7 @@
 .top-casinos-title{
     font-size: 14px;
     color: #31b8df;
-    font-family: 'flamabold', sans-serif;
+    font-family: 'Flama-Bold', sans-serif;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 18px;
@@ -216,9 +216,14 @@
     border: 1px solid #dedede;
     box-shadow: 4px 4px 10px -4px rgba(0,0,0,0.3);
     background: #ffffff;
+    overflow: hidden;
+}
+.top-casinos__games>div{
+    float:left;
 }
 .top-casinos-country{
     height: 36px;
+    width: 100%;
 }
 .top-casinos-item{
     font-size: 14px;
@@ -227,6 +232,8 @@
     border-top: 1px solid #f2f2f2;
     margin: 0 8px;
     position: relative;
+    padding-top: 22px;
+    margin-left: 21px;
 }
 .top-casinos-item:first-child{
     border-top: none;
@@ -242,6 +249,10 @@
     display: table-cell;
     vertical-align: middle;
     height: 27px;
+}
+.top-casinos__logo>div>img {
+    width:104px;
+
 }
 .top-casinos__casino h3 {
     font-weight: normal;
@@ -267,7 +278,7 @@
 }
 .top-casinos__score-count {
     color: #f6cb01;
-    font-family: 'flamabold', sans-serif;
+    font-family: 'Flama-Bold', sans-serif;
 }
 .top-casinos__content .top-casinos__votes {
     padding-top: 15px;
@@ -284,7 +295,7 @@
     margin: 4px 7px 0 2px;
 }
 .top-casinos__btn {
-    display: inline-block;
+    display: block;
     vertical-align: top;
     text-align: center;
 }
@@ -301,19 +312,37 @@
     color: #666;
 }
 .top-casinos__head {
-    font-family: 'flamabold',sans-serif;
+    font-family: 'Flama-Bold',sans-serif;
     text-transform: uppercase;
     color: #666666;
     font-size: 12px;
+    font-weight: bold;
+    margin-top: 28px;
+    display: inline-block;
+    width: 71px;
+    float: left;
 }
 .top-casinos__head>div, .top-casinos__content>div {
-    display: inline-block;
+    display: block;
+    margin-bottom: 10px;
     vertical-align: top;
     padding: 0 0 0 8px;
     overflow: hidden;
 }
 .top-casinos-casino {
     width: 132px;
+}
+
+.top-casinos-score {
+    width: 105px;
+}
+
+.top-casinos-votes {
+    width: 51px;
+}
+
+.top-casinos-bonus {
+    width: 225px;
 }
 /* ----------------- /top-casinos ----------------- */
 
