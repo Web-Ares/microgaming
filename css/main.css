@@ -6,33 +6,19 @@
 /*
     main styles
     version: 11.11.2015
-
     placeholder
-
     fonts
-
     site
-
     logo
-
     header__social
-
     header__search
-
     menu
-
     content
-
     top-games
-
     questions
-
     subscribe
-
     to-top
-
     footer__menu
-
 */
 
 /* --- Комментировать блоки! Зановсить в содержание! -- */
@@ -1382,7 +1368,7 @@ span.swiper-pagination-bullet-active:hover{
     }
 
     /* ---------- /swiper-promo ----------- */
-      .games-slider div a:first-child {
+    .games-slider div a:first-child {
         display: inline-block;
     }
 
