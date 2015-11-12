@@ -1,6 +1,6 @@
 $(function(){
     var slider = $( '.ares-slider'),
-        slider2 = $( '.games-slider' );
+      slider2 = $( '.games-slider' );
 
     new AresSlider1( {
         obj: slider,
@@ -110,21 +110,9 @@ AresSlider1.prototype = {
                         self.core.slideToNext();
                     }
                 } );
-                $(window).on({
-                    resize: function(){
-                        var picHeight = elems.items.height();
-                        self.obj.css({
-                            'height': picHeight
-                        })
-                    },
 
-                    load: function(){
-                        var picHeight = elems.items.height();
-                        self.obj.css({
-                            'height': picHeight
-                        })
-                    }
-                })
+
+
             }
         };
     },
