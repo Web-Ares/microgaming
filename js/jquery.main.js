@@ -124,9 +124,9 @@ $(function(){
         _init();
     };
 
-    $('.swiper-promo').each(function () {
+   // $('.swiper-promo').each(function () {
         Slider($(this));
-    });
+    //});
 
     $('.swiper-container').each(function () {
         Slider($(this));
