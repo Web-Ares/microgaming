@@ -148,6 +148,29 @@
 }
 /* --------------- /menu --------------- */
 
+/* ---------------- btn ---------------- */
+.btn {
+    border: none;
+    width: 89px;
+    height: 27px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    background: #31b8df;
+    -webkit-transition: background 0.3s ease;
+    transition: background 0.3s ease;
+}
+.btn:hover {
+    background: #019dca;
+}
+.btn-search{
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    width: 69px;
+}
+/* ---------------- btn ---------------- */
+
 /* ------------------ content -------------------- */
 .content{
     margin-bottom: 60px;
@@ -486,20 +509,6 @@ span.swiper-pagination-bullet-active:hover{
     padding: 0 5px;
     box-shadow: inset 1px 2px 6px #a4a4a4;
 }
-.subscribe form input[type="submit"] {
-    border: none;
-    width: 89px;
-    height: 27px;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 400;
-    background: #31b8df;
-    -webkit-transition: background 0.3s ease;
-    transition: background 0.3s ease;
-}
-.subscribe form input[type="submit"]:hover {
-    background: #019dca;
-}
 /*--------------/subscribe---------------*/
 
 /* --------------- to-top --------------- */
@@ -613,11 +622,7 @@ span.swiper-pagination-bullet-active:hover{
     .site__header:before {
         top: 180px;
         height: 36px;
-        background: #666;
-        display: none;
-    }
-    .menu_large .site__header:before {
-         display: block;
+        background-color: #666;
     }
     .site__header-wrap {
         width: 1000px;
@@ -698,15 +703,16 @@ span.swiper-pagination-bullet-active:hover{
 
     /* --------- header__search ----------- */
     .header__search {
-        width: 56px;
-        height: 60px;
         position: absolute;
-        background: #fff;
         top: 120px;
         right: 113px;
+        width: 56px;
+        height: 60px;
+        transition: background-color .3s ease;
+        -webkit-transition: background-color .3s ease;
     }
     .header__search:hover {
-        background: #bfbfbf;
+        background-color: #bfbfbf;
         height: 61px;
     }
     .header__search:after,
@@ -731,33 +737,34 @@ span.swiper-pagination-bullet-active:hover{
     }
     .header__search > div {
         position: absolute;
-        display: none;
         top: 60px;
         right: 0;
         width: 400px;
         height: 49px;
         background: #bfbfbf;
         border-bottom: 4px solid #31b8df;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility .3s ease, opacity .3s ease;
+        -webkit-transition: visibility .3s ease, opacity .3s ease;
     }
     .header__search:hover > div {
-        display: block;
+        visibility: visible;
+        opacity: 1;
     }
     .header__search input[type="search"] {
-        width: 308px;
-        height: 27px;
-        background: #fff;
-        border: none;
         position: absolute;
-        box-shadow: inset 1px 2px 3px rgba( 0,0,0,.4 );
         top: 6px;
         left: 10px;
+        width: 308px;
+        height: 27px;
         padding: 0 10px;
+        border: none;
+        background: url("../img/search__form.png") no-repeat 10px 8px #fff;
+        box-shadow: inset 1px 2px 3px rgba( 0,0,0,.4 );
     }
-    .header__search .btn {
-        position: absolute;
-        top: 6px;
-        right: 10px;
-        width: 69px;
+    .header__search input[type="search"]:focus{
+        background: #fff;
     }
     /* -------- /header__search ----------- */
 
@@ -765,6 +772,7 @@ span.swiper-pagination-bullet-active:hover{
     .menu {
         min-height: 96px;
         position: relative;
+        left: -8px;
     }
     .menu ul {
         display: table;
@@ -786,6 +794,8 @@ span.swiper-pagination-bullet-active:hover{
         height: 60px;
         padding-top: 25px;
         position: relative;
+        transition: color .3s ease;
+        -webkit-transition: color .3s ease;
     }
     .menu > ul ul > li > a:after,
     .menu > ul > li > a:after {
@@ -817,9 +827,9 @@ span.swiper-pagination-bullet-active:hover{
     }
     .menu > ul ul {
         position: absolute;
-        left: 0;
+        left: -8px;
         bottom: 0;
-        width: 90%;
+        width: 92%;
         height: 36px;
         display: none;
     }
@@ -837,7 +847,9 @@ span.swiper-pagination-bullet-active:hover{
         height: 36px;
         display: block;
         text-align: center;
-        padding-top: 11px;
+        padding-top: 10px;
+        transition: color .3s ease;
+        -webkit-transition: color .3s ease;
     }
     .menu > ul ul > li a:hover{
         color: #fff;
