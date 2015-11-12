@@ -97,7 +97,6 @@
         init();
     };
 
-})();
 
 $(function(){
     var Slider = function (obj) {
@@ -107,6 +106,7 @@ $(function(){
             _next = obj.find($('.swiper-button-next')),
             _prev = obj.find($('.swiper-button-prev')),
             _paginator = obj.find($('.swiper-promo__pagination')),
+            _paginator2 = obj.find($('.games-slider__pagination')),
             _obj = obj;
 
         //private methods
@@ -125,11 +125,13 @@ $(function(){
                 paginationClickable: true
             });
         }
-        if (_obj.hasClass('swiper-container')){
+        if (_obj.hasClass('games-slider')){
             var swiper = new Swiper(_obj, {
                 slidesPerView: 1,
+                pagination: _paginator2,
                 loop: true,
-                autoplay: 10000
+                autoplay: 10000,
+                paginationClickable: true
             });
         }
         if (_obj.hasClass('swiper-customer')){
@@ -157,11 +159,11 @@ $(function(){
         _init();
     };
 
-   // $('.swiper-promo').each(function () {
+    $('.swiper-promo').each(function () {
         Slider($(this));
-    //});
+    });
 
-    $('.swiper-container').each(function () {
+    $('.games-slider').each(function () {
         Slider($(this));
     });
 
@@ -172,4 +174,4 @@ $(function(){
 
 });
 
-
+})();
