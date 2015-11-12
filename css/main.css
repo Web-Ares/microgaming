@@ -896,6 +896,31 @@ span.swiper-pagination-bullet-active:hover{
 }
 /* -------------- /footer__menu --------------- */
 
+/* -------------- sample-text --------------- */
+.sample-text{
+
+}
+.sample-text  .sample-text__caption{
+    background: #666666;
+    margin: 0 -6.5px;
+    position: relative;
+    font-size: 16px;
+    padding: 17px 0;
+}
+.sample-text  .sample-text__caption:before {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    margin-left: -7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 7px 0 7px;
+    border-color: #666 transparent transparent transparent;
+}
+/* -------------- /sample-text --------------- */
+
 /* ---Комментировать блоки! Использовать ту же последовательность что и выше!-- */
 @media (min-width: 768px) {
     /* --------------- site --------------- */
@@ -942,6 +967,13 @@ span.swiper-pagination-bullet-active:hover{
         display: none;
     }
     /* --------------- /swiper-promo --------------- */
+
+    /* -------------- sample-text --------------- */
+    .sample-text .sample-text__caption{
+        font-size: 20px;
+        padding: 7px 0;
+    }
+    /* -------------- /sample-text --------------- */
 }
 
 @media (min-width: 1024px) {
@@ -1309,4 +1341,15 @@ span.swiper-pagination-bullet-active:hover{
         display: inline-block;
     }
     /* ----------- /game-slot ------------- */
+
+    /* -------------- sample-text --------------- */
+    .sample-text .sample-text__caption{
+        font-size: 30px;
+        line-height: 35px;
+        background: transparent;
+    }
+    .sample-text .sample-text__caption:before{
+        display: none;
+    }
+    /* -------------- /sample-text --------------- */
 }
