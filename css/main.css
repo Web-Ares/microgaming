@@ -765,7 +765,7 @@ span.swiper-pagination-bullet-active:hover{
     /* --------------- /site -------------- */
 
     /* ---------- header__social ----------- */
-    .header__social {
+    .header-social {
         height: 40px;
         border-left: 1px solid #e6e6e6;
         position: absolute;
@@ -773,7 +773,7 @@ span.swiper-pagination-bullet-active:hover{
         top: 131px;
         padding: 0 17px 0 12px;
     }
-    .header__social a {
+    .header-social a {
         display: inline-block;
         vertical-align: top;
         background: url("../img/icons-social.png") no-repeat 0 0;
@@ -781,17 +781,18 @@ span.swiper-pagination-bullet-active:hover{
         height: 23px;
         margin: 8px 1px 0;
         position: relative;
-        -webkit-transition: height 300ms ease-in-out, top 300ms ease-in-out;
-        transition: height 300ms ease-in-out, top 300ms ease-in-out;
+        transition: transform .3s ease;
+        -webkit-transition: transform .3s ease;
     }
-    .header__social a:hover {
-        height: 25px;
-        top: -2px;
+    .header-social a:hover {
+        height: 26px;
+        transform: translateY(-3px);
+        -webkit-transform: translateY(-3px);
     }
-    .header__social a.t {
+    .header-social a.tw {
         background-position: center top;
     }
-    .header__social a.g {
+    .header-social a.gg {
         background-position: right top;
     }
     /* --------- /header__social ----------- */
