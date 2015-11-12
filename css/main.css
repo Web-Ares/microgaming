@@ -286,6 +286,7 @@
 }
 .top-casinos__games{
     overflow: hidden;
+    position: relative;
 }
 .top-casinos__games:before{
     content: "";
@@ -359,6 +360,8 @@
 }
 .top-casinos__casino h3 {
     font-weight: normal;
+    font-size: 33px;
+    margin-left: 4px;
     display: none;
 }
 .top-casinos__score{
@@ -1471,6 +1474,93 @@ span.swiper-pagination-bullet-active:hover{
         display: none;
     }
     /* --------------- /swiper-promo --------------- */
+
+    /* --------------- top-casinos --------------- */
+    .top-casinos-item>div>span{
+        font-size: 21px;
+        vertical-align: top;
+    }
+    .top-casinos-item {
+        margin-left: 20px;
+        padding-top: 36px;
+        margin-bottom: 4px;
+    }
+    .top-casinos-item .flag-country{
+        display: none;
+    }
+    .top-casinos__logo>div>img {
+        width: 240px;
+    }
+    .top-casinos__casino {
+        margin-left: 112px;
+        width: auto;
+        margin-bottom: 23px;
+    }
+    .top-casinos__logo {
+        margin-bottom: 10px;
+    }
+    .top-casinos__rating {
+        height: 31px;
+        background-size: 35px 29px;
+        vertical-align: top;
+        width: 167px;
+    }
+    .top-casinos__rating > div {
+        height: 32px;
+        background-size: 35px 29px;
+    }
+    .top-casinos__casino h3 {
+        display: block;
+    }
+    .top-casinos__score {
+        width: auto;
+        margin-left: 117px;
+        margin-bottom: 18px;
+    }
+    .top-casinos__score-count {
+        margin-left: 8px;
+        font-size: 28px;
+    }
+    .top-casinos__votes {
+        font-size: 27px;
+        margin-left: 119px;
+        margin-bottom: 24px;
+    }
+    .top-casinos__bonus ul {
+        display: inline-block;
+        vertical-align: top;
+        width: 353px;
+        overflow: hidden;
+        margin: -7px 7px 0 2px;
+        line-height: 37px;
+        margin-left: 115px;
+        margin-bottom: 34px;
+        font-size: 33px;
+    }
+    .top-casinos .btn_play {
+        width: 332px;
+        height: 72px;
+        font-size: 31px;
+        padding-top: 22px;
+        margin-left: 21px;
+    }
+    .top-casinos .btn_review {
+        width: 332px;
+        height: 72px;
+        font-size: 31px;
+        padding-top: 20px;
+        padding-left: 19px;
+    }
+    .top-casinos__games:before {
+        content: "";
+        left: 14px;
+        right: 14px;
+        top: 8px;
+    }
+    .top-casinos-title {
+        font-size: 31px;
+    }
+    /* --------------- /top-casinos --------------- */
 
     /* --------------- game-slot --------------- */
     .game-slot__pic {
