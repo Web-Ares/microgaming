@@ -169,6 +169,86 @@
 }
 /* ----------------- /content ----------------- */
 
+/* --------------- swiper-promo --------------- */
+.swiper-promo{
+    position: relative;
+    overflow: hidden;
+}
+.swiper-promo__layout{
+    width: 320px;
+    height: 169px;
+    margin: 0 auto;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 97px;
+    font-size: 10px;
+    color:#fff;
+}
+.swiper-promo__layout div h2{
+    text-transform: uppercase;
+    letter-spacing: 1.7px;
+    line-height: 14px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.slide-btn{
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: #22e41c;
+    color:#fff;
+    text-align: center;
+    line-height: 29px;
+}
+.slide-btn:hover{
+    background: #14d000;
+}
+.swiper-promo__layout  h2 span{
+    color:#22e41c;
+}
+.swiper-promo__layout div{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 41px;
+    background: rgba(163, 163, 163, 0.68);
+    padding-bottom: 72px;
+
+}
+.swiper-promo__pagination{
+    position: absolute;
+    left: 230px;
+    right: 0;
+    top: 1px;
+    text-align: center;
+    z-index: 9;
+}
+.swiper-promo__pagination span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 3px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    opacity: 1;
+    background: none;
+}
+.swiper-promo__pagination span:hover{
+    background-color: #fff;
+    opacity: 1;
+}
+span.swiper-pagination-bullet-active{
+    background-color: #fff;
+}
+span.swiper-pagination-bullet-active:hover{
+    opacity: 1;
+    cursor: default;
+}
+/* --------------- /swiper-promo --------------- */
+
 /* ----------------- top-games ---------------- */
 .top-games{
     padding-bottom: 29px;
@@ -413,7 +493,42 @@
         padding: 31px 18.5px 33px;
     }
     /* --------------- /site -------------- */
+
+    /* --------------- swiper-promo --------------- */
+    .swiper-promo__layout{
+        padding-top: 250px;
+        font-size: 26px;
+        width: 768px;
+        height: 362px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .swiper-promo__layout div h2{
+        font-size: 15px;
+        line-height: 30px;
+        padding-left: 20px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .slide-btn{
+        font-size: 13px;
+        line-height: 58px;
+        display: inline-block;
+        width: 207px;
+        height: 57px;
+        vertical-align: middle;
+        margin-left: 214px;
+    }
+    .swiper-promo__layout div{
+        padding-top: 24px;
+        height: 120px;
+    }
+    .swiper-promo__pagination{
+        display: none;
+    }
+    /* --------------- /swiper-promo --------------- */
 }
+
 
 @media (min-width: 1024px) {
     /* --------------- site --------------- */
@@ -726,4 +841,35 @@
         line-height: 23px;
     }
     /* ---------- /footer__menu ----------- */
+
+    /* ---------- swiper-promo ----------- */
+    .swiper-promo__layout{
+        padding-top: 250px;
+        font-size: 18px;
+        width: 541px;
+        height: 305px;
+    }
+    .swiper-promo__pagination {
+        left: 460px;
+        top: 2px;
+        display: block;
+    }
+    .swiper-promo__layout div h2{
+        line-height: 24px;
+        padding-left: 12px;
+    }
+    .slide-btn{
+        font-size: 12px;
+        line-height: 28px;
+        display: inline-block;
+        width: 94px;
+        height: 27px;
+        margin-left:119px;
+    }
+    .swiper-promo__layout div {
+        padding-top: 0;
+        height: 60px;
+    }
+    /* ---------- /swiper-promo ----------- */
+
 }
