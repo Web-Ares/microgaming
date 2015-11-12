@@ -277,7 +277,7 @@
 /*----------------questions----------------*/
 .questions {
     border: 1px solid #dedede;
-    box-shadow: 2px 3px 5px #dedede;
+    box-shadow: 1px 2px 2px rgba(0,0,0,.15);
     margin-bottom: 49px;
 }
 .questions__wrap {
@@ -293,7 +293,7 @@
     background: url(../img/bg-questions.png) 9px 10px no-repeat;
 }
 .questions__wrap span {
-    font-family: 'danielbk';
+    font-family: 'danielbk', sans-serif;
     color: #22e41c;
     font-size: 15px;
     line-height: 18px;
@@ -306,7 +306,7 @@
     display: block;
     text-align: left;
     white-space: nowrap;
-    font: 14px 'Flama-Basic', sans-serif;
+    font: 14px 'Flama-Light', sans-serif;
     color: #bfbfbf;
     margin-bottom: 0;
 }
