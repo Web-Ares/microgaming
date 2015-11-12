@@ -2,6 +2,7 @@
 
     $(function () {
         toTop = new ToTop();
+        accordion = new Accordion();
     });
 
     var toTop = null,
@@ -64,6 +65,38 @@
 
         init();
     };
+
+    var Accordion = function () {
+
+        //private properties
+        var _self = this,
+            _dl = $('.faq dl');
+
+        //private methods
+        var addEvents = function () {
+                _dl.on({
+                    click: function () {
+                        var cutItem = $(this),
+                            dt = cutItem.find('dt');
+
+                        if( dt.next().css('display') == 'none'){
+                            dt.next().slideDown(300);
+                            dt.addClass('active');
+                        }
+                        else{
+                            dt.next().slideUp(300);
+                            dt.removeClass( 'active' )
+                        }
+                    }
+                });
+            },
+            init = function () {
+                addEvents();
+            };
+
+        init();
+    };
+
 })();
 
 $(function(){
@@ -135,5 +168,8 @@ $(function(){
     $('.swiper-customer').each(function () {
         Slider($(this));
     });
+
+
 });
+
 

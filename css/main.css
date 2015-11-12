@@ -1000,6 +1000,9 @@ span.swiper-pagination-bullet-active:hover{
         width: 541px;
         margin: 0 4px;
     }
+    .site__wrap-center_long{
+        width: 768px;
+    }
     .site__aside{
         display: inline-block;
         vertical-align: top;
