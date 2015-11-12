@@ -230,6 +230,9 @@
     background: url(../img/icons-search.png) no-repeat 0 0 #666;
     text-indent: 9999px;
 }
+.btn-search:hover{
+    background: url(../img/icons-search.png) no-repeat 8px -12px #e8e8e8;
+}
 /* ---------------- btn ---------------- */
 
 /* ------------------ content -------------------- */
@@ -1229,6 +1232,9 @@ span.swiper-pagination-bullet-active:hover{
         height: 27px;
         background: #31b8df;
         text-indent: 0;
+    }
+    .btn-search:hover {
+        background: #019dca;
     }
     /* --------------- /btn --------------- */
 
