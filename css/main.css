@@ -694,7 +694,6 @@ span.swiper-pagination-bullet-active:hover{
     color: #22e41c;
     margin-bottom: 1px;
     max-width: 100px;
-    height: 28px;
     overflow: hidden;
     text-align: left;
 }
@@ -704,8 +703,8 @@ span.swiper-pagination-bullet-active:hover{
     font-size: 12px;
     overflow: hidden;
     max-width: 80px;
-    height: 30px;
     text-align: left;
+    padding-bottom: 16px;
 }
 .game-slot__tip {
     position: absolute;
@@ -1478,8 +1477,8 @@ span.swiper-pagination-bullet-active:hover{
 
     /* --------------- game-slot --------------- */
     .game-slot__pic {
-        width: 150px;
-        height: 150px;
+        width: 146px;
+        height: 140px;
         position: relative;
     }
     .newest-games__wrap h2 {
@@ -1504,14 +1503,12 @@ span.swiper-pagination-bullet-active:hover{
         font-size: 17px;
         text-align: left;
         max-width: 161px;
-        height: 20px;
         margin-top: 5px;
     }
     .game-slot__description {
         font-size: 16px;
         text-align: left;
         max-width: 161px;
-        height: 20px;
         margin-top: 5px;
     }
     .games-slider {
@@ -1526,7 +1523,7 @@ span.swiper-pagination-bullet-active:hover{
     .game-slot__mobile {
         width: 22px;
         height: 29px;
-        top: -5px;
+        top: -2px;
     }
     .game-slot__new {
         margin-right: 0;
@@ -1931,7 +1928,7 @@ span.swiper-pagination-bullet-active:hover{
 
     /* ---------- swiper-promo ----------- */
     .swiper-promo__layout {
-        padding-top: 250px;
+        padding-top: 246px;
         font-size: 18px;
         width: 541px;
         height: 305px;
@@ -1943,7 +1940,7 @@ span.swiper-pagination-bullet-active:hover{
     }
     .swiper-promo__layout div h2{
         font-size: 18px;
-        line-height: 24px;
+        line-height: 19px;
         padding-left: 12px;
     }
     .slide-btn{
@@ -1952,37 +1949,38 @@ span.swiper-pagination-bullet-active:hover{
         display: inline-block;
         width: 94px;
         height: 27px;
-        margin-left: 128px;
+        margin-left: 124px;
+        margin-top: 6px;
     }
     .swiper-promo__layout div {
-        padding-top: 0;
+        padding-top: 4px;
         height: 60px;
     }
     /* ---------- /swiper-promo ----------- */
     .games-slider div a:first-child {
         display: inline-block;
     }
-
     .games-slider div a:last-child {
         display: inline-block;
     }
-
     .games-slider__item {
-        padding: 0 31px 0 30px;
-    }
+        width: 1000px;
+        margin: 0 auto;
+        position: relative;
+        padding: 0 31px 0 30px;}
 
     .newest-games__wrap:after {
         display: block;
     }
     .newest-games__wrap {
-        padding: 45px 0 30px 0;
+        padding: 30px 0 30px 0;
     }
     .content-title {
         font-size: 24px;
     }
     .newest-games__wrap h2 {
         font-size: 24px;
-        margin-bottom: 30px;
+        margin-bottom: 37px;
         background: none;
     }
     .newest-games__wrap:before {
@@ -1990,6 +1988,22 @@ span.swiper-pagination-bullet-active:hover{
         margin-left: -16px;
         border: 16px solid transparent;
         border-top: 16px solid #f7f7f7;
+    }
+    .game-slot__name {
+        font-size: 11px;}
+    .game-slot__description {
+        font-size: 11px;}
+
+    .games-slider__points li {
+        width: 11px;
+        height: 11px;
+        margin-left:5px;
+    }
+    .games-slider {
+        height: 235px;
+    }
+    .games-slider__points{
+        margin-left: -32px;
     }
     /* ----------- /game-slot ------------- */
 
