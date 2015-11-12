@@ -15,7 +15,7 @@
 
     logo
 
-    header__social
+    header-social
 
     header__search
 
@@ -1075,8 +1075,9 @@ span.swiper-pagination-bullet-active:hover{
     /* --------------- placeholder --------------- */
     ::-webkit-input-placeholder {
         color: transparent;
+        background: url("../img/search__form.png") no-repeat 10px 8px;
     }
-    :-moz-placeholder {
+    ::-moz-placeholder {
         color: transparent;
     }
     .placeholder {
@@ -1274,11 +1275,10 @@ span.swiper-pagination-bullet-active:hover{
         height: 27px;
         border: none;
         padding: 0 10px;
-        background: url("../img/search__form.png") no-repeat 10px 8px #fff;
-        box-shadow: inset 1px 2px 3px rgba(0, 0, 0, .4);
+        background-color: #fff;
+        box-shadow: inset 1px 2px 3px rgba( 0,0,0,.4 );
     }
-
-    .header__search input[type="search"]:focus {
+    .header__search input[type="search"]:focus{
         background: #fff;
     }
     /* -------- /header__search ----------- */
@@ -1427,7 +1427,6 @@ span.swiper-pagination-bullet-active:hover{
     }
     /* ---------- /footer__menu ----------- */
 
-    /* ---------- /footer__menu ----------- */
     /* ---------- swiper-promo ----------- */
     .swiper-promo__layout {
         padding-top: 250px;
@@ -1435,20 +1434,17 @@ span.swiper-pagination-bullet-active:hover{
         width: 541px;
         height: 305px;
     }
-
     .swiper-promo__pagination {
         left: 460px;
         top: 2px;
         display: block;
     }
-
-    .swiper-promo__layout div h2 {
+    .swiper-promo__layout div h2{
         font-size: 18px;
         line-height: 24px;
         padding-left: 12px;
     }
-
-    .slide-btn {
+    .slide-btn{
         font-size: 12px;
         line-height: 28px;
         display: inline-block;
@@ -1460,7 +1456,6 @@ span.swiper-pagination-bullet-active:hover{
         padding-top: 0;
         height: 60px;
     }
-
     /* ---------- /swiper-promo ----------- */
     .games-slider div a:first-child {
         display: inline-block;
