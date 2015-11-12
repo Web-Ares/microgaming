@@ -583,7 +583,6 @@ span.swiper-pagination-bullet-active:hover{
     /* --------------- /swiper-promo --------------- */
 }
 
-
 @media (min-width: 1024px) {
     /* --------------- site --------------- */
     .site:after {
@@ -643,6 +642,9 @@ span.swiper-pagination-bullet-active:hover{
         vertical-align: top;
         width: 541px;
         margin: 0 4px;
+    }
+    .site__wrap-center_long{
+        width: 768px;
     }
     .site__aside{
         display: inline-block;
