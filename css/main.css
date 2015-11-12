@@ -84,6 +84,7 @@
     background-color: #f7f7f7;
     overflow: hidden;
     z-index: 1;
+    min-width: 320px;
 }
 .site__header {
     position: relative;
@@ -962,10 +963,10 @@ span.swiper-pagination-bullet-active:hover{
 }
 .sample-text  .sample-text__caption{
     background: #666666;
-    margin: 0 -6.5px;
+    margin: 0 -6.5px 14px;
     position: relative;
     font-size: 16px;
-    padding: 17px 0;
+    padding: 4px 0;
 }
 .sample-text  .sample-text__caption:before {
     content: '';
@@ -981,6 +982,258 @@ span.swiper-pagination-bullet-active:hover{
 }
 /* -------------- /sample-text --------------- */
 
+/* ------------ flags ------------- */
+.flags{
+    display: inline-block;
+    vertical-align: top;
+    width: 18px;
+    height: 18px;
+    background: url("../img/small_flags.png") no-repeat;
+    text-indent: -5000px;
+}
+.big{
+    width: 26px;
+    height: 26px;
+    background: url("../img/big_flags.png") no-repeat;
+}
+.flag1{
+    background-position: -128px -1px;
+}
+.flag2{
+    background-position: 0 -238px;
+}
+.flag3{
+    background-position: -43px -87px;
+}
+.flag4{
+    background-position: -21px 0;
+}
+.flag5{
+    background-position: -64px -194px;
+}
+.flag6{
+    background-position: -215px -87px;
+}
+.flag7{
+    background-position: -128px -87px;
+}
+.flag8{
+    background-position: -194px -65px;
+}
+.flag9{
+    background-position: 0 -87px;
+}
+.flag10{
+    background-position: -128px -411px;
+}
+.flag10{
+    background-position: 0 -173px;
+}
+.flag11{
+    background-position: 0 -22px;
+}
+.flag12{
+    background-position: -85px -109px;
+}
+.flag13{
+    background-position: -128px -412px;
+}
+.bg-flag1{
+    background-position: -193px -129px;
+}
+/* ------------ /flags ------------- */
+
+/* ----------- casino-bonus ------------ */
+.casino-bonus {
+    margin-bottom: 0;
+}
+.casino-bonus__title {
+    position: relative;
+    padding: 47px 0 0 0;
+    font-size: 15px;
+    line-height: 17px;
+    margin: 0 0 12px;
+}
+.casino-bonus__title:before {
+    content: '';
+    position: absolute;
+    background: url("../img/casino-bonus__title.png") no-repeat;
+    width: 39px;
+    height: 38px;
+    top: 0;
+    left: 50%;
+    margin-left: -20px;
+    background-size: cover;
+}
+.casino-bonus__item {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    background: url("../img/casino-bonus__bg.png") repeat;
+    border: 2px dashed #898989;
+    background-clip: border-box;
+    width: 143px;
+    height: 208px;
+    margin-bottom: 14px;
+    margin-left: 16px;
+}
+.casino-bonus__item:nth-child(2n+1){
+    margin-left: 0;
+}
+.casino-bonus__pic {
+    width: 100%;
+    height: 63px;
+    display: table;
+}
+.casino-bonus__pic > a,
+.casino-bonus__pic > div {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.casino-bonus__name {
+    text-align: center;
+    font-family: "Flama-Basic";
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 11px;
+}
+.casino-bonus__condition {
+    font-family: "Flama-Bold";
+    font-size: 18px;
+    color: #31b8df;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 21px;
+    margin-bottom: 4px;
+}
+.casino-bonus__condition span {
+    display: block;
+}
+.casino-bonus_code {
+    display: block;
+    text-align: center;
+}
+.casino-bonus_code dt,
+.casino-bonus_code dd {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    color: #666;
+    font-family: "Flama-Basic";
+    text-transform: uppercase;
+}
+.casino-bonus_code dd {
+    font-family: "Flama-Bold";
+}
+.casino-bonus__inner {
+    width: 100%;
+    height: 165px;
+    overflow: hidden;
+    padding-top: 14px;
+}
+.casino-bonus__corner {
+    text-indent: -10000px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: url("../img/casino-bonus__list.png") no-repeat;
+    width: 55px;
+    height: 35px;
+    display: none;
+}
+.casino-bonus__flag {
+    position: absolute;
+    background: url("../img/casino-bonus__flag.png") no-repeat;
+    width: 28px;
+    height: 28px;
+    top: -6px;
+    left: 7px;
+}
+.casino-bonus__flag span {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+.casino-bonus__hover {
+    display: block;
+    vertical-align: top;
+    width: 115px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px 0;
+    height: 32px;
+    background: rgb(44,175,212);
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzJjYWZkNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyNThhYTgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  rgba(44,175,212,1) 0%, rgba(37,138,168,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(44,175,212,1) 0%,rgba(37,138,168,1) 100%);
+    background: linear-gradient(to bottom,  rgba(44,175,212,1) 0%,rgba(37,138,168,1) 100%);
+}
+.casino-bonus__hover:hover,
+.casino-bonus__hover:active{
+    background: rgb(37,138,168);
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI1OGFhOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyY2FmZDQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  rgba(37,138,168,1) 0%, rgba(44,175,212,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(37,138,168,1) 0%,rgba(44,175,212,1) 100%);
+    background: linear-gradient(to bottom,  rgba(37,138,168,1) 0%,rgba(44,175,212,1) 100%);
+}
+.casino-bonus__hover > span {
+    text-transform: uppercase;
+    font-family: "Flama-Bold";
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+.casino-bonus__all {
+    text-align: right;
+    padding-right: 18px;
+}
+.casino-bonus__all a {
+    display: inline-block;
+    position: relative;
+    font-family: "Flama-Bold";
+    color: #666;
+    font-size: 14px;
+}
+.casino-bonus__all a:after {
+    content: '';
+    position: absolute;
+    background: url("../img/casino-bonus__all.png") no-repeat;
+    width: 10px;
+    height: 7px;
+    top: 4px;
+    right: -13px;
+    -webkit-transition: right 0.1s ease;
+    transition: right 0.1s ease;
+}
+.casino-bonus__all a:hover:after {
+    right: -15px;
+}
+.casino-bonus__get-bonus{
+    display: none;
+    vertical-align: top;
+    width: 117px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px 0;
+    height: 34px;
+    background: rgb(44,175,212);
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzJjYWZkNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyNThhYTgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  rgba(44,175,212,1) 0%, rgba(37,138,168,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(44,175,212,1) 0%,rgba(37,138,168,1) 100%);
+    background: linear-gradient(to bottom,  rgba(44,175,212,1) 0%,rgba(37,138,168,1) 100%);
+    text-transform: uppercase;
+    font-family: "Flama-Bold";
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+}
+/* ----------- /casino-bonus ------------ */
+
+/* ---Комментировать блоки! Использовать ту же последовательность что и выше!-- */
 @media (min-width: 768px) {
     /* --------------- site --------------- */
     .site__header-wrap{
@@ -1123,6 +1376,16 @@ span.swiper-pagination-bullet-active:hover{
         padding: 7px 0;
     }
     /* -------------- /sample-text --------------- */
+
+    /* -------------- casino-bonus --------------- */
+    .casino-bonus__item,
+    .casino-bonus__item:nth-child(2n+1){
+        margin-left: 0;
+    }
+    .casino-bonus__item:nth-child(5n+1){
+        margin-left: 0;
+    }
+    /* -------------- /casino-bonus --------------- */
 }
 
 @media (min-width: 1024px) {
@@ -1562,9 +1825,96 @@ span.swiper-pagination-bullet-active:hover{
         font-size: 30px;
         line-height: 35px;
         background: transparent;
+        margin: 0 0 8px;
     }
     .sample-text .sample-text__caption:before{
         display: none;
     }
     /* -------------- /sample-text --------------- */
+
+    /* -------------- casino-bonus --------------- */
+    .casino-bonus {
+        margin-bottom: 39px;
+    }
+    .casino-bonus__item {
+        width: 151px;
+        height: 219px;
+        margin-bottom: 8px;
+    }
+    .casino-bonus__item,
+    .casino-bonus__item:nth-child(5n+1),
+    .casino-bonus__item:nth-child(2n+1){
+        margin-left: 15px;
+    }
+    .casino-bonus__item:nth-child(6n+1){
+        margin-left: 0;
+    }
+    .casino-bonus__inner {
+        height: 219px;
+        padding-top: 16px;
+    }
+    .casino-bonus__pic {
+        height: 65px;
+    }
+    .casino-bonus__name {
+        margin-bottom: 14px;
+    }
+    .casino-bonus__condition {
+        margin-bottom: 6px;
+    }
+    .casino-bonus__corner{
+        display: block;
+    }
+    .casino-bonus__hover {
+        position: absolute;
+        z-index: 5;
+        top: -2px;
+        left: -2px;
+        background: url("../img/casino-bonus__hover_2.png") no-repeat transparent !important;
+        width: 151px;
+        height: 219px;
+        opacity: 0;
+        padding: 0;
+        -webkit-transition: opacity 0.3s ease;
+        transition: opacity 0.3s ease;
+
+    }
+    .casino-bonus__hover > span {
+        position: absolute;
+        bottom: 8px;
+        right: 11px;
+        text-transform: uppercase;
+        font-family: "Flama-Bold";
+        color: #fff;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .casino-bonus__hover > span > span {
+        display: block;
+        margin-left: 14px;
+    }
+    .casino-bonus__item:hover .casino-bonus__hover {
+        opacity: 1;
+    }
+    .casino-bonus__item:hover {
+        overflow: hidden;
+    }
+    .casino-bonus__title {
+        padding: 77px 0 0 0;
+        margin-bottom: 22px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .casino-bonus__title:before {
+        width: 68px;
+        height: 66px;
+        margin-left: -34px;
+    }
+    .casino-bonus__get-bonus{
+        display: block;
+    }
+    .casino-bonus_code{
+        margin: 0 0 3px;
+    }
+    /* -------------- /casino-bonus --------------- */
 }
