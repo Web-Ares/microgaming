@@ -231,24 +231,24 @@
             _init = function () {
                 _addEvents();
             };
-        //if (_obj.hasClass('swiper-promo')){
-        //    var swiper = new Swiper(_obj, {
-        //        slidesPerView: 1,
-        //        autoplay: 5000,
-        //        pagination: _paginator,
-        //        loop: true,
-        //        paginationClickable: true
-        //    });
-        //}
-        //if (_obj.hasClass('games-slider')){
-        //    var swiper = new Swiper(_obj, {
-        //        slidesPerView: 1,
-        //        pagination: _paginator2,
-        //        loop: true,
-        //        autoplay: 5000,
-        //        paginationClickable: true
-        //    });
-        //}
+        if (_obj.hasClass('swiper-promo')){
+            var swiper = new Swiper(_obj, {
+                slidesPerView: 1,
+                autoplay: 5000,
+                pagination: _paginator,
+                loop: true,
+                paginationClickable: true
+            });
+        }
+        if (_obj.hasClass('games-slider')){
+            var swiper = new Swiper(_obj, {
+                slidesPerView: 1,
+                pagination: _paginator2,
+                loop: true,
+                autoplay: 5000,
+                paginationClickable: true
+            });
+        }
         if (_obj.hasClass('top-casinos-country')){
 
             _window.on({
