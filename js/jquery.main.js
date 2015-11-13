@@ -103,6 +103,8 @@ $(function(){
 
         //private properties
         var _self = this,
+            _next = obj.find($('.swiper-button-next')),
+            _prev = obj.find($('.swiper-button-prev')),
             _paginator = obj.find($('.swiper-promo__pagination')),
             _paginator2 = obj.find($('.games-slider__points')),
             _obj = obj;
@@ -134,10 +136,12 @@ $(function(){
         }
         if (_obj.hasClass('games-slider')){
             var swiper = new Swiper(_obj, {
-                slidesPerView: 1,
+                slidesPerView: 'auto',
                 loop: true,
                 autoplay: 5000,
-                paginationClickable: true
+                paginationClickable: true,
+                nextButton: _next,
+                prevButton: _prev
             });
         }
         //public properties
