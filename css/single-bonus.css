@@ -1,0 +1,693 @@
+/*
+    main styles
+    version: 13.11.2015
+
+    review-card
+
+    bonus-list
+
+    microgaming-casinos
+
+    rate
+
+*/
+
+/*----------------review-card----------------*/
+.review-card {
+    display: block;
+    vertical-align: top;
+    border: 1px solid #dedede;
+    box-shadow: 2px 3px 5px #dedede;
+    padding: 0 20px 26px 20px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.review-card:nth-child(3n) {
+    margin-right: 0;
+}
+.review-card__title {
+    position: relative;
+    text-align: center;
+    padding: 111px 0 0 0;
+    z-index: 1;
+    margin-bottom: 13px;
+}
+.review-card__title:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #666;
+    top: 126px;
+    left: 0;
+    z-index: 1;
+}
+.review-card__title span {
+    position: relative;
+    background: #fff;
+    font-family: 'Flama-Bold';
+    color: #31b8df;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-size: 25px;
+    z-index: 10;
+    line-height: 28px;
+
+    display: inline-block;
+    margin: 0 14px;
+}
+.review-card__wrap {
+    overflow: hidden;
+}
+.review-card__inner {
+    display: block;
+    color: #666;
+}
+.review-card__inner p {
+    font-size: 24px;
+    line-height: 29px;
+}
+.review-card__inner dl {
+    font-size: 12px;
+}
+.review-card__inner dl dt {
+    vertical-align: top;
+    display: inline-block;
+    font-family: 'Flama-Bold';
+    width: 109px;
+}
+.review-card__inner dl dd {
+    vertical-align: top;
+    display: inline-block;
+    width: 178px;
+    margin-bottom: 12px;
+}
+.review-card__inner dl.banking-list dt  {
+    width: 185px;
+}
+.review-card__inner dl.banking-list dd {
+    width: 100px;
+}
+.review-card__inner div {
+    width: 174px;
+    margin: 0 auto;
+}
+.review-card__inner div img {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 6px 14px;
+}
+/*----------------/review-card----------------*/
+
+/*---------------bonus-list----------------*/
+.bonus-list {
+    text-align: left;
+    margin: 0 0 15px;
+}
+.bonus-list .review-card {
+    background: #fff;
+}
+.bonus-list .review-card:nth-child(3n) {
+    margin-right: 0;
+}
+.bonus-list li:nth-child(1) h3 {
+    background: url(../img/bonus-code.png) center 22px no-repeat;
+    background-size: 100px 73px;
+}
+.bonus-list li:nth-child(2) h3 {
+    background: url(../img/bonus-type.png) center 22px no-repeat;
+    background-size: 72px 73px;
+}
+.bonus-list li:nth-child(3) h3 {
+    background: url(../img/valid-for.png) center 33px no-repeat;
+    background-size: 99px 57px;
+}
+.bonus-list li:nth-child(4) h3  {
+    background: url(../img/games-allowed.png) center 21px no-repeat;
+    background-size: 66px 74px;
+}
+.bonus-list li:nth-child(5) h3  {
+    background: url(../img/wagering-requirements.png) center 22px no-repeat;
+    background-size: 73px 73px;
+}
+.bonus-list li:nth-child(6) h3  {
+    background: url(../img/bonus-value.png) center 25px no-repeat;
+    background-size: 72px 72px;
+}
+.bonus-list li:nth-child(7) h3  {
+    background: url(../img/minimum-cash-out.png) center 22px no-repeat;
+    background-size: 72px 73px;
+}
+.bonus-list li:nth-child(8) h3  {
+    background: url(../img/card__expire-by-date.png) center 25px no-repeat;
+    background-size: 71px 71px;
+}
+.bonus-list .review-card__inner {
+    text-align: center;
+}
+.bonus-list .review-card__inner p {
+    padding: 0 30px;
+    line-height: 29px;
+    margin-bottom: 0;
+}
+.bonus-list .review-card__inner ul {
+    display: inline-block;
+    background: #f7f7f7;
+    border: 1px solid #d9d9d9;
+    font-size: 22px;
+    line-height: 26px;
+    color: #666;
+    border-radius: 10px;
+    text-align: left;
+    min-width: 136px;
+}
+.bonus-list .review-card__inner ul li {
+    border-bottom: 1px dashed #d9d9d9;
+    padding: 7px 3px 8px 41px;
+    position: relative;
+}
+.bonus-list .review-card__inner ul li:last-child {
+    border-bottom: none;
+}
+.bonus-list .review-card__inner ul li:before {
+    content: "";
+    position: absolute;
+    left: 17px;
+    top: 18px;
+    width: 8px;
+    height: 10px;
+    background: url(../img/ordered.png) no-repeat;
+    background-size: cover !important;
+}
+/*---------------/bonus-list----------------*/
+
+/* --------------- rate --------------- */
+.rate {
+    position: relative;
+    margin: 0 auto 0;
+    height: 18px;
+    width: 108px;
+    background: url(../img/stars.png) 0 bottom repeat-x;
+}
+.rate div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    background: url(../img/stars.png) 0 1px repeat-x;
+    z-index: 10;
+}
+.rate_big {
+    margin: 19px auto 10px;
+    background-size: 30px;
+    width: 145px;
+    height: 24px;
+}
+.rate_big div {
+    background-size: 30px;
+    height: 25px;
+}
+/* --------------- /rate --------------- */
+
+/* --------------- microgaming-casinos --------------- */
+.microgaming-casinos{
+    background: #666666;
+    padding: 0 0 1px;
+    position: relative;
+    margin: 0 0 20px;
+}
+.microgaming-casinos:after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+    border-top: 17px solid #f7f7f7;
+    top: 0;
+    left: 50%;
+    margin-left: -18px;
+    display: none;
+}
+.microgaming-casinos:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+    border-top: 17px solid #666666;
+    bottom: -17px;
+    left: 50%;
+    margin-left: -18px;
+}
+.microgaming-casinos>div{
+    max-width: 1002px;
+    margin: 0 auto;
+    position: relative;
+}
+.microgaming-casinos .site__caption {
+    margin-bottom: 22px;
+    background: #313534;
+    font-size: 24px;
+    line-height: 27px;
+    padding: 5px 0;
+}
+.microgaming-casinos .site__caption:before{
+    border-color: #313534 transparent transparent transparent;
+}
+.microgaming-casinos .rate_big {
+    margin: 19px auto 10px;
+    background-size: 28px;
+    width: 136px;
+    height: 22px;
+}
+.microgaming-casinos .rate_big div {
+    background-size: 28px;
+    height: 22px;
+}
+.microgaming-casinos .rate{
+    margin: 0 0 11px;
+    display: inline-block;
+}
+.microgaming-casinos__list{
+    overflow: inherit;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.microgaming-casinos__list li{
+    position: relative;
+    height: 220px;
+    border: 3px solid #808080;
+    background: url("../img/microgaming-casinos-bg.jpg") no-repeat left top;
+    background-size: cover;
+    text-transform: uppercase;
+    padding: 8px 35px;
+}
+.microgaming-casinos__list li:nth-child(3n+1){
+    margin-left: 0;
+}
+.microgaming-casinos__flag{
+    position: absolute;
+    background: url("../img/flag-bg.png") no-repeat left top;
+    width: 41px;
+    height: 42px;
+    z-index: 30;
+    padding: 6px 7px 10px;
+    top: -9px;
+    left: 17px;
+    background-size: cover;
+}
+.microgaming-casinos__logo{
+    display: table;
+    width: 100%;
+}
+.microgaming-casinos__logo>div{
+    display: table-cell;
+    vertical-align: middle;
+    height: 120px;
+}
+.microgaming-casinos__bonus{
+    font-family: "Flama-Bold";
+    font-size: 24px;
+    color: #666666;
+    margin-bottom: 11px;
+    line-height: 30px;
+    height: 87px;
+    overflow: hidden;
+}
+.microgaming-casinos__votes{
+    font-size: 18px;
+    color: #bfbfbf;
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.microgaming-casinos__votes span{
+    font-family: "Flama-Bold";
+}
+.microgaming-casinos__btn{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(64,64,64,0.95);
+    z-index: 20;
+    display: table;
+    padding: 20px 0 0;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+.microgaming-casinos__list li:hover .microgaming-casinos__btn{
+    opacity: 1;
+}
+.microgaming-casinos__btn>div{
+    display: table-cell;
+    vertical-align: middle;
+}
+.microgaming-casinos__btn a{
+    font-family: "Flama-Basic";
+    font-size: 25px;
+    min-width: 162px;
+    margin: 6px 0;
+    line-height: 25px;
+    height: 70px;
+    padding: 23px 10px;
+    width: 84%;
+}
+.microgaming-casinos__name {
+    font-size: 26px;
+    color: #666;
+    line-height: 26px;
+}
+/* --------------- /microgaming-casinos --------------- */
+
+/*-----------------comments-------------------*/
+.comments {
+    background: #f7f7f7;
+    padding: 20px 0 0 0;
+}
+.comments .flags{
+    width: 10px;
+    height: 10px;
+}
+.coments__wrap {
+    padding: 0 0 115px 0;
+}
+.coments__wrap .site__title {
+    font-size: 19px;
+    padding: 4px 5px 6px 17px;
+    margin-bottom: 15px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    border: 2px solid #31b8df;
+    color: #31b8df;
+    font-family: 'Flama-Bold';
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #ffffff;
+    line-height: 19px;
+}
+.coments__wrap .site__title span {
+    float: right;
+    color: #bfbfbf;
+    font-size: 16px;
+    font-style: italic;
+    text-transform: none;
+    margin: 0 4px 0 0;
+    font-family: 'Flama-Basic';
+}
+.comments__inner {
+
+}
+.comments__inner > span:last-of-type {
+    display: inline-block;
+    font-family: 'Flama-Bold';
+    font-size: 12px;
+    color: #666;
+    margin: 1px 0 7px 4px;
+    line-height: 12px;
+    vertical-align: top;
+}
+.comments__inner > dl {
+    display: inline-block;
+    float: right;
+    color: #bfbfbf;
+    font-size: 11px;
+    margin-right: 2px;
+    margin-top: 0;
+    font-family: "Flama-Light";
+}
+.comments__inner > dl > dt,
+.comments__inner > dl > dd {
+    display: inline-block;
+}
+.comments__inner > p {
+    position: relative;
+    display: block;
+    border-radius: 0 5px 5px 5px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #999999;
+    padding: 8px 13px 10px 13px;
+    margin: 0 0 0 38px;
+    min-height: 58px;
+    font-family: "Flama-Light";
+    background: #fff;
+}
+.comments__inner > p:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 12px 12px 0;
+    border-color: transparent #fff transparent transparent;
+    top: 0;
+    left: -12px;
+}
+.comments__inner > p > a {
+    color: #31b8df;
+}
+.comments__inner > p > a:hover {
+    text-decoration: underline;
+}
+
+/*-----------------/comments-------------------*/
+
+@media (min-width: 768px){
+
+    /*---------------review-card----------------*/
+    .review-card {
+        padding: 0 12px 10px 12px;
+    }
+    .review-card__wrap {
+        display: table-cell;
+        height: 172px;
+        width: 291px;
+        vertical-align: middle;
+    }
+    .review-card__inner {
+        vertical-align: middle;
+        min-height: 58px;
+    }
+    .review-card__title {
+        padding: 88px 0 0 0;
+        margin-bottom: 11px;
+    }
+    .review-card__title span {
+        padding: 0 10px;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 0;
+    }
+    .review-card__title:after {
+        top: 95px;
+    }
+    .review-card__inner p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    /*---------------/review-card----------------*/
+
+    /*---------------/bonus-list----------------*/
+    .bonus-list{
+        margin: 0 0 35px;
+    }
+    .bonus-list .review-card {
+        width: 231px;
+        height: 231px;
+        margin-right: 15px;
+        display: inline-block;
+    }
+    .bonus-list .review-card__wrap {
+        height: 107px;
+    }
+    .bonus-list .review-card__inner p {
+        padding: 0 41px;
+        line-height: 16px;
+        margin-bottom: 0;
+    }
+    .bonus-list li:nth-child(1) h3 ,
+    .bonus-list li:nth-child(2) h3 ,
+    .bonus-list li:nth-child(3) h3 ,
+    .bonus-list li:nth-child(4) h3 ,
+    .bonus-list li:nth-child(5) h3 ,
+    .bonus-list li:nth-child(6) h3 ,
+    .bonus-list li:nth-child(7) h3 ,
+    .bonus-list li:nth-child(8) h3 {
+        background-position: center 16px;
+        background-size: auto;
+    }
+    .bonus-list .review-card__inner ul {
+        font-size: 14px;
+        min-width: 101px;
+        line-height: 14px;
+    }
+    .bonus-list .review-card__inner ul li {
+        padding: 8px 20px 9px 31px;
+    }
+    .bonus-list .review-card__title {
+        white-space: nowrap;
+    }
+    .bonus-list .review-card__inner ul li:before {
+        left: 13px;
+        top: 11px;
+        width: 6px;
+        height: 8px;
+    }
+    /*---------------/bonus-list----------------*/
+
+    /*---------------microgaming-casinos----------------*/
+    .microgaming-casinos{
+        padding: 0 0 19px;
+        margin: 0 0 52px;
+    }
+    .microgaming-casinos .site__caption {
+        margin-bottom: 31px;
+    }
+    .microgaming-casinos__list{
+        padding: 6px 0 0;
+        overflow: hidden;
+    }
+    .microgaming-casinos__list li{
+        float: left;
+        width: 33.33333%;
+        height: 243px;
+        border: 5px solid #808080;
+        padding: 15px 10px;
+    }
+    .microgaming-casinos .rate_big {
+        margin: 19px auto 10px;
+        background-size: 30px;
+        width: 145px;
+        height: 24px;
+    }
+    .microgaming-casinos .rate_big div {
+        background-size: 30px;
+        height: 25px;
+    }
+    .microgaming-casinos .rate{
+        margin: 0 0 19px;
+    }
+    .microgaming-casinos__name {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .microgaming-casinos__flag{
+        width: 47px;
+        height: 47px;
+        padding: 8px 9px 13px;
+        top: -11px;
+        left: 15px;
+    }
+    .microgaming-casinos__btn a{
+        font-family: "Flama-Bold";
+        font-size: 20px;
+        min-width: 162px;
+        margin: 4px 0;
+        line-height: 20px;
+        height: 59px;
+        padding: 20px 10px;
+        width: auto;
+    }
+    /*---------------/microgaming-casinos----------------*/
+
+    /*---------------coments----------------*/
+    .comments .flags{
+        width: 18px;
+        height: 18px;
+    }
+    .coments__wrap .site__title {
+        font-size: 18px;
+        line-height: 18px;
+        padding: 31px 5px 20px 29px;
+        margin-bottom: 33px;
+        width: 100%;
+        height: 82px;
+        border: 4px solid #31b8df;
+    }
+    .coments__wrap .site__title span {
+        font-size: 14px;
+        line-height: 14px;
+        margin: 3px 17px 0 0;
+    }
+    .comments__inner {
+        padding: 0 0 0 16px;
+        margin: 0 0 33px 0;
+    }
+    .comments__inner > dl {
+        font-size: 12px;
+        margin-right: 19px;
+        margin-top: 4px;
+    }
+    .comments__inner > span:last-of-type {
+        font-family: 'Flama-Bold';
+        font-size: 14px;
+        line-height: 14px;
+        color: #666;
+        margin: 2px 0 7px 5px;
+    }
+    /*---------------/coments----------------*/
+
+}
+
+@media (min-width: 1024px){
+
+    /*---------------bonus-list----------------*/
+    .bonus-list {
+        padding: 0 0 0 5px;
+    }
+    .bonus-list .review-card {
+        margin-right: 30px;
+        margin-bottom: 17px;
+    }
+    /*---------------/bonus-list----------------*/
+
+    /*---------------microgaming-casinos----------------*/
+    .microgaming-casinos{
+        padding: 39px 0 35px;
+        margin: 0 0 52px;
+    }
+    .microgaming-casinos .site__caption {
+        margin-bottom: 28px;
+        background: transparent;
+    }
+    .microgaming-casinos:after{
+        display: block;
+    }
+    .microgaming-casinos__list li{
+        display: inline-block;
+        vertical-align: top;
+        float: none;
+        width: 334px;
+        height: 243px;
+        padding: 15px 35px;
+        margin: 0 0 0 -4px;
+    }
+    .microgaming-casinos__list li:first-child{
+        margin-left: 0;
+    }
+    .microgaming-casinos .rate{
+        margin: 0 0 19px;
+    }
+    /*---------------/microgaming-casinos----------------*/
+
+    /*---------------comments----------------*/
+    .comments__inner > p {
+        border-radius: 0 5px 5px 5px;
+        font-size: 14px;
+        line-height: 17px;
+        color: #999999;
+        padding: 8px 13px 10px 13px;
+        margin: 0 0 0 38px;
+        width: 933px;
+    }
+    /*---------------/comments----------------*/
+
+}
