@@ -443,23 +443,24 @@
 
 /* ------------------ content -------------------- */
 .content{
-    margin-bottom: 60px;
+    margin-bottom: 10px;
+    margin-left: 10px;
     color: #666;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 11px;
+    line-height: 18px;
 }
 .content h2 {
+    margin-bottom: 11px;
     color: #31b8df;
-    font: normal 24px "Flama-Bold", sans-serif;
-    margin-bottom: 18px;
+    font: normal 14px "Flama-Bold", sans-serif;
     text-align: center;
     text-transform: uppercase;
 }
 .content h2 span {
     color: #22e41c;
 }
-.content p {
-    margin-bottom: 17px;
+.content p + p {
+    display: none;
 }
 /* ----------------- /content ----------------- */
 
@@ -1297,18 +1298,18 @@ span.swiper-pagination-bullet-active:hover{
 }
 /* ---------------- top-rated ---------------- */
 
-/*----------------questions----------------*/
+/*---------------- questions ----------------*/
 .questions {
     border: 1px solid #dedede;
     box-shadow: 1px 2px 2px rgba(0,0,0,.15);
-    margin-bottom: 49px;
+    margin-bottom: 31px;
 }
 .questions__wrap {
     display: block;
     width: 100%;
-    padding: 14px 3px 7px 51px;
+    padding: 11px 8px 14px 34px;
     border: 1px solid transparent;
-    background: url(../img/bg-questions.png) 10px 11px no-repeat #fff;
+    background: url(../img/bg-questions.png) 7px 9px/31px no-repeat #fff;
     transition: border-color .3s ease;
 }
 .questions__wrap:hover {
@@ -1318,10 +1319,11 @@ span.swiper-pagination-bullet-active:hover{
     display: block;
     font-size: 14px;
     color: #bfbfbf;
-    text-align: left;
-    white-space: nowrap;
+    text-align: right;
 }
 .questions__wrap .questions__title {
+    float: left;
+    width: 173px;
     margin-bottom: 5px;
     font: 15px/18px 'danielbk', sans-serif;
     color: #22e41c;
@@ -1331,13 +1333,13 @@ span.swiper-pagination-bullet-active:hover{
 .questions__wrap span:last-child b {
     color: #22e41c;
 }
-/*---------------/questions----------------*/
+/*---------------- /questions ----------------*/
 
 /*--------------subscribe----------------*/
 .subscribe {
     position: relative;
     margin-bottom: 20px;
-    padding: 48px 13px 15px 13px;
+    padding: 73px 13px 15px 9px;
     border: 1px solid #dedede;
     box-shadow: 2px 3px 5px #dedede;
     background: #4d5356;
@@ -1347,9 +1349,10 @@ span.swiper-pagination-bullet-active:hover{
     position: absolute;
     top: -34px;
     left: -1px;
-    width: 225px;
+    width: 308px;
     height: 225px;
-    background: url(../img/bg-subscribe.png);
+    background: url(../img/bg-subscribe-mobile.png);
+    background-size:  contain;
 }
 .subscribe form {
     position: relative;
@@ -1357,9 +1360,8 @@ span.swiper-pagination-bullet-active:hover{
 }
 .subscribe form label {
     display: block;
-    width: 113px;
     margin-bottom: 12px;
-    font: 20px/24px 'Flama-Bold', sans-serif;
+    font: 16px/24px 'Flama-Bold', sans-serif;
     color: #f7f7f7;
 }
 .subscribe form input[type="text"] {
@@ -1796,6 +1798,32 @@ span.swiper-pagination-bullet-active:hover{
         background-position: 0 8px;
     }
     /* --------------- /menu --------------- */
+
+    /* ------------------ content -------------------- */
+    .content{
+        margin-bottom: 60px;
+        margin-left: 0;
+        color: #666;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .content h2 {
+        margin-bottom: 18px;
+        color: #31b8df;
+        font-size: 24px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .content h2 span {
+        color: #22e41c;
+    }
+    .content p {
+        margin-bottom: 17px;
+    }
+    .content p + p {
+        display: block;
+    }
+    /* ----------------- /content ----------------- */
 
     /* --------------- swiper-promo --------------- */
     .swiper-promo__layout{
@@ -2769,4 +2797,38 @@ span.swiper-pagination-bullet-active:hover{
         margin: 0 0 3px;
     }
     /* -------------- /casino-bonus --------------- */
+
+    /*---------------- questions ----------------*/
+    .questions {
+        margin-bottom: 49px;
+    }
+    .questions__wrap {
+        padding: 14px 3px 7px 51px;
+        background-position: 10px 11px;
+        background-size: auto;
+    }
+    .questions__wrap span {
+        text-align: left;
+        white-space: nowrap;
+    }
+    .questions__wrap .questions__title{
+        float: none;
+        width: auto;
+    }
+    /*--------------- /questions ----------------*/
+
+    /*--------------subscribe----------------*/
+    .subscribe{
+        padding: 48px 13px 15px 13px;
+    }
+    .subscribe:before {
+        width: 225px;
+        background: url(../img/bg-subscribe.png);
+    }
+    .subscribe form label {
+        width: 113px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    /*--------------/subscribe----------------*/
 }
