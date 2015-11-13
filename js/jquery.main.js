@@ -18,6 +18,9 @@
         $('.games-slider').each(function () {
             Slider($(this));
         });
+        $('.top-casinos-country').each(function () {
+            Slider($(this));
+        });
     });
 
     var mobileMenu = function (obj) {
