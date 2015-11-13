@@ -1570,10 +1570,25 @@ span.swiper-pagination-bullet-active:hover{
     background: -webkit-linear-gradient(top,  rgba(44,175,212,1) 0%,rgba(37,138,168,1) 100%);
     background: linear-gradient(to bottom,  rgba(44,175,212,1) 0%,rgba(37,138,168,1) 100%);
     text-transform: uppercase;
-    font-family: "Flama-Bold", sans-serif;;
+    font-family: "Flama-Bold", sans-serif;
     color: #fff;
     font-size: 15px;
     line-height: 15px;
+}
+.casino-bonus__show-more{
+    font-size: 18px;
+    line-height: 18px;
+    font-family: "Flama-Light", sans-serif;
+    background: #dfdfdf;
+    color: #666666;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 11px 10px;
+}
+.casino-bonus__show-more:hover,
+.casino-bonus__show-more:active{
+    background: #b9b9b9;
 }
 /* ----------- /casino-bonus ------------ */
 
