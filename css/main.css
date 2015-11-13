@@ -365,11 +365,11 @@
 .btn,
 .btn-green{
     border: none;
-    width: 89px;
-    height: 27px;
+    width: 76px;
+    height: 23px;
     color: #fff;
     text-transform: uppercase;
-    font-weight: 400;
+    font-size: 10px;
     background: #31b8df;
     -webkit-transition: background 0.3s ease;
     transition: background 0.3s ease;
@@ -1304,19 +1304,20 @@ span.swiper-pagination-bullet-active:hover{
 
 /* ---------------- top-rated ---------------- */
 .top-rated{
+    margin-bottom: 28px;
     border: 1px solid #dedede;
     background: #fff;
     box-shadow: 1px 2px 2px rgba(0,0,0,.15);
-    font-size: 14px;
+    font-size: 20px;
     color: #31b8df;
     text-align: center;
 }
 .top-rated h3 {
     position: relative;
-    margin-bottom: 4px;
-    padding: 8px 0 10px 49px;
-    border-bottom: 4px solid #31b8df;
-    font: normal 16px "Flama-Bold", sans-serif;
+    margin-bottom: 10px;
+    padding: 11px 0 13px 67px;
+    border-bottom: 1px solid #31b8df;
+    font: normal 22px "Flama-Bold", sans-serif;
     text-transform: uppercase;
     background-color: #fafafa;
     text-align: left;
@@ -1329,17 +1330,17 @@ span.swiper-pagination-bullet-active:hover{
 .top-rated h3:before{
     content: '';
     position: absolute;
-    top: -8px;
+    top: -11px;
     left: -9px;
-    width: 55px;
-    height: 52px;
+    width: 72px;
+    height: 70px;
     background: url("../img/icons-top-game.png") no-repeat 0 0/cover;
 }
 .top-rated a{
     display: block;
     position: relative;
-    height: 31px;
-    padding: 7px 30px 0 10px;
+    height: 43px;
+    padding: 7px 30px 0 15px;
     border-bottom: 1px solid #f2f2f2;
     color: #666;
     text-align: left;
@@ -1347,9 +1348,9 @@ span.swiper-pagination-bullet-active:hover{
 .top-rated a:after{
     content: '>>';
     position: absolute;
-    top: 10px;
-    right: 8px;
-    font-size: 10px;
+    top: 16px;
+    right: 11px;
+    font-size: 12px;
     transition: color .3s ease;
     -webkit-transition: color .3s ease;
 }
@@ -1365,18 +1366,18 @@ span.swiper-pagination-bullet-active:hover{
 .top-rated a:hover:after{
     color: #31b8df;
 }
-/* ---------------- top-rated ---------------- */
+/* ---------------- /top-rated ---------------- */
 
 /*---------------- questions ----------------*/
 .questions {
     border: 1px solid #dedede;
     box-shadow: 1px 2px 2px rgba(0,0,0,.15);
-    margin-bottom: 31px;
+    margin-bottom: 37px;
 }
 .questions__wrap {
     display: block;
     width: 100%;
-    padding: 11px 8px 14px 34px;
+    padding: 11px 8px 12px 34px;
     border: 1px solid transparent;
     background: url(../img/bg-questions.png) 7px 9px/31px no-repeat #fff;
     transition: border-color .3s ease;
@@ -1387,6 +1388,7 @@ span.swiper-pagination-bullet-active:hover{
 .questions__wrap span {
     display: block;
     font-size: 14px;
+    line-height: 15px;
     color: #bfbfbf;
     text-align: right;
 }
@@ -1407,8 +1409,8 @@ span.swiper-pagination-bullet-active:hover{
 /*--------------subscribe----------------*/
 .subscribe {
     position: relative;
-    margin-bottom: 20px;
-    padding: 73px 13px 15px 9px;
+    margin-bottom: 23px;
+    padding: 66px 13px 14px 9px;
     border: 1px solid #dedede;
     box-shadow: 2px 3px 5px #dedede;
     background: #4d5356;
@@ -1419,7 +1421,7 @@ span.swiper-pagination-bullet-active:hover{
     top: -34px;
     left: -1px;
     width: 308px;
-    height: 225px;
+    height: 175px;
     background: url(../img/bg-subscribe-mobile.png);
     background-size:  contain;
 }
@@ -1429,13 +1431,13 @@ span.swiper-pagination-bullet-active:hover{
 }
 .subscribe form label {
     display: block;
-    margin-bottom: 12px;
+    margin-bottom: 5px;
     font: 16px/24px 'Flama-Bold', sans-serif;
     color: #f7f7f7;
 }
 .subscribe form input[type="text"] {
-    width: 100%;
-    height: 30px;
+    width: 54%;
+    height: 23px;
     border: none;
     margin-bottom: 7px;
     padding: 0 5px;
@@ -1780,6 +1782,11 @@ span.swiper-pagination-bullet-active:hover{
     /* --------------- /logo -------------- */
 
     /* ---------------- btn --------------- */
+    .btn{
+        width: 89px;
+        height: 27px;
+        font-size: 12px;
+    }
     .btn-search{
         top: 0;
         width: 38px;
@@ -2194,6 +2201,13 @@ span.swiper-pagination-bullet-active:hover{
     }
     .site .site__caption:before{
         display: none;
+    }
+    .aside-inform{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 223px;
+        margin-left: 278px;
     }
     /* --------------- /site -------------- */
 
@@ -2867,6 +2881,32 @@ span.swiper-pagination-bullet-active:hover{
     }
     /* -------------- /casino-bonus --------------- */
 
+    /* ---------------- top-rated ---------------- */
+    .top-rated{
+        font-size: 14px;
+    }
+    .top-rated h3{
+        margin-bottom: 4px;
+        padding: 8px 0 10px 49px;
+        border-bottom-width: 4px;
+        font-size: 16px;
+    }
+    .top-rated h3:before{
+        top: -8px;
+        width: 55px;
+        height: 52px;
+    }
+    .top-rated a {
+        height: 31px;
+        padding-right: 15px;
+    }
+    .top-rated a:after{
+        top: 10px;
+        right: 8px;
+        font-size: 10px;
+    }
+    /* ---------------- /top-rated ---------------- */
+
     /*---------------- questions ----------------*/
     .questions {
         margin-bottom: 49px;
@@ -2877,6 +2917,7 @@ span.swiper-pagination-bullet-active:hover{
         background-size: auto;
     }
     .questions__wrap span {
+        line-height: 14px;
         text-align: left;
         white-space: nowrap;
     }
@@ -2888,16 +2929,23 @@ span.swiper-pagination-bullet-active:hover{
 
     /*--------------subscribe----------------*/
     .subscribe{
+        margin-bottom: 20px;
         padding: 48px 13px 15px 13px;
     }
     .subscribe:before {
         width: 225px;
+        height: 225px;
         background: url(../img/bg-subscribe.png);
     }
     .subscribe form label {
         width: 113px;
+        margin-bottom: 12px;
         font-size: 20px;
         line-height: 24px;
+    }
+    .subscribe form input[type="text"]{
+        width: 100%;
+        height: 30px;
     }
     /*--------------/subscribe----------------*/
 }
