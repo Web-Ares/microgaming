@@ -18,6 +18,9 @@
         $('.games-slider').each(function () {
             Slider($(this));
         });
+        $('.top-casinos-country').each(function () {
+            Slider($(this));
+        });
     });
 
     var mobileMenu = function (obj) {
@@ -245,6 +248,7 @@
         if (_obj.hasClass('top-casinos-country')){
             var swiper = new Swiper(_obj, {
                 slidesPerView: 'auto',
+                loopedSlides: 40,
                 loop: true,
                 autoplay: 5000,
                 paginationClickable: true,
