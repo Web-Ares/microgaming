@@ -1,12 +1,121 @@
 (function(){
 
+    var toTop = null,
+        accordion = null;
+
     $(function () {
         toTop = new ToTop();
         accordion = new Accordion();
+        $('.site__header').each(function () {
+            mobileMenu($(this));
+        });
+        $('.swiper-promo').each(function () {
+            Slider($(this));
+        });
+        $('.sub-menu').each(function () {
+            subMenu($(this));
+        });
+        $('.games-slider').each(function () {
+            Slider($(this));
+        });
     });
 
-    var toTop = null,
-        accordion = null;
+    var mobileMenu = function (obj) {
+        //private properties
+        var _obj = obj,
+            _menu = $('.menu'),
+            _openBtn = $('.menu-icon'),
+            _closeBtn = $('.close-menu'),
+            _site = $('.site'),
+            _window = $(window),
+            _windowWidth = $(window).width();
+
+        //private methods
+        var _addEvents = function () {
+                _window.on({
+                    resize: function () {
+                        _windowWidth = $(window).width();
+                        if(_windowWidth<=1006){
+                            _obj.removeClass('open-menu');
+                            _openBtn.removeClass('close-menu');
+                        } else {
+                            _menu.css('display','block');
+                            _menu.removeClass('mobile-menu');
+                        }
+
+                    }
+                });
+                _openBtn.on({
+                    click: function () {
+                        if (_openBtn.hasClass('close-menu')){
+                            _openBtn.removeClass('close-menu');
+                            _obj.removeClass('open-menu');
+                        } else {
+                            _openBtn.addClass('close-menu');
+                            _obj.addClass('open-menu');
+                            _menu.addClass('mobile-menu');
+                        }
+                    }
+                });
+            },
+            _init = function () {
+                _addEvents();
+            };
+
+        //public properties
+
+        //public methods
+
+        _init();
+    };
+
+    var subMenu = function (obj) {
+        //private properties
+        var _obj = obj,
+            _site = $('.site'),
+            _btn = obj.parent('li'),
+            _window = $(window),
+            _windowWidth = $(window).width();
+
+        //private methods
+        var _addEvents = function () {
+
+                _windowWidth = $(window).width();
+
+                _window.on({
+                    resize: function () {
+                        if(_windowWidth<=749){
+                            $('.header__menu li').removeClass('active');
+                            $('.header__menu li ul').css('display','none');
+                        }
+                    }
+                });
+
+                _btn.on({
+                    click: function () {
+                        if (_btn.hasClass('active')){
+                            _obj.slideUp(500);
+                            _btn.removeClass('active');
+                        } else {
+                            $('.header__menu li').removeClass('active');
+                            $('.header__menu li ul').slideUp(500);
+                            $(this).addClass('active');
+                            _obj.slideDown(500);
+                        }
+                        return false
+                    }
+                });
+            },
+            _init = function () {
+                _addEvents();
+            };
+
+        //public properties
+
+        //public methods
+
+        _init();
+    };
 
     var ToTop = function () {
 
@@ -97,8 +206,6 @@
         init();
     };
 
-
-$(function(){
     var Slider = function (obj) {
 
         //private properties
@@ -138,16 +245,5 @@ $(function(){
 
         _init();
     };
-
-    $('.swiper-promo').each(function () {
-        Slider($(this));
-    });
-
-    $('.games-slider').each(function () {
-        Slider($(this));
-    });
-
-
-});
 
 })();
