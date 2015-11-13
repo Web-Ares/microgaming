@@ -241,7 +241,7 @@
                 paginationClickable: true
             });
         }
-        if (_obj.hasClass('games-slider')){
+        if (_obj.hasClass('top-casinos-country')){
             var swiper = new Swiper(_obj, {
                 slidesPerView: 'auto',
                 loop: true,

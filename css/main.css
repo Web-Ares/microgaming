@@ -434,7 +434,9 @@
 .top-casinos-country{
     height: 36px;
     width: 100%;
+    background-color: #fafafa;
 }
+
 .top-casinos-item{
     font-size: 14px;
     color: #666;
@@ -658,7 +660,84 @@
     left: -40px;
     margin-bottom: 26px;
 }
-
+.local {
+    display: inline-block;
+    vertical-align: top;
+    width: 10px;
+    height: 17px;
+    background: url("../img/local.png") no-repeat;
+    text-indent: -5000px;
+}
+.top-casinos-country a span {
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+.top-casinos-country a {
+    color: #666;
+    display: inline-block;
+    vertical-align: top;
+    padding: 12px 7.7px 8px;
+    border-bottom: 4px solid transparent;
+    margin-left: -4px;
+    -webkit-transition: background 0.3s ease, border 0.3s ease;
+    transition: background 0.3s ease, border 0.3s ease;
+    height: 40px;
+}
+.top-casinos-country a:first-child{
+    margin-left: 1px  ;
+}
+.flags {
+    display: inline-block;
+    vertical-align: top;
+    width: 18px;
+    height: 18px;
+    background: url("../img/small_flags.png") no-repeat;
+    text-indent: -5000px;
+    text-transform: uppercase;
+}
+.flag1 {
+    background-position: -128px -1px;
+}
+.flag2 {
+    background-position: 0 -238px;
+}
+.flag3 {
+    background-position: -43px -87px;
+}
+.flag4 {
+    background-position: -21px 0;
+}
+.flag5 {
+    background-position: -64px -194px;
+}
+.flag6 {
+    background-position: -215px -87px;
+}
+.flag7 {
+    background-position: -128px -87px;
+}
+.flag8 {
+    background-position: -194px -65px;
+}
+.flag9 {
+    background-position: 0 -87px;
+}
+.top-casinos-country a.active {
+    font-family: 'Flama-Bold',sans-serif;
+    background: #cccccc;
+    cursor: default;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.3) inset;
+    border-bottom: 4px solid #31b8df;
+}
+.top-casinos-country a:hover{
+    background: #cccccc;
+}
+.swiper-button-prev{
+    width: 20px;
+    height: 20px;
+    background: url("../img/langarrow.png") no-repeat;
+}
 
 /* ----------------- /top-casinos ----------------- */
 
