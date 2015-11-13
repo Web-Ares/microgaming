@@ -218,7 +218,11 @@
             _prev = obj.find($('.swiper-button-prev')),
             _paginator = obj.find($('.swiper-promo__pagination')),
             _paginator2 = obj.find($('.games-slider__points')),
+            _window = $(window),
+            _windowWidth = $(window).width(),
+            _swiper = null,
             _obj = obj;
+
 
         //private methods
         var _addEvents = function () {
@@ -227,34 +231,61 @@
             _init = function () {
                 _addEvents();
             };
-        if (_obj.hasClass('swiper-promo')){
-            var swiper = new Swiper(_obj, {
-                slidesPerView: 1,
-                autoplay: 5000,
-                pagination: _paginator,
-                loop: true,
-                paginationClickable: true
-            });
-        }
-        if (_obj.hasClass('games-slider')){
-            var swiper = new Swiper(_obj, {
-                slidesPerView: 1,
-                pagination: _paginator2,
-                loop: true,
-                autoplay: 5000,
-                paginationClickable: true
-            });
-        }
+        //if (_obj.hasClass('swiper-promo')){
+        //    var swiper = new Swiper(_obj, {
+        //        slidesPerView: 1,
+        //        autoplay: 5000,
+        //        pagination: _paginator,
+        //        loop: true,
+        //        paginationClickable: true
+        //    });
+        //}
+        //if (_obj.hasClass('games-slider')){
+        //    var swiper = new Swiper(_obj, {
+        //        slidesPerView: 1,
+        //        pagination: _paginator2,
+        //        loop: true,
+        //        autoplay: 5000,
+        //        paginationClickable: true
+        //    });
+        //}
         if (_obj.hasClass('top-casinos-country')){
-            var swiper = new Swiper(_obj, {
-                slidesPerView: 'auto',
-                loopedSlides: 40,
-                loop: true,
-                autoplay: 5000,
-                paginationClickable: true,
-                nextButton: _next,
-                prevButton: _prev
-            });
+
+            _window.on({
+                load: function () {
+                    if (_windowWidth <= 1006) {
+                        _swiper = new Swiper(_obj, {
+                            slidesPerView: 'auto',
+                            loopedSlides: 40,
+                            loop: true,
+                            paginationClickable: true,
+                            nextButton: _next,
+                            prevButton: _prev
+                        });
+                    }
+                    console.log(_swiper);
+                },
+                resize: function () {
+                    _windowWidth = $(window).width();
+                    if (_windowWidth <= 1006) {
+                        if(_swiper===null)
+                        _swiper = new Swiper(_obj, {
+                            slidesPerView: 'auto',
+                            loopedSlides: 40,
+                            loop: true,
+                            paginationClickable: true,
+                            nextButton: _next,
+                            prevButton: _prev
+                        });
+                    } else {
+                        if(_swiper!==null){
+                            _swiper.destroy(false,true);
+                            _swiper = null;
+                        }
+                    }
+                }
+
+            })
         }
         //public properties
 
