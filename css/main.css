@@ -365,11 +365,11 @@
 .btn,
 .btn-green{
     border: none;
-    width: 89px;
-    height: 27px;
+    width: 76px;
+    height: 23px;
     color: #fff;
     text-transform: uppercase;
-    font-weight: 400;
+    font-size: 10px;
     background: #31b8df;
     -webkit-transition: background 0.3s ease;
     transition: background 0.3s ease;
@@ -1302,12 +1302,12 @@ span.swiper-pagination-bullet-active:hover{
 .questions {
     border: 1px solid #dedede;
     box-shadow: 1px 2px 2px rgba(0,0,0,.15);
-    margin-bottom: 31px;
+    margin-bottom: 37px;
 }
 .questions__wrap {
     display: block;
     width: 100%;
-    padding: 11px 8px 14px 34px;
+    padding: 11px 8px 12px 34px;
     border: 1px solid transparent;
     background: url(../img/bg-questions.png) 7px 9px/31px no-repeat #fff;
     transition: border-color .3s ease;
@@ -1318,6 +1318,7 @@ span.swiper-pagination-bullet-active:hover{
 .questions__wrap span {
     display: block;
     font-size: 14px;
+    line-height: 15px;
     color: #bfbfbf;
     text-align: right;
 }
@@ -1339,7 +1340,7 @@ span.swiper-pagination-bullet-active:hover{
 .subscribe {
     position: relative;
     margin-bottom: 20px;
-    padding: 73px 13px 15px 9px;
+    padding: 66px 13px 14px 9px;
     border: 1px solid #dedede;
     box-shadow: 2px 3px 5px #dedede;
     background: #4d5356;
@@ -1350,7 +1351,7 @@ span.swiper-pagination-bullet-active:hover{
     top: -34px;
     left: -1px;
     width: 308px;
-    height: 225px;
+    height: 175px;
     background: url(../img/bg-subscribe-mobile.png);
     background-size:  contain;
 }
@@ -1360,13 +1361,13 @@ span.swiper-pagination-bullet-active:hover{
 }
 .subscribe form label {
     display: block;
-    margin-bottom: 12px;
+    margin-bottom: 5px;
     font: 16px/24px 'Flama-Bold', sans-serif;
     color: #f7f7f7;
 }
 .subscribe form input[type="text"] {
-    width: 100%;
-    height: 30px;
+    width: 54%;
+    height: 23px;
     border: none;
     margin-bottom: 7px;
     padding: 0 5px;
@@ -1711,6 +1712,11 @@ span.swiper-pagination-bullet-active:hover{
     /* --------------- /logo -------------- */
 
     /* ---------------- btn --------------- */
+    .btn{
+        width: 89px;
+        height: 27px;
+        font-size: 12px;
+    }
     .btn-search{
         top: 0;
         width: 38px;
@@ -2125,6 +2131,13 @@ span.swiper-pagination-bullet-active:hover{
     }
     .site .site__caption:before{
         display: none;
+    }
+    .aside-inform{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 223px;
+        margin-left: 278px;
     }
     /* --------------- /site -------------- */
 
@@ -2808,6 +2821,7 @@ span.swiper-pagination-bullet-active:hover{
         background-size: auto;
     }
     .questions__wrap span {
+        line-height: 14px;
         text-align: left;
         white-space: nowrap;
     }
@@ -2823,12 +2837,18 @@ span.swiper-pagination-bullet-active:hover{
     }
     .subscribe:before {
         width: 225px;
+        height: 225px;
         background: url(../img/bg-subscribe.png);
     }
     .subscribe form label {
         width: 113px;
+        margin-bottom: 12px;
         font-size: 20px;
         line-height: 24px;
+    }
+    .subscribe form input[type="text"]{
+        width: 100%;
+        height: 30px;
     }
     /*--------------/subscribe----------------*/
 }
