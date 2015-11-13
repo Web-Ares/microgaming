@@ -132,6 +132,14 @@ $(function(){
                 paginationClickable: true
             });
         }
+        if (_obj.hasClass('games-slider')){
+            var swiper = new Swiper(_obj, {
+                slidesPerView: 1,
+                loop: true,
+                autoplay: 5000,
+                paginationClickable: true
+            });
+        }
         //public properties
 
         //public methods

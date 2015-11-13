@@ -555,7 +555,12 @@
     margin-bottom: 6px;
 }
 .top-casinos-logo{
-
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 207px;
+    left: -40px;
+    margin-bottom: 26px;
 }
 
 
@@ -1464,6 +1469,7 @@ span.swiper-pagination-bullet-active:hover{
         font-size: 20px;
         margin-top: 28px;
         padding-top: 20px;
+        margin-bottom: 22px;
         height: 60px;
         width: 684px;
         margin-left: 18px;
@@ -1607,6 +1613,7 @@ span.swiper-pagination-bullet-active:hover{
 
     .top-casinos__show-tablet {
         display: block;
+        margin-top: 26px;
     }
     /* --------------- /top-casinos --------------- */
 
@@ -1754,6 +1761,7 @@ span.swiper-pagination-bullet-active:hover{
         vertical-align: top;
         width: 541px;
         margin: 0 4px;
+        margin-bottom: 35px;
     }
     .site__wrap-center_long{
         width: 768px;
@@ -2268,7 +2276,14 @@ span.swiper-pagination-bullet-active:hover{
         background-color: #fafafa;
         border-bottom: 4px solid #31b8df;
     }
-
+    .top-casinos-logo {
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        width: 159px;
+        left: -15px;
+        margin-bottom: 20px;
+    }
     .flag-done .top-casinos__games:after{
         content: "";
         position: absolute;
