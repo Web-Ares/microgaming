@@ -35,8 +35,6 @@
 
 */
 
-/* --- Комментировать блоки! Зановсить в содержание! -- */
-
 /* --------------- placeholder --------------- */
 ::-webkit-input-placeholder {
     color: #393939;
@@ -124,7 +122,6 @@
     color: #666;
     text-align: center;
 }
-
 /* --------------- /site --------------- */
 
 /* --------------- logo --------------- */
@@ -477,7 +474,6 @@
     font-size: 12px;
     font-weight: bold;
     margin-top: 28px;
-    display: inline-block;
     width: 71px;
     float: left;
     display: none;
@@ -521,8 +517,6 @@
     margin-top: 1px;
     margin-bottom: 6px;
 }
-
-
 /* ----------------- /top-casinos ----------------- */
 
 /* --------------- swiper-promo --------------- */
@@ -609,6 +603,7 @@ span.swiper-pagination-bullet-active:hover{
     cursor: default;
 }
 /* --------------- /swiper-promo --------------- */
+
 /* ------------ newest-games ------------- */
 .content-title {
     font-size: 15px;
@@ -647,6 +642,7 @@ span.swiper-pagination-bullet-active:hover{
     border-top: 11px solid #313534;
 }
 /* ------------ /newest-games ------------- */
+
 /* ----------- game-slot ------------- */
 .game-slot {
     text-align: center;
@@ -859,7 +855,6 @@ span.swiper-pagination-bullet-active:hover{
     opacity: 1;
     cursor: default;
 }
-/* --------------- /slider --------------- */
 /* ----------- /game-slot ------------- */
 
 /* ----------------- top-games ---------------- */
@@ -1240,14 +1235,14 @@ span.swiper-pagination-bullet-active:hover{
 }
 .casino-bonus__name {
     text-align: center;
-    font-family: "Flama-Basic";
+    font-family: "Flama-Basic", sans-serif;
     text-transform: uppercase;
     font-size: 12px;
     color: #666;
     margin-bottom: 11px;
 }
 .casino-bonus__condition {
-    font-family: "Flama-Bold";
+    font-family: "Flama-Bold", sans-serif;;
     font-size: 18px;
     color: #31b8df;
     text-transform: uppercase;
@@ -1268,11 +1263,11 @@ span.swiper-pagination-bullet-active:hover{
     vertical-align: top;
     font-size: 12px;
     color: #666;
-    font-family: "Flama-Basic";
+    font-family: "Flama-Basic", sans-serif;;
     text-transform: uppercase;
 }
 .casino-bonus_code dd {
-    font-family: "Flama-Bold";
+    font-family: "Flama-Bold", sans-serif;;
 }
 .casino-bonus__inner {
     width: 100%;
@@ -1327,7 +1322,7 @@ span.swiper-pagination-bullet-active:hover{
 }
 .casino-bonus__hover > span {
     text-transform: uppercase;
-    font-family: "Flama-Bold";
+    font-family: "Flama-Bold", sans-serif;;
     color: #fff;
     font-size: 15px;
     line-height: 15px;
@@ -1341,7 +1336,7 @@ span.swiper-pagination-bullet-active:hover{
 .casino-bonus__all a {
     display: inline-block;
     position: relative;
-    font-family: "Flama-Bold";
+    font-family: "Flama-Bold", sans-serif;;
     color: #666;
     font-size: 14px;
 }
@@ -1373,14 +1368,13 @@ span.swiper-pagination-bullet-active:hover{
     background: -webkit-linear-gradient(top,  rgba(44,175,212,1) 0%,rgba(37,138,168,1) 100%);
     background: linear-gradient(to bottom,  rgba(44,175,212,1) 0%,rgba(37,138,168,1) 100%);
     text-transform: uppercase;
-    font-family: "Flama-Bold";
+    font-family: "Flama-Bold", sans-serif;;
     color: #fff;
     font-size: 15px;
     line-height: 15px;
 }
 /* ----------- /casino-bonus ------------ */
 
-/* ---Комментировать блоки! Использовать ту же последовательность что и выше!-- */
 @media (min-width: 768px) {
     /* --------------- site --------------- */
     .site__header-wrap{
@@ -1621,7 +1615,6 @@ span.swiper-pagination-bullet-active:hover{
         width: 37px;
         height: 23px;
     }
-
     /* --------------- /game-slot --------------- */
 
     /* -------------- sample-text --------------- */
