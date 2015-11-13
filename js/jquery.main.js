@@ -73,7 +73,7 @@
         //private properties
         var _obj = obj,
             _site = $('.site'),
-            _btn = obj.parent('li'),
+            _sub = _obj.children('ul'),
             _window = $(window),
             _windowWidth = $(window).width();
 
@@ -85,22 +85,23 @@
                 _window.on({
                     resize: function () {
                         if(_windowWidth<=749){
-                            $('.header__menu li').removeClass('active');
-                            $('.header__menu li ul').css('display','none');
+                            //$('.header__menu li').removeClass('active');
+                            //$('.header__menu li ul').css('display','none');
+                            _sub.css('display','block');
                         }
                     }
                 });
 
-                _btn.on({
+                _obj.on({
                     click: function () {
-                        if (_btn.hasClass('active')){
-                            _obj.slideUp(500);
-                            _btn.removeClass('active');
+                        if (_obj.hasClass('mobile-active')){
+                            _sub.slideUp(500);
+                            _obj.removeClass('mobile-active');
                         } else {
-                            $('.header__menu li').removeClass('active');
-                            $('.header__menu li ul').slideUp(500);
-                            $(this).addClass('active');
-                            _obj.slideDown(500);
+                            $('.menu li').removeClass('mobile-active');
+                            $('.menu li ul').slideUp(500);
+                            $(this).addClass('mobile-active');
+                            _sub.slideDown(500);
                         }
                         return false
                     }
