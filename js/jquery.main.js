@@ -210,6 +210,8 @@
 
         //private properties
         var _self = this,
+            _next = obj.find($('.swiper-button-next')),
+            _prev = obj.find($('.swiper-button-prev')),
             _paginator = obj.find($('.swiper-promo__pagination')),
             _paginator2 = obj.find($('.games-slider__points')),
             _obj = obj;
@@ -237,6 +239,16 @@
                 loop: true,
                 autoplay: 5000,
                 paginationClickable: true
+            });
+        }
+        if (_obj.hasClass('games-slider')){
+            var swiper = new Swiper(_obj, {
+                slidesPerView: 'auto',
+                loop: true,
+                autoplay: 5000,
+                paginationClickable: true,
+                nextButton: _next,
+                prevButton: _prev
             });
         }
         //public properties
