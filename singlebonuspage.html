@@ -1072,6 +1072,61 @@
 
                     </div><!--/comments__inner-->
 
+                    <!--new-comments-->
+                    <form class="new-comments" action="#">
+
+                        <h4>Post New Comments
+                            <span> Required fields</span>
+                        </h4>
+
+                        <div>
+                            <fieldset>
+                                <label class="required" for="name">Name</label>
+                                <input id="name" type="text" required placeholder="John Mitchell"/>
+                            </fieldset>
+
+                            <fieldset>
+                                <label class="required" for="email">Email</label>
+                                <input id="email" type="email" required placeholder="example@email.com"/>
+                            </fieldset>
+
+                            <!--add-your-->
+                            <div class="add-your">Your experience
+
+                                <!--add-your__experience-->
+                                <ul class="add-your__experience">
+                                    <li>
+                                        <input id="choice-a" type="radio" name="g">
+                                        <label for="choice-a">
+                                            <span class="face face_happy add-your__experience_face"></span>
+                                            <span class="add-your__experience-checked"></span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input id="choice-b" type="radio" name="g">
+                                        <label for="choice-b">
+                                            <span class="face face_sad add-your__experience_face"></span>
+                                            <span class="add-your__experience-checked"></span>
+                                        </label>
+                                    </li>
+                                </ul>
+                                <!--/add-your__experience-->
+
+                            </div>
+                            <!--add-your-->
+
+                            <fieldset>
+                                <label class="required" for="post">Your post</label>
+                                <textarea name="post" id="post" placeholder="free text"></textarea>
+                            </fieldset>
+
+                            <input type="submit" value="Add post"/>
+                        </div>
+
+
+                    </form>
+                    <!--new-comments-->
+
                 </div><!--/coments__wrap-->
 
             </div><!--/comments-->
