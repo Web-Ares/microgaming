@@ -474,7 +474,7 @@
     font-family: 'Flama-Bold', sans-serif;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
     font-weight: bold;
     margin-top: 15px;
     word-spacing: 1px;
@@ -517,12 +517,12 @@
     float:left;
 }
 .top-casinos-country{
-    height: 36px;
+    height: 34px;
     width: 100%;
     background-color: #fafafa;
     position: relative;
     overflow: hidden;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 .top-casinos-item{
@@ -755,10 +755,11 @@
     display: block;
 }
 .top-casinos-country .swiper-slide{
-    width: 95px;
+    width: 89px;
     border-bottom: 7px solid #d9d9d9;
     border-top: 1px solid #d9d9d9;
     border-right: 1px solid #d9d9d9;
+    margin-right: 2px;
 }
 .top-casinos-country .swiper-button-prev{
     height: 36px;
@@ -771,22 +772,22 @@
     background: none;
     background: #fafafa;
     border-bottom: 3px solid #d9d9d9;
-    border-top: 1px solid #d9d9d9;
+    border-top: 2px solid #d9d9d9;
     border-left: 1px solid #d9d9d9;
     border-right: 1px solid #d9d9d9;
 }
 .top-casinos-country .swiper-button-prev:before{
     content: "";
-    width: 11px;
-    height: 26px;
     position: absolute;
     background-image: url("../img/langarrow.png");
-    background-size: 19px 24px;
-    background-position: 67px 145px;
     border: none;
     left: 5px;
     top: 5px;
     padding: 0;
+    width: 10px;
+    height: 21px;
+    background-size: 21px 24px;
+    background-position: 95px 143px;
 
 }
 .top-casinos-country .swiper-button-next {
@@ -800,22 +801,31 @@
     background: none;
     background: #fafafa;
     border-bottom: 3px solid #d9d9d9;
-    border-top: 1px solid #d9d9d9;
+    border-top: 2px solid #d9d9d9;
     border-left: 1px solid #d9d9d9;
     border-right: 1px solid #d9d9d9;
 }
 .top-casinos-country .swiper-button-next:before {
     content: "";
-    width: 11px;
-    height: 26px;
+    width: 10px;
+    height: 21px;
     position: absolute;
     background-image: url("../img/langarrow.png");
-    background-size: 19px 24px;
-    background-position: 77px 145px;
+    background-size: 21px 24px;
+    background-position: 83px 143px;
     border: none;
     left: 5px;
     top: 5px;
     padding: 0;
+}
+.top-casinos-country .show-local{
+    display: none;
+}
+.top-casinos-country .main{
+    width: 51px;
+    text-align: center;
+    padding-top: 7px;
+    margin-left: -3px;
 }
 .local {
     display: inline-block;
@@ -884,12 +894,22 @@
     background-position: 0 -87px;
 }
 .top-casinos-country a.active {
+    position: relative;
     font-family: 'Flama-Bold',sans-serif;
     background: #cccccc;
     cursor: default;
     box-shadow: 0 3px 5px 0 rgba(0,0,0,0.3) inset;
-    border-bottom: 4px solid #31b8df;
 }
+.top-casinos-country a.active:after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #31b8df;
+    bottom: 0;
+    left: 0;
+}
+
 .top-casinos-country a:hover{
     background: #cccccc;
 }
@@ -2782,6 +2802,9 @@ span.swiper-pagination-bullet-active:hover{
     }
     .top-casinos__games {
          overflow: visible;
+    }
+    .top-casinos-country .swiper-button-prev, .top-casinos-country .swiper-button-next{
+        display: none;
     }
     /* ----------- /top-casinos ------------- */
 
