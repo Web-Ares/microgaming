@@ -1399,7 +1399,7 @@ span.swiper-pagination-bullet-active:hover{
 .questions__wrap {
     display: block;
     width: 100%;
-    padding: 11px 8px 12px 34px;
+    padding: 11px 8px 17px 34px;
     border: 1px solid transparent;
     background: url(../img/bg-questions.png) 7px 9px/31px no-repeat #fff;
     transition: border-color .3s ease;
@@ -1417,7 +1417,6 @@ span.swiper-pagination-bullet-active:hover{
 .questions__wrap .questions__title {
     float: left;
     width: 173px;
-    margin-bottom: 5px;
     font: 15px/18px 'danielbk', sans-serif;
     color: #22e41c;
     text-align: center;
@@ -1563,7 +1562,7 @@ span.swiper-pagination-bullet-active:hover{
 
 /* ----------- casino-bonus ------------ */
 .casino-bonus {
-    margin-bottom: 0;
+    margin-bottom: 4px;
 }
 .casino-bonus__title {
     position: relative;
@@ -1899,29 +1898,38 @@ span.swiper-pagination-bullet-active:hover{
 
     /* ------------------ content -------------------- */
     .content{
-        margin-bottom: 60px;
-        margin-left: 0;
-        color: #666;
-        font-size: 14px;
-        line-height: 17px;
+        margin-bottom: 31px;
+        margin-left: 20px;
+        font-size: 29px;
+        line-height: 44px;
     }
     .content h2 {
         margin-bottom: 18px;
-        color: #31b8df;
-        font-size: 24px;
-        text-align: center;
-        text-transform: uppercase;
-    }
-    .content h2 span {
-        color: #22e41c;
-    }
-    .content p {
-        margin-bottom: 17px;
-    }
-    .content p + p {
-        display: block;
+        font-size: 30px;
     }
     /* ----------------- /content ----------------- */
+
+    /*---------------- questions ----------------*/
+    .questions {
+        margin-bottom: 75px;
+    }
+    .questions__wrap {
+        padding: 24px 23px 19px 107px;
+        background-position: 18px 22px;
+        background-size: 74px;
+        overflow: hidden;
+    }
+    .questions__wrap span {
+        font-size: 31px;
+        line-height: 38px;
+    }
+    .questions__wrap .questions__title {
+        float: left;
+        width: 364px;
+        font-size: 36px;
+        line-height: 43px;
+    }
+    /*---------------- /questions ----------------*/
 
     /* --------------- swiper-promo --------------- */
     .swiper-promo__layout{
@@ -2155,6 +2163,9 @@ span.swiper-pagination-bullet-active:hover{
     /* --------------- /game-slot --------------- */
 
     /* -------------- casino-bonus --------------- */
+    .casino-bonus {
+        margin-bottom: 101px;
+    }
     .casino-bonus__item,
     .casino-bonus__item:nth-child(2n+1){
         margin-left: 0;
@@ -2570,6 +2581,25 @@ span.swiper-pagination-bullet-active:hover{
         display: none;
     }
     /* -------------- /menu --------------- */
+
+    /* ------------------ content -------------------- */
+    .content{
+        margin-bottom: 60px;
+        margin-left: 0;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .content h2 {
+        margin-bottom: 18px;
+        font-size: 24px;
+    }
+    .content p {
+        margin-bottom: 17px;
+    }
+    .content p + p {
+        display: block;
+    }
+    /* ----------------- /content ----------------- */
 
     /* -------------- to-top -------------- */
     .to-top {
