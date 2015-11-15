@@ -920,6 +920,7 @@
 .swiper-promo{
     position: relative;
     overflow: hidden;
+    margin-bottom: 34px;
 }
 .swiper-promo__layout{
     width: 100%;
@@ -940,7 +941,7 @@
     text-transform: uppercase;
     line-height: 17px;
     padding-top: 7px;
-    padding-bottom: 3px;
+    padding-bottom: 5px;
 }
 .slide-btn{
     font-family: "Flama-Basic", sans-serif;
@@ -973,16 +974,16 @@
 .swiper-promo__pagination{
     position: absolute;
     left: 230px;
-    right: 0;
-    top: 1px;
+    right: -30px;
+    top: -3px;
     text-align: center;
     z-index: 9;
 }
 .swiper-promo__pagination span{
     display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin: 0 3px;
+    width: 6px;
+    height: 6px;
+    margin: 0 1.5px;
     border: 1px solid #fff;
     border-radius: 50%;
     opacity: 1;
@@ -1924,10 +1925,10 @@ span.swiper-pagination-bullet-active:hover{
 
     /* --------------- swiper-promo --------------- */
     .swiper-promo__layout{
-        padding-top: 250px;
+        padding-top: 247px;
         font-size: 26px;
         width: 768px;
-        height: 362px;
+        height: 365px;
         padding-left: 0;
         padding-right: 0;
     }
@@ -1940,15 +1941,15 @@ span.swiper-pagination-bullet-active:hover{
     }
     .slide-btn{
         font-size: 26px;
-        line-height: 58px;
+        line-height: 62px;
         display: inline-block;
         width: 207px;
-        height: 57px;
+        height: 61px;
         vertical-align: middle;
         margin-left: 7px;
     }
     .swiper-promo__layout div{
-        padding-top: 15px;
+        padding-top: 20px;
         height: 120px;
     }
     .swiper-promo__pagination{
@@ -2622,8 +2623,8 @@ span.swiper-pagination-bullet-active:hover{
         height: 305px;
     }
     .swiper-promo__pagination {
-        left: 460px;
-        top: 2px;
+        left: 425px;
+        top: 7px;
         display: block;
     }
     .swiper-promo__layout div h2{
@@ -2643,6 +2644,14 @@ span.swiper-pagination-bullet-active:hover{
     .swiper-promo__layout div {
         padding-top: 4px;
         height: 60px;
+    }
+    .swiper-promo__pagination span {
+        width: 10px;
+        height: 10px;
+        margin: 0 2.5px;
+    }
+    .swiper-promo {
+        margin-bottom: 28px;
     }
     /* ---------- /swiper-promo ----------- */
     .games-slider div a:first-child {
