@@ -3012,6 +3012,9 @@ span.swiper-pagination-bullet-active:hover{
     .casino-bonus_code{
         margin: 0 0 3px;
     }
+    .casino-bonus__show-more{
+        display: none;
+    }
     /* -------------- /casino-bonus --------------- */
 
     /* ---------------- top-rated ---------------- */
