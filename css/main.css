@@ -2074,6 +2074,15 @@ span.swiper-pagination-bullet-active:hover{
         background-size: 30px 34px;
         background-position: 104px 202px;
     }
+    .top-casinos-country:after{
+        content: "";
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        background-color: #d9d9d9;
+        bottom: 0;
+        left: 0;
+    }
     /* --------------- /top-casinos --------------- */
 
     /* --------------- game-slot --------------- */
