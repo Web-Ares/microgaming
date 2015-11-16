@@ -166,10 +166,12 @@
 }
 .casino-comments__item {
     margin-bottom: 14px;
+    padding-top: 6px;
 }
 .casino-comments__avatar {
     float: left;
     width: 50px;
+    margin-top: -6px;
 }
 .casino-comments__avatar img {
     display: block;
@@ -183,7 +185,7 @@
     line-height: 17px;
     color: #999999;
     padding: 13px 10px 13px 18px;
-    margin: 6px 0 0 39px;
+    margin: 0 0 0 39px;
     font-family: "Flama-Light";
     background: #fff;
 }
@@ -1129,6 +1131,7 @@ input[type="radio"]:checked + label > .add-your__experience-checked {
     /*---------------- casino-bonus ----------------*/
     .casino-bonus {
         padding: 0 5px;
+        margin-bottom: 0;
     }
     .casino-bonus__logo {
         width: 250px;

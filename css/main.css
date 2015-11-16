@@ -1801,6 +1801,9 @@ span.swiper-pagination-bullet-active:hover{
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.site__title > span {
+    color: #22e41c;
+}
 .contact-us .site__title {
     border-right: none;
     border-top: none;
@@ -1810,7 +1813,36 @@ span.swiper-pagination-bullet-active:hover{
     height: 44px;
     padding: 11px 0 0 19px;
 }
-
+.site__title_date {
+    overflow: visible;
+    padding: 13px 70px 13px 12px;
+    height: auto;
+    margin-bottom: 16px;
+    background: #fff;
+}
+.site__title_date time {
+    font-family: "Flama-Light", sans-serif;
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    background: url("../img/time-fon.png") no-repeat;
+    width: 57px;
+    height: 75px;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 0;
+}
+.site__title_date time > span {
+    display: block;
+    font-size: 12px;
+    padding-bottom: 4px;
+}
+.site__title_date time > span:first-child {
+    font-size: 24px;
+    padding: 0;
+}
 /*---------------/contact-us-------------------*/
 
 /*--------------site__center_contact-us--------------*/
