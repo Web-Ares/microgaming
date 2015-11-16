@@ -439,6 +439,33 @@
 .btn_show:hover{
     background-color: #dff;
 }
+.btn_review{
+    color: #666;
+    width: 137px;
+    height: 35px;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 9px;
+    float: left;
+    letter-spacing: 1px;
+    background-color: #dfdfdf;
+    transition: background 0.3s ease;
+}
+.btn_review:hover{
+    background-color: #dff;
+}
+.btn_play{
+    width: 137px;
+    height: 35px;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 9px;
+    margin-left: 10px;
+}
 /* ---------------- btn ---------------- */
 
 /* ------------------ content -------------------- */
@@ -629,67 +656,8 @@
     margin-left: 0;
     margin-bottom: 19px;
 }
-.top-casinos__btn {
-    display: block;
-    vertical-align: top;
-    text-align: center;
-    height: 19px;
-    margin-bottom: 7px;
-}
-.top-casinos .btn_review{
-    color: #666;
-    width: 137px;
-    height: 35px;
-    display: inline-block;
-    font-size: 18px;
-    text-align: center;
-    text-transform: uppercase;
-    padding-top: 9px;
-    float: left;
-    letter-spacing: 1px;
-    background-color: #dfdfdf;
-    transition: background 0.3s ease;
-}
-.top-casinos .btn_review:hover{
-    background-color: #dff;
-}
-.top-casinos .btn_play{
-    width: 137px;
-    height: 35px;
-    display: inline-block;
-    font-size: 18px;
-    text-align: center;
-    text-transform: uppercase;
-    padding-top: 9px;
-    margin-left: 10px;
-}
-.top-casinos__btn .btn {
-    line-height: 18px;
-    background: #31b8df;
-    height: 35px;
-    width: 137px;
-    padding: 0 10px;
-    color: #fff;
-    margin-bottom: 2px;
-    overflow: hidden;
-    position: absolute;
-    left: 65px;
-    font-size: 18px;
-    padding-top: 9px;
-}
-.top-casinos__btn a {
-    color: #666;
-    width: 137px;
-    height: 35px;
-    display: inline-block;
-    position: absolute;
-    left: -82px;
-    font-size: 18px;
-    text-transform: uppercase;
-    padding-top: 9px;
-    letter-spacing: 1px;
-    background-color: #dfdfdf;
-}
+
+
 .top-casinos__head {
     font-family: 'Flama-Bold',sans-serif;
     text-transform: uppercase;
@@ -1836,6 +1804,20 @@ span.swiper-pagination-bullet-active:hover{
         width: 684px;
         margin-left: 18px;
     }
+    .btn_play {
+        width: 332px;
+        height: 72px;
+        font-size: 31px;
+        padding-top: 22px;
+        margin-left: 21px;
+    }
+    .btn_review {
+        width: 332px;
+        height: 72px;
+        font-size: 31px;
+        padding-top: 20px;
+        padding-left: 19px;
+    }
     /* --------------- /btn --------------- */
 
     /* --------- header__search ----------- */
@@ -2033,20 +2015,7 @@ span.swiper-pagination-bullet-active:hover{
         margin-bottom: 34px;
         font-size: 33px;
     }
-    .top-casinos .btn_play {
-        width: 332px;
-        height: 72px;
-        font-size: 31px;
-        padding-top: 22px;
-        margin-left: 21px;
-    }
-    .top-casinos .btn_review {
-        width: 332px;
-        height: 72px;
-        font-size: 31px;
-        padding-top: 20px;
-        padding-left: 19px;
-    }
+
     .top-casinos__games:before {
         content: "";
         left: 14px;
@@ -2313,6 +2282,26 @@ span.swiper-pagination-bullet-active:hover{
     }
     .btn-search:hover {
         background: #019dca;
+    }
+    .btn_play {
+        width: 64px;
+        height: 17px;
+        font-size: 12px;
+        padding-top: 3px;
+        display: block;
+        margin-left: 21px;
+    }
+    .btn_review {
+        width: 64px;
+        height: 17px;
+        text-transform: capitalize;
+        font-size: 12px;
+        padding-top: 3px;
+        display: block;
+        float: none;
+        padding-left: 2px;
+        margin-left: 21px;
+        background-color: transparent;
     }
     /* --------------- /btn --------------- */
 
@@ -2786,26 +2775,7 @@ span.swiper-pagination-bullet-active:hover{
         line-height: 12px;
         margin-bottom: 3px;
     }
-    .top-casinos .btn_play {
-        width: 64px;
-        height: 17px;
-        font-size: 12px;
-        padding-top: 3px;
-        display: block;
-        margin-left: 21px;
-    }
-    .top-casinos .btn_review {
-        width: 64px;
-        height: 17px;
-        text-transform: capitalize;
-        font-size: 12px;
-        padding-top: 3px;
-        display: block;
-        float: none;
-        padding-left: 2px;
-        margin-left: 20px;
-        background-color: transparent;
-    }
+
     .top-casinos__block{
         display: block;
     }
