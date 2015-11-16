@@ -59,6 +59,20 @@
     left: 0;
     width: 100%;
 }
+.casino-bonus__btn .btn {
+    float: none;
+    margin: 0 5px;
+    width: 115px;
+    height: 35px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 12px 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.casino-bonus__btn .btn_review:hover {
+    background-color: #dff;
+}
 .casino-bonus__info {
     display: inline-block;
     vertical-align: top;
@@ -1145,7 +1159,14 @@ input[type="radio"]:checked + label > .add-your__experience-checked {
     .casino-bonus__likes a:hover:after {
         opacity: 1;
     }
+    .casino-bonus__btn .btn {
+        margin: 0;
+    }
+    .casino-bonus__btn .btn_review {
+        background-color: #dfdfdf;
+    }
     /*---------------- /casino-bonus ----------------*/
+
     /*---------------bonus-list----------------*/
     .bonus-list {
         padding: 0 0 0 5px;
