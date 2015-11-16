@@ -2878,6 +2878,7 @@ span.swiper-pagination-bullet-active:hover{
         background-size: auto;
     }
     .questions__wrap span {
+        font-size: 14px;
         line-height: 14px;
         text-align: left;
         white-space: nowrap;
@@ -2885,6 +2886,9 @@ span.swiper-pagination-bullet-active:hover{
     .questions__wrap .questions__title{
         float: none;
         width: auto;
+        margin-bottom: 5px;
+        font-size: 15px;
+        line-height: 18px;
     }
     /*--------------- /questions ----------------*/
 
