@@ -2156,11 +2156,11 @@ span.swiper-pagination-bullet-active:hover{
     .top-casinos-item>div>span{
         font-size: 21px;
         vertical-align: top;
+        padding-top: 4px;
     }
     .top-casinos-item {
         margin-left: 20px;
         padding-top: 36px;
-        margin-bottom: 4px;
     }
     .top-casinos-item .flag-country{
         display: none;
@@ -2209,7 +2209,7 @@ span.swiper-pagination-bullet-active:hover{
         width: 353px;
         overflow: hidden;
         margin: -7px 7px 0 2px;
-        line-height: 37px;
+        line-height: 39px;
         margin-left: 115px;
         margin-bottom: 34px;
         font-size: 33px;
@@ -2251,6 +2251,7 @@ span.swiper-pagination-bullet-active:hover{
         height: 56px;
         margin-top: -27px;
         width: 64px;
+        border-bottom: 5px solid #d9d9d9;
     }
     .top-casinos-country .swiper-button-next:before{
         left: 25px;
@@ -2264,6 +2265,7 @@ span.swiper-pagination-bullet-active:hover{
         height: 56px;
         margin-top: -27px;
         width: 64px;
+        border-bottom: 5px solid #d9d9d9;
     }
     .top-casinos-country .swiper-button-prev:before{
         left: 25px;
@@ -3129,6 +3131,7 @@ span.swiper-pagination-bullet-active:hover{
         font-size: 24px;
         margin-top: 31px;
         display: block;
+        margin-bottom: 9px;
     }
     .top-casinos__head_line{
         background-color: #fafafa;
@@ -3176,6 +3179,7 @@ span.swiper-pagination-bullet-active:hover{
     }
     .top-casinos-country .swiper-slide {
         width: 61px;
+        padding-top: 10px;
     }
     .top-casinos-country .main {
         width: 67px;
