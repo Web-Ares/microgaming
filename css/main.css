@@ -889,7 +889,7 @@
     width: 320px;
     position: relative;
     overflow: hidden;
-    margin-bottom: 34px;
+    margin-bottom: 13px;
     margin-left: -6px;
 }
 .swiper-promo__layout{
@@ -1919,6 +1919,7 @@ span.swiper-pagination-bullet-active:hover{
     .swiper-promo{
         width: 768px;
         margin-left: -20px;
+        margin-bottom: 34px;
     }
     .swiper-promo__layout{
         padding-top: 247px;
