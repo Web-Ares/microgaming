@@ -1,0 +1,295 @@
+/*--------------- slots ---------------*/
+.slots {
+    padding: 0 20px;
+}
+.slots__item {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.slots__pic {
+    display: block;
+    position: relative;
+    padding-bottom: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/slots-item-fon.jpg");
+    border-color: #3e3e3e;
+    border-style: solid;
+    border-width: 1px 4px 4px 1px;
+    border-radius: 3px;
+    -webkit-transition: border-color .3s ease;
+    transition: border-color .3s ease;
+    margin-bottom: 18px;
+}
+.slots__item:hover .slots__pic {
+    border-color: #22e41c;
+}
+.slots__pic:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+    -webkit-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+    opacity: 0;
+}
+.slots__item:hover .slots__pic:before {
+    opacity: 1;
+}
+.slots__pic-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 50%;
+    text-align: center;
+}
+.slots__btn {
+    -webkit-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+    opacity: 0;
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    font-size: 22px;
+    padding: 15px 10px;
+    background: #22e41c;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top;
+    margin: -25px 5px 0;
+}
+.slots__item:hover .slots__btn {
+    opacity: 1;
+}
+.slots__item_mobile:after {
+    content: '';
+    background: url("../img/mobile.png") no-repeat center;
+    width: 38px;
+    height: 51px;
+    background-size: contain;
+    position: absolute;
+    top: -8px;
+    left: 13px;
+}
+.slots__type {
+    position: absolute;
+    top: 17px;
+    right: -20px;
+}
+.slots__hot,
+.slots__new {
+    display: none;
+    width: 67px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 6px;
+    text-indent: -1000px;
+    overflow: hidden;
+}
+.slots__hot {
+    background-image: url("../img/hot.png");
+}
+.slots__new {
+    background-image: url("../img/new.png");
+}
+.slots__item_hot .slots__hot {
+    display: block;
+}
+.slots__item_new .slots__new {
+    display: block;
+}
+.slots__name {
+    color: #22e41c;
+    font-size: 25px;
+    display: block;
+    font-family: "Flama-Bold", sans-serif;
+    margin-bottom: 10px;
+}
+.slots__description {
+    font-size: 24px;
+    color: #bfbfbf;
+    display: block;
+}
+.slots__batman,
+.slots__pirate,
+.slots__bonus {
+    display: none;
+}
+/*------------------ /slots --------------*/
+
+@media (min-width: 768px) {
+    /*------------------ slots --------------*/
+    .slots {
+        padding: 0 0 0 20px;
+    }
+    .slots__item {
+        width: 206px;
+        margin: 0 28px 44px 0;
+    }
+    .slots__pic {
+        padding-bottom: 98%;
+        margin-bottom: 13px;
+    }
+    .slots__name {
+        font-size: 19px;
+        margin-bottom: 7px;
+    }
+    .slots__description {
+        font-size: 19px;
+    }
+    .slots__hot,
+    .slots__new {
+        width: 51px;
+        height: 30px;
+    }
+    .slots__type {
+        top: 12px;
+        right: -14px;
+    }
+    .slots__item_mobile:after {
+        width: 30px;
+        height: 40px;
+    }
+    .slots__btn {
+        height: 38px;
+        font-size: 17px;
+        padding: 12px 10px;
+        margin: -19px 5px 0;
+    }
+    /*------------------ /slots --------------*/
+}
+
+@media (min-width: 1024px) {
+    /*------------------ slots --------------*/
+    .slots {
+        padding: 0 10px;
+        margin-right: -18px;
+
+    }
+    .slots__item {
+        width: 150px;
+        margin: 0 13px 32px 0;
+    }
+    .slots__pic {
+        padding-bottom: 94%;
+        margin-bottom: 6px;
+        border-width: 1px 8px 8px 1px;
+    }
+    .slots__name {
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+    .slots__description {
+        font-size: 12px;
+    }
+    .slots__btn {
+        height: 27px;
+        font-size: 12px;
+        padding: 8px 10px;
+        margin: -13px 5px 0;
+    }
+    .slots__hot,
+    .slots__new {
+        width: 37px;
+        height: 23px;
+        margin-bottom: 1px;
+    }
+    .slots__type {
+        top: 10px;
+        right: -4px;
+    }
+    .slots__item_mobile:after {
+        width: 22px;
+        height: 29px;
+        top: -3px;
+        left: 8px;
+    }
+    .slots__batman {
+        display: block;
+        position: absolute;
+        width: 497px;
+        height: 574px;
+        right: -242px;
+        top: -28px;
+    }
+    .slots__pirate {
+        display: block;
+        position: absolute;
+        width: 431px;
+        height: 586px;
+        left: -208px;
+        top: -25px;
+    }
+    .slots__pirate-main {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        opacity: 1;
+        -webkit-transition: opacity 0.3s ease;
+        transition: opacity 0.3s ease;
+    }
+    .slots__pirate-hover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        opacity: 0;
+        -webkit-transition: opacity 0.3s ease;
+        transition: opacity 0.3s ease;
+    }
+    .slots__pirate:hover .slots__pirate-hover {
+        opacity: 1;
+    }
+    .slots__pirate-eye {
+        position: absolute;
+        top: 74px;
+        left: 172px;
+        z-index: 1;
+        width: 24px;
+        height: 20px;
+    }
+    .slots__pirate-white {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    .slots__pirate-pupil {
+        position: absolute;
+        z-index: 2;
+        left: 7px;
+        top: 6px;
+    }
+    .slots__bonus {
+        display: block;
+        position: absolute;
+        top: 14px;
+        left: 50%;
+        margin-left: -491px;
+        width: 982px;
+        height: 0;
+        opacity: 0;
+        border-radius: 10px;
+        overflow: hidden;
+        z-index: 5;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    .slots__bonus.active {
+        height: 677px;
+        opacity: 1;
+    }
+    /*------------------ /slots --------------*/
+}
