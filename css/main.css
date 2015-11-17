@@ -1316,10 +1316,7 @@ span.swiper-pagination-bullet-active:hover{
     position: relative;
     padding: 11px 0 13px 67px;
 }
-.list-rated h3 > span {
-    color: #22e41c;
-}
-.list-rated h3:before{
+.list-rated_top h3:before{
     content: '';
     position: absolute;
     top: -11px;
@@ -1327,6 +1324,9 @@ span.swiper-pagination-bullet-active:hover{
     width: 72px;
     height: 70px;
     background: url("../img/icons-top-game.png") no-repeat 0 0/cover;
+}
+.list-rated h3 > span {
+    color: #22e41c;
 }
 .list-rated a{
     display: block;
@@ -2230,7 +2230,7 @@ span.swiper-pagination-bullet-active:hover{
     .list-rated_top h3{
         padding: 8px 0 10px 49px;
     }
-    .list-rated h3:before{
+    .list-rated_top h3:before{
         top: -8px;
         width: 55px;
         height: 52px;
@@ -2375,6 +2375,11 @@ span.swiper-pagination-bullet-active:hover{
     }
     .site .site__caption:before{
         display: none;
+    }
+    .site .site__caption_smaller{
+        padding-top: 0;
+        font-size: 24px;
+        line-height: 16px;
     }
     /* --------------- /site -------------- */
 
