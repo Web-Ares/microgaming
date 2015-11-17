@@ -21,6 +21,10 @@
         $('.top-casinos-country').each(function () {
             Slider($(this));
         });
+
+        $.each($('.slots__pirate'), function () {
+            new Pirate($(this))
+        });
     });
 
     var mobileMenu = function (obj) {
@@ -291,6 +295,95 @@
         //public methods
 
         _init();
+    };
+
+
+    var Pirate = function (obj) {
+        this.obj = obj;
+        this.body = $('body');
+        this.pirateEye = $('.slots__pirate-eye');
+        this.pirateWhite = $('.slots__pirate-white');
+        this.pirateBonus = $('.slots__bonus');
+
+        this.init();
+    };
+    Pirate.prototype = {
+        init: function () {
+            var self = this;
+            self.core = self.core();
+            self.core.build();
+        },
+        core: function () {
+            var self = this;
+
+            return {
+                build: function () {
+                    self.core.AddEvents();
+                },
+                AddEvents: function () {
+                    self.body.on({
+                        mousemove: function (e) {
+                            var centerX = self.pirateEye.offset().left + 12,
+                                centerY = self.pirateWhite.offset().top + 10;
+                            if (( e.pageX - centerX ) < 0) {
+                                var x = 7 + 7 * ( ( e.pageX - centerX ) / centerX ),
+                                    y = 6 + 6 * ( ( e.pageY - centerY ) / centerY );
+                                if (x < 0) {
+                                    x = 0
+                                }
+                                if (x > 14) {
+                                    x = 14
+                                }
+                                if (y < 0) {
+                                    y = 0
+                                }
+                                if (y > 12) {
+                                    y = 12
+                                }
+                                $(this).find('.slots__pirate-pupil').css({
+                                    'left': x,
+                                    'top': y
+                                })
+                            } else {
+                                var x = 7 + 7 * ( ( e.pageX - centerX ) / ( $(window).width() - centerX ) ),
+                                    y = 6 + 6 * ( ( e.pageY - centerY ) / ( $(window).height() - centerY ) );
+                                if (x < 0) {
+                                    x = 0
+                                }
+                                if (x > 14) {
+                                    x = 14
+                                }
+                                if (y < 0) {
+                                    y = 0
+                                }
+                                if (y > 12) {
+                                    y = 12
+                                }
+                                $(this).find('.slots__pirate-pupil').css({
+                                    'left': x,
+                                    'top': y
+                                })
+                            }
+
+                        }
+
+                    });
+
+                    self.obj.on({
+                        click: function () {
+                            if (!self.pirateBonus.hasClass('active')) {
+                                self.pirateBonus.addClass('active');
+                                return false;
+                            } else {
+                                self.pirateBonus.removeClass('active');
+                                return false;
+                            }
+                        }
+                    })
+
+                }
+            };
+        }
     };
 
 })();
