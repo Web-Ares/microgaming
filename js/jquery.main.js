@@ -21,6 +21,22 @@
         $('.top-casinos-country').each(function () {
             Slider($(this));
         });
+        $(window).on({
+            'load':function(){
+                if($(window).width() >= 1006){
+                    $('.aside-inform').clone().appendTo(".site_drop-down");
+                    $('.site_drop-down').addClass('site_full-aside');
+                    $('.site_drop-down').removeClass('site_drop-down');
+                }
+            },
+            'resize':function(){
+                if($(window).width() >= 1006){
+                    $('.aside-inform').clone().appendTo(".site_drop-down");
+                    $('.site_drop-down').addClass('site_full-aside');
+                    $('.site_drop-down').removeClass('site_drop-down');
+                }
+            }
+        });
     });
 
     var mobileMenu = function (obj) {
@@ -262,7 +278,6 @@
                             prevButton: _prev
                         });
                     }
-                    console.log(_swiper);
                 },
                 resize: function () {
                     _windowWidth = $(window).width();
