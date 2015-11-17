@@ -2047,12 +2047,12 @@ span.swiper-pagination-bullet-active:hover{
         border-bottom: 5px solid #d9d9d9;
     }
     .top-casinos-country .swiper-button-next:before{
-        left: 25px;
-        top: 10px;
-        width: 14px;
-        height: 31px;
-        background-size: 30px 34px;
-        background-position: 89px 202px;
+        left: 24px;
+        top: 12px;
+        width: 16px;
+        height: 28px;
+        background-size: 32px 29px;
+        background-position: 31px 201px;
     }
     .top-casinos-country .swiper-button-prev {
         height: 56px;
@@ -2061,12 +2061,12 @@ span.swiper-pagination-bullet-active:hover{
         border-bottom: 5px solid #d9d9d9;
     }
     .top-casinos-country .swiper-button-prev:before{
-        left: 25px;
-        top: 10px;
-        width: 14px;
-        height: 31px;
-        background-size: 30px 34px;
-        background-position: 104px 202px;
+        left: 24px;
+        top: 12px;
+        width: 16px;
+        height: 28px;
+        background-size: 32px 29px;
+        background-position: 48px 201px;
     }
     .top-casinos-country:after{
         content: "";
