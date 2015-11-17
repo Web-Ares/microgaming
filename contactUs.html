@@ -9,8 +9,8 @@
 
     <title>Title</title>
     <link rel="stylesheet" href="css/swiper.min.css" />
-    <link rel="stylesheet" href="css/contactUs.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/contactUs.css" />
 
 </head>
 <body>
@@ -103,20 +103,33 @@
                 <h1 class="site__title">Contact us</h1><!--/site__title-->
                 <span>Required fields</span>
 
+                <!--communication-->
                 <form class="communication" action="#">
 
                     <fieldset>
+
+                        <!--required-->
                         <label class="required" for="name">Name</label>
+                        <!--/required-->
+
                         <input type="text" id="name" required placeholder="John Mitchell"/>
                     </fieldset>
 
                     <fieldset>
+
+                        <!--required-->
                         <label class="required" for="email">Email</label>
+                        <!--/required-->
+
                         <input type="email" id="email" required placeholder="example@email.com"/>
                     </fieldset>
 
                     <fieldset>
+
+                        <!--required-->
                         <label class="required" for="inquiry">Subject</label>
+                        <!--/required-->
+
                         <select class="inquiry" id="inquiry">
                             <option value="0">Please select the subject of your inquiry</option>
                             <option value="1">inquiry 1</option>
@@ -139,13 +152,14 @@
 
                     <input type="submit" value="send"/>
 
-                </form><!--/communication-->
+                </form>
+                <!--/communication-->
 
             </div>
             <!-- /site__wrap-center -->
 
             <!-- site__aside -->
-            <aside class="site__aside site_drop-down">
+            <aside class="site__aside">
 
                 <!--questions-->
                 <div class="questions">
