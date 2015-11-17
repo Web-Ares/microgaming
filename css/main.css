@@ -2308,6 +2308,10 @@ span.swiper-pagination-bullet-active:hover{
     .btn-search:hover {
         background: #019dca;
     }
+    .btn-search:before,
+    .btn-search:after{
+        display: none;
+    }
     /* --------------- /btn --------------- */
 
     /* ---------- header-social ----------- */

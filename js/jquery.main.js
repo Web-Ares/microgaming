@@ -232,7 +232,7 @@
                 _addEvents();
             };
         if (_obj.hasClass('swiper-promo')){
-            var swiper = new Swiper(_obj, {
+            var _swiperPromo = new Swiper(_obj, {
                 slidesPerView: 1,
                 autoplay: 5000,
                 pagination: _paginator,
@@ -241,7 +241,7 @@
             });
         }
         if (_obj.hasClass('games-slider')){
-            var swiper = new Swiper(_obj, {
+            var _swiperSlider = new Swiper(_obj, {
                 slidesPerView: 1,
                 pagination: _paginator2,
                 loop: true,
@@ -250,7 +250,6 @@
             });
         }
         if (_obj.hasClass('top-casinos-country')){
-
             _window.on({
                 load: function () {
                     if (_windowWidth <= 1006) {
