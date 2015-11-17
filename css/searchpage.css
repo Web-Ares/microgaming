@@ -3,6 +3,19 @@
 .search {
 
 }
+.search > h1 {
+    height: 45px;
+    border: 1px solid #dedede;
+    border-bottom: 4px solid #31b8df;
+    box-shadow: 2px 3px 3px rgba(0,0,0,.15);
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 9px 0 0 11px;
+    color: #31b8df;
+    font-family: flamabold, sans-serif;
+    margin-bottom: 31px;
+}
 .search__form {
     position: relative;
     padding: 0 100px 0 5px;
