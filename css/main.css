@@ -470,7 +470,6 @@
 /* ------------------ content -------------------- */
 .content{
     margin-bottom: 10px;
-    margin-left: 10px;
     color: #666;
     font-size: 11px;
     line-height: 18px;
@@ -1753,6 +1752,7 @@ span.swiper-pagination-bullet-active:hover{
     .site .site__caption{
         font-size: 20px;
         padding: 7px 0;
+        margin: 0 -20px 14px;
     }
     /* --------------- /site -------------- */
 
@@ -1874,7 +1874,6 @@ span.swiper-pagination-bullet-active:hover{
     /* ------------------ content -------------------- */
     .content{
         margin-bottom: 31px;
-        margin-left: 20px;
         font-size: 29px;
         line-height: 44px;
     }
@@ -3018,6 +3017,10 @@ span.swiper-pagination-bullet-active:hover{
     .casino-bonus {
         margin-bottom: 39px;
     }
+    .casino-bonus__list{
+        max-width: 934px;
+        margin: 0 auto;
+    }
     .casino-bonus__item {
         width: 151px;
         height: 219px;
@@ -3026,7 +3029,7 @@ span.swiper-pagination-bullet-active:hover{
     .casino-bonus__item,
     .casino-bonus__item:nth-child(5n+1),
     .casino-bonus__item:nth-child(2n+1){
-        margin-left: 13px;
+        margin-left: 0;
     }
     .casino-bonus__item:nth-child(6n+1){
         margin-left: 0;
