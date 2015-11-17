@@ -143,6 +143,10 @@
     text-align: center;
     text-transform: uppercase;
 }
+.site .site__caption_big {
+    padding: 9px 30px;
+    line-height: 22px;
+}
 .site .site__caption:before {
     content: '';
     position: absolute;
@@ -1786,6 +1790,17 @@ span.swiper-pagination-bullet-active:hover{
         padding: 7px 0;
         margin: 0 -20px 14px;
     }
+    .site .site__caption_big {
+        font-size: 42px;
+        line-height: 52px;
+        padding: 20px 40px 6px;
+        margin: 0 -20px 53px;
+    }
+    .site .site__caption_big:before {
+        bottom: -22px;
+        margin-left: -18px;
+        border-width: 22px 18px 0 18px;
+    }
     /* --------------- /site -------------- */
 
     /* --------------- logo --------------- */
@@ -2386,6 +2401,9 @@ span.swiper-pagination-bullet-active:hover{
         padding-top: 0;
         font-size: 24px;
         line-height: 16px;
+    }
+    .site .site__caption_big {
+        padding-top: 16px;
     }
     /* --------------- /site -------------- */
 

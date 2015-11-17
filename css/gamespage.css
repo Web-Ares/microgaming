@@ -1,6 +1,7 @@
 /*--------------- slots ---------------*/
 .slots {
-    padding: 0 20px;
+    padding: 15px 20px;
+    text-align: center;
 }
 .slots__item {
     position: relative;
@@ -9,6 +10,7 @@
     width: 100%;
     margin-bottom: 25px;
     z-index: 2;
+    text-align: left;
 }
 .slots__pic {
     display: block;
@@ -136,11 +138,11 @@
 @media (min-width: 768px) {
     /*------------------ slots --------------*/
     .slots {
-        padding: 0 0 0 20px;
+        padding: 0;
     }
     .slots__item {
         width: 206px;
-        margin: 0 28px 44px 0;
+        margin: 0 14px 44px;
     }
     .slots__pic {
         padding-bottom: 98%;
@@ -180,13 +182,12 @@
 @media (min-width: 1024px) {
     /*------------------ slots --------------*/
     .slots {
-        padding: 0 10px;
-        margin-right: -18px;
+        padding: 21px 0;
         position: relative;
     }
     .slots__item {
         width: 150px;
-        margin: 0 13px 32px 0;
+        margin: 0 6px 32px;
     }
     .slots__pic {
         padding-bottom: 94%;
@@ -230,8 +231,8 @@
         width: 497px;
         height: 574px;
         left: 100%;
-        top: -45px;
-        margin-left: -56px;
+        top: -24px;
+        margin-left: -38px;
     }
     .slots__pirate {
         display: block;
@@ -239,7 +240,7 @@
         width: 431px;
         height: 586px;
         right: 100%;
-        top: -42px;
+        top: -21px;
         margin-right: -6px;
     }
     .slots__pirate-main {
