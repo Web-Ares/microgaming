@@ -15,7 +15,7 @@
         $('.sub-menu').each(function () {
             subMenu($(this));
         });
-        $('.games-slider').each(function () {
+        $('.newest-games__slider').each(function () {
             Slider($(this));
         });
         $('.top-casinos-country').each(function () {
@@ -237,7 +237,7 @@
             _next = obj.find($('.swiper-button-next')),
             _prev = obj.find($('.swiper-button-prev')),
             _paginator = obj.find($('.swiper-promo__pagination')),
-            _paginator2 = obj.find($('.games-slider__points')),
+            _paginator2 = obj.find($('.newest-games__points')),
             _window = $(window),
             _windowWidth = $(window).width(),
             _swiper = null,
@@ -260,7 +260,7 @@
                 paginationClickable: true
             });
         }
-        if (_obj.hasClass('games-slider')){
+        if (_obj.hasClass('newest-games__slider')){
             var _swiperSlider = new Swiper(_obj, {
                 slidesPerView: 1,
                 pagination: _paginator2,

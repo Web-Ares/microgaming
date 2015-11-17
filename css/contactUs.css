@@ -169,19 +169,19 @@
 /*---------------/contact-us-------------------*/
 
 /*--------------site__center_contact-us--------------*/
-.site__center_contact-us {
+.site__wrap-center_long {
     width: 770px;
     padding-bottom: 173px;
 }
-.site__center_contact-us > span {
+.site__wrap-center_long > span {
     position: relative;
     font-size: 12px;
     color: #bfbfbf;
-    font-family: 'flamalightitalic';
+    font-family: 'Flama-Light', sans-serif;
     float: right;
     margin-right: 6px;
 }
-.site__center_contact-us > span:before {
+.site__wrap-center_long > span:before {
     content: "*";
     position: absolute;
     font-size: 14px;
@@ -284,6 +284,5 @@
     width: 442px;
     height: 107px;
     background: url("../img/captcha.png") no-repeat;
-    /* padding: 0 0 0 0; */
 }
 

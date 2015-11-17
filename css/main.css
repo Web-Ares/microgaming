@@ -893,8 +893,6 @@
     width: 100%;
     height: 169px;
     margin: 0 auto;
-    padding-left: 7px;
-    padding-right: 6px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -909,6 +907,7 @@
     line-height: 17px;
     padding-top: 7px;
     padding-bottom: 5px;
+    padding-left: 7px
 }
 .slide-btn{
     font-family: "Flama-Basic", sans-serif;
@@ -923,7 +922,6 @@
     -webkit-transition: background 0.3s ease;
     transition: background 0.3s ease;
 }
-
 .slide-btn:hover{
     background: #14d000;
 }
@@ -1009,25 +1007,25 @@ span.swiper-pagination-bullet-active:hover{
 /* ------------ /newest-games ------------- */
 
 /* ----------- game-slot ------------- */
-.game-slot {
+.newest-games__layout {
     text-align: center;
 }
-.slots .game-slot {
+.slots .newest-games__layout {
     padding: 0 8px 0 9px;
 }
-.game-slot:after {
+.newest-games__layout:after {
     width: 100%;
     content: '';
     display: inline-block;
 }
-.game-slot__wrapper {
+.newest-games__item {
     display: inline-block;
     vertical-align: top;
 }
-.slots .game-slot__wrapper {
+.slots .newest-games__item {
     margin-bottom: 40px;
 }
-.game-slot__inner {
+.newest-games__inner {
     display: block;
     position: relative;
     background: #bfbfbf;
@@ -1040,7 +1038,7 @@ span.swiper-pagination-bullet-active:hover{
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.game-slot__mobile {
+.newest-games__mobile {
     position: absolute;
     background: url("../img/games-slider__mobile.png") no-repeat;
     width: 11px;
@@ -1052,7 +1050,7 @@ span.swiper-pagination-bullet-active:hover{
     z-index: 3;
     background-size: cover;
 }
-.game-slot__name {
+.newest-games__name {
     font-family: "Flama-Bold", sans-serif;
     font-size: 12px;
     color: #22e41c;
@@ -1061,7 +1059,7 @@ span.swiper-pagination-bullet-active:hover{
     overflow: hidden;
     text-align: left;
 }
-.game-slot__description {
+.newest-games__description {
     font-family: "Flama-Basic", sans-serif;
     color: #bfbfbf;
     font-size: 12px;
@@ -1070,17 +1068,17 @@ span.swiper-pagination-bullet-active:hover{
     text-align: left;
     padding-bottom: 16px;
 }
-.game-slot__tip {
+.newest-games__tip {
     position: absolute;
     right: -13px;
     top: 8px;
     z-index: 3;
 }
-.casino-bonus .game-slot__tip {
+.casino-bonus .newest-games__tip {
     right: -8px;
     top: 5px;
 }
-.game-slot__hot {
+.newest-games__hot {
     background: url("../img/games-slider__hot.png") no-repeat;
     width: 25px;
     height: 17px;
@@ -1091,7 +1089,7 @@ span.swiper-pagination-bullet-active:hover{
     display: none;
     background-size: cover;
 }
-.game-slot__new {
+.newest-games__new {
     background: url("../img/games-slider__new.png") no-repeat;
     right: -13px;
     top: 32px;
@@ -1102,16 +1100,16 @@ span.swiper-pagination-bullet-active:hover{
     background-size: cover;
     margin-right: 13px;
 }
-.mobile .game-slot__mobile {
+.mobile .newest-games__mobile {
     display: block;
 }
-.hot .game-slot__hot {
+.hot .newest-games__hot {
     display: block;
 }
-.new-tip .game-slot__new {
+.new-tip .newest-games__new {
     display: block;
 }
-.game-slot__play {
+.newest-games__play {
     position: absolute;
     bottom: 60px;
     left: 28px;
@@ -1126,24 +1124,24 @@ span.swiper-pagination-bullet-active:hover{
     transition: opacity 0.3s ease;
     opacity: 0;
 }
-.game-slot__wrapper:hover .game-slot__inner {
+.newest-games__item:hover .game-slot__inner {
     border-color: #22e41c;
     background: #3f3f3f;
 }
-.game-slot__wrapper:hover .game-slot__play {
+.newest-games__item:hover .game-slot__play {
     opacity: 1;
 }
-.game-slot__pic {
+.newest-games__pic {
     width: 97px;
     height: 100px;
     position: relative;
 }
-.game-slot__pic img {
+.newest-games__pic img {
     width: 100%;
     height: 100%;
     margin-bottom: -3px;
 }
-.game-slot__pic:after {
+.newest-games__pic:after {
     content: '';
     position: absolute;
     top: 0;
@@ -1156,30 +1154,30 @@ span.swiper-pagination-bullet-active:hover{
     -webkit-transition: opacity 0.3s ease;
     transition: opacity 0.3s ease;
 }
-.game-slot__wrapper:hover .game-slot__pic:after {
+.newest-games__item:hover .game-slot__pic:after {
     opacity: 1;
 }
-.games-slider div a:first-child{
+.newest-games__slider div a:first-child{
     display: none;
 }
-.games-slider div a:last-child{
+.newest-games__slider div a:last-child{
     display: none;
 }
-.games-slider__points{
+.newest-games__points{
     display: inline-block;
     position: absolute;
     top: 10px;
     right: 14px;
     z-index: 2;
 }
-.games-slider__points {
+.newest-games__points {
     top: auto;
     bottom: 5px;
     left: 50%;
     right: auto;
     margin-left: -48px;
 }
-.games-slider__points span{
+.newest-games__points span{
     width: 18px;
     height: 18px;
     float: left;
@@ -1193,25 +1191,17 @@ span.swiper-pagination-bullet-active:hover{
     -webkit-transition: background 0.3s ease;
     transition: background 0.3s ease;
 }
-.games-slider__points span:first-child{
+.newest-games__points span:first-child{
     margin-left: 0;
 }
-.games-slider__points span:hover{
+.newest-games__points span:hover{
     background: #fff;
     opacity: 1;
 }
-.games-slider {
+.newest-games__slider {
     position: relative;
     height: 192px;
     overflow: hidden;
-}
-.games-slider__item {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 235px;
-    display: inline-block;
 }
 span.swiper-pagination-bullet-active{
     background-color: #fff;
@@ -2108,7 +2098,7 @@ span.swiper-pagination-bullet-active:hover{
     /* --------------- /top-casinos --------------- */
 
     /* --------------- game-slot --------------- */
-    .game-slot__pic {
+    .newest-games__pic {
         width: 180px;
         height: 180px;
         position: relative;
@@ -2124,60 +2114,58 @@ span.swiper-pagination-bullet-active:hover{
         border: 20px solid transparent;
         border-top: 23px solid #313534;
     }
-    .game-slot__inner {
+    .newest-games__inner {
         border-top: 1px solid #0c0d0d;
         border-right: 5px solid #0c0d0d;
         border-bottom: 5px solid #0c0d0d;
         border-left: 1px solid #0c0d0d;
     }
-    .game-slot__name {
+    .newest-games__name {
         letter-spacing: 0.5px;
         font-size: 20px;
         text-align: left;
         max-width: 190px;
         margin-top: 11px;
     }
-    .game-slot__description {
+    .newest-games__description {
         font-size: 19px;
         text-align: left;
         max-width: 190px;
         margin-top: 11px;
     }
-    .games-slider {
+    .newest-games__slider {
         height: 332px;
     }
-    .game-slot {
+    .newest-games__layout {
         text-align: justify;
-    }
-    .games-slider__item {
         padding: 0px 27px 0 22px;
     }
-    .game-slot__mobile {
+    .newest-games__mobile {
         width: 27px;
         height: 35px;
         top: -1px;
     }
-    .game-slot__new {
+    .newest-games__new {
         margin-right: -4px;
         width: 48px;
         height: 28px;
     }
-    .game-slot__hot {
+    .newest-games__hot {
         width: 48px;
         height: 28px;
     }
     .newest-games__wrap {
        padding: 0 0 36px 0;
     }
-    .games-slider__points span {
+    .newest-games__points span {
         width: 43px;
         height: 43px;
         margin-left: 17px;
     }
-    .games-slider__points {
+    .newest-games__points {
         margin-left: -100px;
     }
-    .game-slot__play {
+    .newest-games__play {
         bottom: 54px;
         left: 14px;
         font-size: 19px;
@@ -2807,76 +2795,58 @@ span.swiper-pagination-bullet-active:hover{
     /* ---------- /swiper-promo ----------- */
     
     /* --------------- game-slot --------------- */
-    .game-slot__pic {
+    .newest-games__pic {
         width: 146px;
         height: 140px;
         position: relative;
     }
-    .newest-games__wrap h2 {
-        font-size: 37px;
-        line-height: 65px;
-        margin-bottom: 51px;
-    }
-    .newest-games__wrap:before {
-        top: 65px;
-        margin-left: -28px;
-        border: 20px solid transparent;
-        border-top: 23px solid #313534;
-    }
-    .game-slot__inner {
+    .newest-games__inner {
         border-top: 2px solid #0c0d0d;
         border-right: 8px solid #0c0d0d;
         border-bottom: 8px solid #0c0d0d;
         border-left: 2px solid #0c0d0d;
     }
-    .game-slot__name {
+    .newest-games__name {
         letter-spacing: 0.5px;
-        font-size: 17px;
+        font-size: 11px;
         text-align: left;
         max-width: 161px;
         margin-top: 5px;
     }
-    .game-slot__description {
+    .newest-games__description {
         font-size: 16px;
         text-align: left;
         max-width: 161px;
         margin-top: 5px;
     }
-    .games-slider {
-        height: 243px;
-    }
-    .game-slot {
+    .newest-games {
         text-align: justify;
     }
-    .games-slider__item {
-        padding: 0 70px 0 70px;
-    }
-    .game-slot__mobile {
+    .newest-games__mobile {
         width: 22px;
         height: 29px;
         top: -2px;
     }
-    .game-slot__new {
+    .newest-games__new {
         margin-right: 0;
         width: 37px;
         height: 23px;
     }
-    .game-slot__hot {
+    .newest-games__hot {
         width: 37px;
         height: 23px;
     }
-    .games-slider div a:first-child {
+    .newest-games__slider div a:first-child {
         display: inline-block;
     }
-    .games-slider div a:last-child {
+    .newest-games__slider div a:last-child {
         display: inline-block;
     }
-    .games-slider__item {
+    .newest-games__layout{
         width: 1000px;
         margin: 0 auto;
         position: relative;
         padding: 0 31px 0 30px;}
-
     .newest-games__wrap:after {
         display: block;
     }
@@ -2891,6 +2861,7 @@ span.swiper-pagination-bullet-active:hover{
         font-size: 24px;
         margin-bottom: 30px;
         background: none;
+        line-height: 65px;
     }
     .newest-games__wrap:before {
         top: 0;
@@ -2898,25 +2869,22 @@ span.swiper-pagination-bullet-active:hover{
         border: 16px solid transparent;
         border-top: 16px solid #f7f7f7;
     }
-    .game-slot__name {
+    .newest-games__description {
         font-size: 11px;}
-    .game-slot__description {
-        font-size: 11px;}
-
-    .games-slider__points span {
+    .newest-games__points span {
         width: 11px;
         height: 11px;
         margin-left:5px;
     }
-    .games-slider {
+    .newest-games__slider {
         width: 1000px;
         margin: 0 auto;
         height: 235px;
     }
-    .games-slider__points{
+    .newest-games__points{
         margin-left: -32px;
     }
-    .game-slot__play {
+    .newest-games__play {
         bottom: 57px;
         left: 28px;
         font-size: 11px;
