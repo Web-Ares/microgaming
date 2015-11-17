@@ -2397,6 +2397,10 @@ span.swiper-pagination-bullet-active:hover{
     .site .site__caption:before{
         display: none;
     }
+    .site .site__caption_big{
+        margin-bottom: 30px;
+        font-size: 36px;
+    }
     .site .site__caption_smaller{
         padding-top: 0;
         font-size: 24px;
@@ -2656,9 +2660,9 @@ span.swiper-pagination-bullet-active:hover{
     .menu > ul ul {
         position: absolute;
         top: 100%;
-        left: -8px;
+        left: 0;
         display: table!important;
-        width: 92%;
+        width: 100%;
         height: 36px;
         visibility: hidden;
         opacity: 0;
@@ -3118,7 +3122,7 @@ span.swiper-pagination-bullet-active:hover{
         margin: 0 auto;
     }
     .casino-bonus__item {
-        width: 151px;
+        width: 150px;
         height: 219px;
         margin-bottom: 8px;
     }
