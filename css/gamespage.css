@@ -182,7 +182,7 @@
     .slots {
         padding: 0 10px;
         margin-right: -18px;
-
+        position: relative;
     }
     .slots__item {
         width: 150px;
@@ -229,16 +229,18 @@
         position: absolute;
         width: 497px;
         height: 574px;
-        right: -242px;
-        top: -28px;
+        left: 100%;
+        top: -45px;
+        margin-left: -56px;
     }
     .slots__pirate {
         display: block;
         position: absolute;
         width: 431px;
         height: 586px;
-        left: -208px;
-        top: -25px;
+        right: 100%;
+        top: -42px;
+        margin-right: -6px;
     }
     .slots__pirate-main {
         position: absolute;
