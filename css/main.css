@@ -581,6 +581,15 @@
     margin-bottom: 3px;
     margin-right: 8px;
 }
+.top-casinos-item>div>span strong{
+    color: #e0e0e0;
+    font-size: 11px;
+    display: block;
+    text-transform: lowercase;
+    font-weight: lighter;
+    font-family: "Flama-Basic", sans-serif;
+
+}
 .top-casinos-item>div>span:last-child{
     vertical-align: top;
 }
@@ -589,6 +598,20 @@
     display: inline-block;
     vertical-align: middle;
 }
+.top-casinos-item>div:last-child{
+    margin-top: 5px;
+}
+.top-casinos__time{
+    font-size: 17px;
+    background-color: #f1f1f1;
+    padding: 4px 9px;
+    letter-spacing: 0.2px;
+}
+.active{
+    color: #fff;
+    background-color: #ff7f7f;
+}
+
 .top-casinos-item:first-child{
     border-top: none;
 }
@@ -660,6 +683,27 @@
     line-height: 15px;
     margin-left: 0;
     margin-bottom: 19px;
+}
+.top-casinos__bonus .bonus-list{
+    width: 193px;
+    margin-bottom: 10px;
+}
+.top-casinos__bonus .bonus-list li{
+    display: inline-block;
+    text-align: center;
+    margin-right: 18px;
+}
+.top-casinos__bonus .bonus-list li:last-child{
+    margin-right: 0;
+}
+.top-casinos__bonus .bonus-list li span{
+    display: block;
+    font-family: 'Flama-Bold',sans-serif;
+    text-transform: uppercase;
+    color: #666666;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
 }
 .top-casinos__head {
     font-family: 'Flama-Bold',sans-serif;
@@ -1983,16 +2027,30 @@ span.swiper-pagination-bullet-active:hover{
         padding-top: 36px;
         margin-bottom: 4px;
     }
+    .top-item{
+
+    }
     .top-casinos-item .flag-country{
         display: none;
+    }
+    .top-casinos-item .flag-country-tablet {
+        display: inline-block;
+        width: 44px;
+        height: 44px;
+        margin-left: 119px;
     }
     .top-casinos__logo>div>img {
         width: 240px;
     }
+
     .top-casinos__casino {
         margin-left: 112px;
         width: auto;
         margin-bottom: 23px;
+    }
+    .top-item .top-casinos__casino{
+        margin-left: 20px;
+        margin-bottom: 2px;
     }
     .top-casinos__logo {
         margin-bottom: 10px;
@@ -2003,12 +2061,28 @@ span.swiper-pagination-bullet-active:hover{
         vertical-align: top;
         width: 167px;
     }
+    .show-row{
+        display: none;
+    }
+    .top-casinos__bonus .bonus-list li {
+        font-size: 27px;
+        margin-right: 87px;
+    }
+    .top-casinos__bonus .bonus-list li span{
+        font-size: 25px;
+    }
+    .top-casinos__bonus .bonus-list {
+        width: 490px;
+    }
     .top-casinos__rating > div {
         height: 32px;
         background-size: 35px 29px;
     }
     .top-casinos__casino h3 {
         display: block;
+    }
+    .top-item .top-casinos__casino h3{
+        display: none;
     }
     .top-casinos__score {
         width: auto;
