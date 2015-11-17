@@ -5,7 +5,7 @@ input{
     color:#d6d6d6;
 }
 .site__aside {
-    display: block;
+    display: inline-block;
     margin-bottom: 40px;
 }
 /*---------------select---------------*/
@@ -25,8 +25,8 @@ input{
     vertical-align: top;
     overflow: hidden;
     color: #666666;
-    font-family: 'flamalightitalic';
-    font-size: 16px;
+    font-family: "Flama-Basic", sans-serif;
+    font-size: 14px;
     background: -moz-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(247,247,247,1) 47%, rgba(233,233,233,1) 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,1)), color-stop(47%,rgba(247,247,247,1)), color-stop(100%,rgba(233,233,233,1)));
     background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(247,247,247,1) 47%,rgba(233,233,233,1) 100%);
@@ -78,6 +78,8 @@ input{
     background: #fff;
 }
 .ares-select__popup ul {
+    font-family: "Flama-Basic", sans-serif;
+    font-size: 16px;
     z-index: 1;
 }
 .ares-select__popup li{
@@ -88,7 +90,7 @@ input{
 }
 .ares-select__popup li.active {
     color: #fff;
-    background: #999;
+    background: #31b8df;
 }
 .ares-select__popup .iScrollVerticalScrollbar {
     position: absolute;
@@ -109,9 +111,11 @@ input{
 .contact-us {
     border: 1px solid #dedede;
     box-shadow: 2px 3px 5px #dedede;
-    background: url(../img/contact-us-bg.png) right bottom no-repeat;
-    min-height: 351px;
+    background: url(../img/contact1-us-bg.png) right bottom no-repeat;
+    height: 480px;
     margin-top: 32px;
+    margin-bottom: 46px;
+    width: 307px;
 }
 .contact-us .site__title {
     border-right: none;
@@ -122,9 +126,12 @@ input{
     height: 44px;
     padding: 11px 0 0 19px;
 }
+.contact-us .site__title:before{
+    display: none;
+}
 .contact-us dl {
-    padding: 20px 0 24px 0;
-    margin: 0 12px;
+    padding: 33px 0 24px 0;
+    margin: 0 15px;
     border-bottom: 1px dashed #d9d9d9;
     color: #999999;
 }
@@ -137,8 +144,8 @@ input{
     font-family: "Flama-Bold", sans-serif;
 }
 .contact-us dl dd {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 45px;
 }
 .contact-us dl dd a {
     color: #999999;
@@ -148,7 +155,7 @@ input{
     text-decoration: underline;
 }
 .contact-us dl dt {
-    font-size: 18px;
+    font-size: 25px;
     line-height: 24px;
     font-family: "Flama-Bold", sans-serif;
 }
@@ -179,10 +186,13 @@ input{
     border-right: none;
     border-top: none;
     border-left: none;
-    font-size: 18px;
+    font-size: 26px;
     margin-bottom: 0;
-    height: 44px;
-    padding: 11px 0 0 19px;
+    height: 56px;
+    padding: 13px 0px 0px 19px;
+    background: #fff;
+    border-bottom: 2px solid #31b8df;
+    box-shadow: 2px 3px 5px #dedede;
 }
 /*---------------/contact-us-------------------*/
 
@@ -274,7 +284,7 @@ input{
 .communication fieldset .captcha input[type="text"] {
     position: absolute;
     font-size: 10px;
-    left: 6px;
+    left: 5px;
     bottom: 2px;
     border: 1px solid #a4a4a4;
     width: 211px;
@@ -385,7 +395,7 @@ input{
     .ares-select {
         height: 71px;
         margin-top: -1px;
-        font-size: 37px;
+        font-size: 33px;
     }
     .ares-select__item {
         padding: 14px 16px 0;
@@ -395,10 +405,59 @@ input{
         top: 28px;
         border-width: 20px 13.5px 0 13.5px;
     }
+    .ares-select__popup ul {
+        font-size: 30px;
+    }
     /*--------------/select--------------*/
+    .contact-us {
+        width: 768px;
+        height: 868px;
+        background: url(../img/contact-us-bg.png) right bottom no-repeat;
+    }
+    .contact-us .site__title {
+        font-size: 55px;
+        height: 120px;
+        padding: 31px 0px 0px 19px;
+        margin-bottom: 40px;
+    }
+    .contact-us dl {
+        padding: 48px 0 40px 0;
+        margin: 0 71px;
+    }
+    .contact-us dl dt {
+        font-size: 55px;
+        padding-bottom: 46px;
+    }
+    .contact-us dl dd {
+        font-size: 45px;
+    }
 }
 
 @media (min-width: 1024px) {
+    .contact-us {
+        width: 225px;
+        height: 352px;
+        background: url(../img/contact1-us-bg.png) right bottom no-repeat;
+    }
+    .contact-us .site__title {
+        font-size: 18px;
+        height: 44px;
+        padding: 10px 0px 0px 19px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .contact-us dl {
+        padding: 21px 0 21px 0;
+        margin: 0 12px;
+    }
+    .contact-us dl dt {
+        font-size: 18px;
+        padding-bottom: 1px;
+    }
+    .contact-us dl dd {
+        font-size: 14px;
+        line-height: 25px;
+    }
     /*--------------site__wrap-center_long--------------*/
     .site__wrap-center_long {
         width: 771px;
@@ -508,6 +567,9 @@ input{
         right: 12px;
         top: 14px;
         border-width: 8px 6.5px 0 6.5px;
+    }
+    .ares-select__popup ul {
+        font-size: 16px;
     }
     /*--------------/select--------------*/
 }
