@@ -1,0 +1,102 @@
+
+/* --------------- search --------------- */
+.search {
+
+}
+.search > h1 {
+    height: 45px;
+    border: 1px solid #dedede;
+    border-bottom: 4px solid #31b8df;
+    box-shadow: 2px 3px 3px rgba(0,0,0,.15);
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 9px 0 0 11px;
+    color: #31b8df;
+    font-family: flamabold, sans-serif;
+    margin-bottom: 31px;
+}
+.search__form {
+    position: relative;
+    padding: 0 100px 0 5px;
+    margin-bottom: 38px;
+}
+.search__form input[type='search'] {
+    height: 37px;
+    width: 100%;
+    background: #fff;
+    border: none;
+    box-shadow: inset 1px 2px 3px rgba( 0,0,0,.4 );
+    top: 6px;
+    left: 10px;
+    padding: 0 10px;
+    margin-bottom: 8px;
+}
+.search__form .btn {
+    height: 37px;
+    width: 77px;
+    position: absolute;
+    top: 0;
+    right: 13px;
+}
+.search__form > div {
+    font-size: 12px;
+    text-align: right;
+}
+.search__form > div img {
+    position: relative;
+    top: 4px;
+    margin: 0 6px 0 4px;
+}
+.search__result {
+    padding-right: 6px;
+    margin-bottom: 69px;
+}
+.search__result > span {
+    font-size: 14px;
+    color: #999;
+    border-bottom: 1px solid #d9d9d9;
+    display: block;
+    padding: 0 0 5px 11px;
+    margin-bottom: 27px;
+}
+.search__item {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 22px;
+    padding-left: 4px;
+}
+.search__item img {
+    float: left;
+    margin: 3px 10px 0 0;
+}
+.search__item h2{
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+.search__item h2 a {
+    color: #31b8df;
+    text-decoration: underline;
+}
+.search__item h2 a:hover {
+    text-decoration: none;
+}
+.search__item span {
+    color: #d89b2f;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+.search > .pagination {
+    margin-bottom: 52px;
+}
+/* --------------- /search --------------- */
+
+@media (min-width: 768px) {
+    /*------------------ search --------------*/
+    /*------------------ /search --------------*/
+}
+
+@media (min-width: 1024px) {
+    /*------------------ search --------------*/
+    /*------------------ /search --------------*/
+}

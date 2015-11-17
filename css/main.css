@@ -1749,6 +1749,24 @@ span.swiper-pagination-bullet-active:hover{
 }
 /* ----------- /casino-bonus ------------ */
 
+/* --------------- pagination --------------- */
+.pagination {
+    color: #31b8df;
+    font-size: 14px;
+}
+.pagination > * {
+    margin: 0 5px;
+}
+.pagination a {
+    color: #bfbfbf;
+    text-decoration: underline;
+}
+.pagination a:hover {
+    text-decoration: none;
+}
+/* --------------- /pagination --------------- */
+
+
 @media (min-width: 768px) {
     /* --------------- site --------------- */
     .site__header-wrap{
