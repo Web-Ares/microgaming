@@ -385,7 +385,7 @@
 .btn-green:hover{
     background: #3fc63b;
 }
-.btn-search{
+.btn_search{
     position: absolute;
     top: 2px;
     width: 17px;
@@ -393,11 +393,11 @@
     background-color: #666;
     text-indent: 9999px;
 }
-.btn-search:hover{
+.btn_search:hover{
     background-color: #e8e8e8;
 }
-.btn-search:before,
-.btn-search:after{
+.btn_search:before,
+.btn_search:after{
     content: '';
     position: absolute;
     top: 3px;
@@ -409,12 +409,12 @@
     transition: opacity .3s ease;
     -webkit-transition: opacity .3s ease;
 }
-.btn-search:after,
-.btn-search:hover:before{
+.btn_search:after,
+.btn_search:hover:before{
     opacity: 0;
     background-position: 0 0;
 }
-.btn-search:hover:after{
+.btn_search:hover:after{
     opacity: 1;
 }
 .btn_show{
@@ -435,7 +435,6 @@
     background-color: #dfdfdf;
     transition: background 0.3s ease;
 }
-
 .btn_show:hover{
     background-color: #dff;
 }
@@ -1770,21 +1769,21 @@ span.swiper-pagination-bullet-active:hover{
         height: 27px;
         font-size: 12px;
     }
-    .btn-search{
+    .btn_search{
         top: 0;
         width: 38px;
         height: 39px;
         background-position: 8px -12px;
     }
-    .btn-search:before,
-    .btn-search:after{
+    .btn_search:before,
+    .btn_search:after{
         top: 10px;
         left: 8px;
         width: 20px;
         height: 20px;
         background-position: 0 0;
     }
-    .btn-search:before{
+    .btn_search:before{
         background-position: 0 -21px;
     }
     .btn_show{
@@ -2298,7 +2297,7 @@ span.swiper-pagination-bullet-active:hover{
     /* --------------- /logo -------------- */
 
     /* ---------------- btn --------------- */
-    .btn-search{
+    .btn_search{
         top: 6px;
         right: 10px;
         width: 69px;
@@ -2306,11 +2305,11 @@ span.swiper-pagination-bullet-active:hover{
         background: #31b8df;
         text-indent: 0;
     }
-    .btn-search:hover {
+    .btn_search:hover {
         background: #019dca;
     }
-    .btn-search:before,
-    .btn-search:after{
+    .btn_search:before,
+    .btn_search:after {
         display: none;
     }
     .btn_play {
