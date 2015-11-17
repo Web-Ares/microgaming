@@ -2172,6 +2172,34 @@ span.swiper-pagination-bullet-active:hover{
     }
     /* --------------- /game-slot --------------- */
 
+    /*--------------subscribe----------------*/
+    .subscribe{
+        margin-bottom: 58px;
+        padding: 186px 13px 40px 21px
+    }
+    .subscribe:before {
+        top: -62px;
+        width: 738px;
+        height: 419px;
+        background: url(../img/bg-subscribe-tabs.png) no-repeat center/contain;
+    }
+    .subscribe form label{
+        margin-bottom: 22px;
+        font-size: 37px;
+        line-height: 37px;
+    }
+    .subscribe form input[type="text"]{
+        width: 53%;
+        height: 57px;
+    }
+    .subscribe .btn{
+        width: 184px;
+        height: 55px;
+        margin: 0 3px;
+        font-size: 24px;
+    }
+    /*--------------/subscribe----------------*/
+
     /* ---------------- top-rated ---------------- */
     .top-rated{
         font-size: 14px;
