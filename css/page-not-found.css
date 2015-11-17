@@ -1,0 +1,90 @@
+/*
+    main styles
+    version: 12.11.2015
+
+    not-found
+
+*/
+
+/* --------------- not-found --------------- */
+.not-found{
+    height: 817px;
+    padding-left: 575px;
+    position: relative;
+    color: #666666;
+    font-size: 18px;
+    padding-top: 54px;
+}
+.not-found:after{
+    content: "";
+    background: url("../img/back404.jpg") no-repeat;
+    position: absolute;
+    top: -26px;
+    left: -131px;
+    width: 827px;
+    height: 677px;
+    z-index: 1;
+}
+.not-found > div{
+    position: relative;
+    z-index: 2;
+    text-align: left;
+}
+.not-found h2{
+    font-family: 'Flama-Bold', sans-serif;
+    font-weight: 400;
+    color: #31b8df;
+    font-size: 48px;
+    line-height: 57px;
+    margin-bottom: 26px;
+}
+.not-found h3{
+    font-size: 24px;
+    font-family: 'Flama-Bold', sans-serif;
+    font-weight: 400;
+    line-height: 29px;
+}
+.not-found a{
+    display: inline-block;
+    background: #31b8df;
+    color: #fff;
+    font-size: 12px;
+    font-family: "Flama-Light", sans-serif;
+    width: 107px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: background 300ms ease-in-out 100ms;
+    transition: background 300ms ease-in-out 100ms;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.not-found p{
+    font-size: 18px;
+    margin-bottom: 3px;
+    line-height: 23px;
+}
+.not-found p:first-of-type{
+    margin-bottom: 19px;
+}
+.not-found a:hover{
+    background: #499cdf;
+}
+/* --------------- /not-found --------------- */
+
+@media (min-width: 768px){
+
+    /* --------------- not-found --------------- */
+
+    /* --------------- /not-found --------------- */
+
+}
+
+@media (min-width: 1024px){
+
+    /* --------------- not-found --------------- */
+
+    /* --------------- /not-found --------------- */
+
+}

@@ -2920,7 +2920,7 @@ span.swiper-pagination-bullet-active:hover{
     .casino-bonus__item,
     .casino-bonus__item:nth-child(5n+1),
     .casino-bonus__item:nth-child(2n+1){
-        margin-left: 15px;
+        margin-left: 13px;
     }
     .casino-bonus__item:nth-child(6n+1){
         margin-left: 0;
