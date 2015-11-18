@@ -130,6 +130,9 @@
 .site__wrap-center{
     margin-bottom: 11px;
 }
+.site__wrap-center_top{
+
+}
 .site .site__caption{
     background: #666666;
     margin: 0 -6.5px 14px;
@@ -142,6 +145,12 @@
     margin-bottom: 18px;
     text-align: center;
     text-transform: uppercase;
+}
+.site__wrap-center_top .site__caption{
+    padding-top: 11px;
+    line-height: 20px;
+    padding-bottom: 12px;
+    margin-bottom: 29px;
 }
 .site .site__caption_big {
     padding: 9px 30px;
@@ -161,6 +170,9 @@
 }
 .site .site__caption span {
     color: #22e41c;
+}
+.site__wrap-center_top .site__caption span {
+    display: block;
 }
 /* --------------- /site --------------- */
 
@@ -517,6 +529,9 @@
     letter-spacing: 0;
     display: none;
 }
+.top-casinos-title_bonus{
+    font-size: 17px;
+}
 .top-casinos-title span {
     color: #22e41c;
 }
@@ -537,6 +552,9 @@
 .top-casinos__games{
     overflow: hidden;
     position: relative;
+}
+.show-game{
+    display: none;
 }
 .top-casinos__games:before{
     content: "";
@@ -777,7 +795,11 @@
     left: -40px;
     margin-bottom: 26px;
 }
-
+.top-casinos-logo_bonus{
+    width: 60px;
+    left: 0;
+    margin-bottom: 15px;
+}
 .swiper-wrapper a:first-child .local{
     display: inline-block;
 }
@@ -1052,6 +1074,16 @@ span.swiper-pagination-bullet-active:hover{
     position: relative;
     margin-bottom: 19px;
 }
+.newest-games__wrap_top{
+    margin-bottom: -11px;
+}
+.newest-games__wrap_top .content-title span{
+    display: block;
+}
+.newest-games__wrap_top .content-title{
+    font-size: 18px;
+    background-color: #666666;
+}
 .newest-games__wrap h2 {
     margin-bottom: 14px;
     background: #313534;
@@ -1065,6 +1097,15 @@ span.swiper-pagination-bullet-active:hover{
     margin-left: -12px;
     border: 11px solid transparent;
     border-top: 11px solid #313534;
+}
+.newest-games__wrap_top:before {
+    content: '';
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    margin-left: -12px;
+    border: 11px solid transparent;
+    border-top: 11px solid #666;
 }
 /* ------------ /newest-games ------------- */
 
@@ -1851,6 +1892,25 @@ span.swiper-pagination-bullet-active:hover{
         padding: 7px 0;
         margin: 0 -20px 14px;
     }
+    .site__wrap-center_top .site__caption{
+        font-size: 43px;
+        line-height: 48px;
+        padding-top: 20px;
+        padding-bottom: 31px;
+        margin-bottom: 40px;
+    }
+    .site__wrap-center_top .site__caption:before{
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -20px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 21px 16px 0 16px;
+        border-color: #666 transparent transparent transparent;
+    }
     .site .site__caption_big {
         font-size: 42px;
         line-height: 52px;
@@ -2190,7 +2250,13 @@ span.swiper-pagination-bullet-active:hover{
     .top-casinos-title {
         font-size: 31px;
     }
-
+    .top-casinos-title_bonus{
+        font-size: 38px;
+        margin-bottom: 21px;
+    }
+    .top-casinos-logo_bonus{
+        width: 92px;
+    }
     .top-casinos__show-tablet {
         display: block;
         margin-top: 26px;
@@ -2527,6 +2593,11 @@ span.swiper-pagination-bullet-active:hover{
         padding-top: 0;
         font-size: 24px;
         line-height: 16px;
+    }
+    .site__wrap-center_top .site__caption_smaller{
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 0px;
     }
     .site .site__caption_big {
         padding-top: 16px;
@@ -3168,6 +3239,7 @@ span.swiper-pagination-bullet-active:hover{
     .top-casinos__score {
         margin-left: 56px;
     }
+
     .top-casinos-item>div:last-child{
         margin-left: -3px;
         position: relative;
@@ -3214,6 +3286,11 @@ span.swiper-pagination-bullet-active:hover{
         left: -15px;
         margin-bottom: 20px;
         padding-top: 5px;
+    }
+    .top-casinos-logo_bonus{
+        width: 66px;
+        left: 0;
+        margin-bottom: 10px;
     }
     .flag-done .top-casinos__games:after{
         content: "";
@@ -3288,7 +3365,9 @@ span.swiper-pagination-bullet-active:hover{
     .top-item .btn_play, .top-item .btn_review{
         margin-left: 0px;
     }
-
+    .show-game{
+        display: block;
+    }
     .top-casinos-item .flag-country-tablet {
         display: inline-block;
         width: 16px;
