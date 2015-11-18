@@ -1297,6 +1297,8 @@ input[type="radio"]:checked + label > .add-your__experience-checked {
     .bonus-list .review-card {
         margin-right: 30px;
         margin-bottom: 17px;
+        width: 231px;
+        height: 231px;
     }
     /*---------------/bonus-list----------------*/
 

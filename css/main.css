@@ -162,6 +162,52 @@
 .site .site__caption span {
     color: #22e41c;
 }
+.site__title {
+    position: relative;
+    width: 100%;
+    border: 2px solid #31b8df;
+    box-shadow: 2px 3px 5px #dedede;
+    margin-bottom: 21px;
+    padding: 6px 14px 7px;
+    font-size: 20px;
+    color: #31b8df;
+    font-family: 'Flama-Bold', sans-serif;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: normal;
+    background: #fff;
+    text-align: center;
+}
+.site__title_date {
+    padding: 13px 65px 10px 12px;
+    overflow: inherit;
+}
+.site__title_date > span {
+    color: #22e41c;
+}
+.site__title_date time {
+    position: absolute;
+    right: 9px;
+    top: -9px;
+    color: #fff;
+    background: url(../img/date-bg.png) no-repeat;
+    width: 55px;
+    height: 73px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 14px;
+    padding: 6px 3px 0 3px;
+    font-weight: 400;
+    font-family: 'Flama-Light', sans-serif;
+    line-height: 16px;
+    white-space: normal;
+}
+.site__title_date time span {
+    font-size: 24px;
+    line-height: 24px;
+    display: block;
+}
 /* --------------- /site --------------- */
 
 /* --------------- logo --------------- */
@@ -1146,6 +1192,12 @@ span.swiper-pagination-bullet-active:hover{
 .casino-bonuses .newest-games__tip {
     right: -8px;
     top: 5px;
+
+}
+.casino-bonuses .newest-games__new {
+    margin-right: 4px;
+    width: 37px;
+    height: 23px;
 }
 .newest-games__hot {
     background: url("../img/games-slider__hot.png") no-repeat;
@@ -1626,7 +1678,7 @@ span.swiper-pagination-bullet-active:hover{
     background-size: cover;
 }
 .casino-bonuses__list{
-    width: 320px;
+    max-width: 320px;
     margin: 0 auto;
 }
 .casino-bonuses__item {
@@ -1834,6 +1886,69 @@ span.swiper-pagination-bullet-active:hover{
 }
 /* --------------- /pagination --------------- */
 
+/*----------------get-bonus--------------*/
+.get-bonus {
+    min-height: 197px;
+    background: url("../img/casino-bones_bg.jpg") no-repeat;
+    border: 1px solid #dedede;
+    box-shadow: 2px 3px 5px #dedede;
+    margin: 0 0 16px;
+}
+.get-bonus__title {
+    display: table-cell;
+    height: 100px;
+    width: 335px;
+    vertical-align: middle;
+}
+.get-bonus__title img {
+    vertical-align: middle;
+    display: block;
+    margin: 0 auto;
+    width: 68%;
+    height: auto;
+}
+.get-bonus span {
+    display: block;
+    margin: 7px auto 7px;
+    text-align: center;
+    padding: 0 10px;
+    font-size: 20px;
+    color: #666;
+    font-family: 'Flama-Bold', sans-serif;
+    line-height: 24px;
+    height: 54px;
+    overflow: hidden;
+}
+.get-bonus .btn {
+    width: 81%;
+    display: inline-block;
+    height: 30px;
+    margin-right: -4px;
+    vertical-align: top;
+    font-family: 'Flama-Bold', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    line-height: 30px;
+}
+.info {
+    width: 19%;
+    margin-right: -4px;
+    height: 30px;
+    padding: 5px 10px;
+    display: inline-block;
+    background: url(../img/info.png) center no-repeat;
+    background-color: #666;
+    text-indent: -10000px;
+    vertical-align: top;
+    -webkit-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+    background-size: 6px 16px;
+}
+.info:hover {
+    background-color: #565656;
+}
+/*------------/get-bonus---------------*/
+
 @media (min-width: 768px) {
     /* --------------- site --------------- */
     .site__header-wrap{
@@ -1873,6 +1988,20 @@ span.swiper-pagination-bullet-active:hover{
         bottom: -22px;
         margin-left: -18px;
         border-width: 22px 18px 0 18px;
+    }
+    .site__title {
+        border-top: 1px solid #dedede;
+        border-left: 1px solid #dedede;
+        border-right: 1px solid #dedede;
+        border-bottom: 4px solid #31b8df;
+        margin-bottom: 12px;
+        padding: 9px 0 7px 14px;
+        font-size: 24px;
+        line-height: 27px;
+        text-align: left;
+    }
+    .site__title_date {
+        padding: 13px 65px 14px 12px;
     }
     /* --------------- /site -------------- */
 
@@ -2413,7 +2542,7 @@ span.swiper-pagination-bullet-active:hover{
         margin-bottom: 101px;
     }
     .casino-bonuses__list{
-        width: 768px;
+        max-width: 768px;
     }
     .casino-bonuses__item,
     .casino-bonuses__item:nth-child(2n+1){
@@ -3373,10 +3502,10 @@ span.swiper-pagination-bullet-active:hover{
         margin-left: -18px;
     }
     .casino-bonuses__list{
-        width: 925px;
+        max-width: 925px;
     }
     .casino-bonuses-wrap .casino-bonuses__list{
-        width: 970px;
+        max-width: 970px;
     }
     .casino-bonuses__item {
         width: 150px;
