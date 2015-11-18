@@ -130,6 +130,9 @@
 .site__wrap-center{
     margin-bottom: 11px;
 }
+.site__wrap-center_top{
+
+}
 .site .site__caption{
     background: #666666;
     margin: 0 -6.5px 14px;
@@ -142,6 +145,12 @@
     margin-bottom: 18px;
     text-align: center;
     text-transform: uppercase;
+}
+.site__wrap-center_top .site__caption{
+    padding-top: 11px;
+    line-height: 20px;
+    padding-bottom: 12px;
+    margin-bottom: 29px;
 }
 .site .site__caption_big {
     padding: 9px 30px;
@@ -206,6 +215,9 @@
 .site__title_date time span {
     font-size: 24px;
     line-height: 24px;
+    display: block;
+}
+.site__wrap-center_top .site__caption span {
     display: block;
 }
 /* --------------- /site --------------- */
@@ -570,6 +582,9 @@
     letter-spacing: 0;
     display: none;
 }
+.top-casinos-title_bonus{
+    font-size: 17px;
+}
 .top-casinos-title span {
     color: #22e41c;
 }
@@ -590,6 +605,9 @@
 .top-casinos__games{
     overflow: hidden;
     position: relative;
+}
+.show-game{
+    display: none;
 }
 .top-casinos__games:before{
     content: "";
@@ -830,7 +848,11 @@
     left: -40px;
     margin-bottom: 26px;
 }
-
+.top-casinos-logo_bonus{
+    width: 60px;
+    left: 0;
+    margin-bottom: 15px;
+}
 .swiper-wrapper a:first-child .local{
     display: inline-block;
 }
@@ -1105,6 +1127,16 @@ span.swiper-pagination-bullet-active:hover{
     position: relative;
     margin-bottom: 19px;
 }
+.newest-games__wrap_top{
+    margin-bottom: -11px;
+}
+.newest-games__wrap_top .content-title span{
+    display: block;
+}
+.newest-games__wrap_top .content-title{
+    font-size: 18px;
+    background-color: #666666;
+}
 .newest-games__wrap h2 {
     margin-bottom: 14px;
     background: #313534;
@@ -1118,6 +1150,15 @@ span.swiper-pagination-bullet-active:hover{
     margin-left: -12px;
     border: 11px solid transparent;
     border-top: 11px solid #313534;
+}
+.newest-games__wrap_top:before {
+    content: '';
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    margin-left: -12px;
+    border: 11px solid transparent;
+    border-top: 11px solid #666;
 }
 /* ------------ /newest-games ------------- */
 
@@ -1978,6 +2019,25 @@ span.swiper-pagination-bullet-active:hover{
         padding: 7px 0;
         margin: 0 -20px 14px;
     }
+    .site__wrap-center_top .site__caption{
+        font-size: 43px;
+        line-height: 48px;
+        padding-top: 20px;
+        padding-bottom: 31px;
+        margin-bottom: 40px;
+    }
+    .site__wrap-center_top .site__caption:before{
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -20px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 21px 16px 0 16px;
+        border-color: #666 transparent transparent transparent;
+    }
     .site .site__caption_big {
         font-size: 42px;
         line-height: 52px;
@@ -2331,7 +2391,13 @@ span.swiper-pagination-bullet-active:hover{
     .top-casinos-title {
         font-size: 31px;
     }
-
+    .top-casinos-title_bonus{
+        font-size: 38px;
+        margin-bottom: 21px;
+    }
+    .top-casinos-logo_bonus{
+        width: 92px;
+    }
     .top-casinos__show-tablet {
         display: block;
         margin-top: 26px;
@@ -3156,14 +3222,7 @@ span.swiper-pagination-bullet-active:hover{
         width: 1000px;
         margin: 0 auto;
         position: relative;
-        padding: 0 31px 0 30px;
-    }
-    .newest-games_other-style{
-        background: #313534;
-    }
-    .newest-games_other-style .newest-games__wrap{
-        margin-bottom: 0 !important;
-    }
+        padding: 0 31px 0 30px;}
     .newest-games__wrap:after {
         display: block;
     }
@@ -3471,75 +3530,44 @@ span.swiper-pagination-bullet-active:hover{
     }
     /* -------------- /sample-text --------------- */
 
-    /* -------------- casino-bonuses --------------- */
-    .casino-bonuses {
+    /* -------------- casino-bonus --------------- */
+    .casino-bonus {
         margin-bottom: 39px;
     }
-    .casino-bonuses-wrap{
-        background: #666;
-        padding: 53px 0 64px;
-        position: relative;
-        margin: 0 0 26px;
+    .casino-bonus__list{
+        max-width: 934px;
+        margin: 0 auto;
     }
-    .casino-bonuses-wrap .casino-bonuses__title{
-        background: none;
-        padding: 0;
-        margin: 0 0 33px;
-    }
-    .casino-bonuses-wrap .casino-bonuses__title:before{
-        display: none;
-    }
-    .casino-bonuses-wrap:before {
-        content: '';
-        position: absolute;
-        width: 0;
-        height: 0;
-        border-left: 17px solid transparent;
-        border-right: 17px solid transparent;
-        border-top: 17px solid #666666;
-        bottom: -17px;
-        left: 50%;
-        margin-left: -18px;
-    }
-    .casino-bonuses__list{
-        max-width: 925px;
-    }
-    .casino-bonuses-wrap .casino-bonuses__list{
-        max-width: 970px;
-    }
-    .casino-bonuses__item {
+    .casino-bonus__item {
         width: 150px;
         height: 219px;
         margin-bottom: 8px;
     }
-    .casino-bonuses__item,
-    .casino-bonuses__item:nth-child(5n+1),
-    .casino-bonuses__item:nth-child(2n+1){
+    .casino-bonus__item,
+    .casino-bonus__item:nth-child(5n+1),
+    .casino-bonus__item:nth-child(2n+1){
         margin-left: 0;
     }
-    .casino-bonuses-wrap .casino-bonuses__item{
-        margin-left: 10px;
-    }
-    .casino-bonuses__item:nth-child(6n+1){
+    .casino-bonus__item:nth-child(6n+1){
         margin-left: 0;
     }
-    .casino-bonuses__inner {
+    .casino-bonus__inner {
         height: 219px;
         padding-top: 16px;
     }
-    .casino-bonuses__pic {
+    .casino-bonus__pic {
         height: 65px;
     }
-    .casino-bonuses__name {
+    .casino-bonus__name {
         margin-bottom: 14px;
     }
-    .casino-bonuses__condition {
+    .casino-bonus__condition {
         margin-bottom: 6px;
     }
-    .casino-bonuses__corner{
+    .casino-bonus__corner{
         display: block;
     }
-    .casino-bonuses__hover {
+    .casino-bonus__hover {
         position: absolute;
         z-index: 5;
         top: -2px;
@@ -3552,7 +3580,7 @@ span.swiper-pagination-bullet-active:hover{
         -webkit-transition: opacity 0.3s ease;
         transition: opacity 0.3s ease;
     }
-    .casino-bonuses__hover > span {
+    .casino-bonus__hover > span {
         position: absolute;
         bottom: 8px;
         right: 11px;
@@ -3562,55 +3590,37 @@ span.swiper-pagination-bullet-active:hover{
         font-size: 16px;
         line-height: 19px;
     }
-    .casino-bonuses__hover > span > span {
+    .casino-bonus__hover > span > span {
         display: block;
         margin-left: 14px;
     }
-    .casino-bonuses__item:hover .casino-bonuses__hover {
+    .casino-bonus__item:hover .casino-bonus__hover {
         opacity: 1;
     }
-    .casino-bonuses__item:hover {
+    .casino-bonus__item:hover {
         overflow: hidden;
     }
-    .casino-bonuses__title {
+    .casino-bonus__title {
         padding: 77px 0 0 0;
         margin-bottom: 22px;
         font-size: 24px;
         line-height: 28px;
     }
-    .casino-bonuses__title:before {
+    .casino-bonus__title:before {
         width: 68px;
         height: 66px;
         margin-left: -34px;
     }
-    .casino-bonuses__get-bonus{
+    .casino-bonus__get-bonus{
         display: block;
     }
-    .casino-bonuses_code{
+    .casino-bonus_code{
         margin: 0 0 3px;
     }
-    .casino-bonuses__show-more{
+    .casino-bonus__show-more{
         display: none;
     }
-    .casino-bonus__more{
-        text-align: right;
-    }
-    .show-more_viewer{
-        display: inline-block;
-        padding: 0;
-        font-size: 14px;
-        font-family: "Flama-Bold", sans-serif;
-        background-color: transparent;
-        text-transform: none;
-        border-bottom: 1px solid transparent;
-        transition: border-bottom .3s ease;
-        -webkit-transition: border-bottom .3s ease;
-    }
-    .show-more_viewer:hover{
-        border-bottom-color: #666;
-        background-color: transparent;
-    }
-    /* -------------- /casino-bonuses --------------- */
+    /* -------------- /casino-bonus --------------- */
 
     /*---------------- questions ----------------*/
     .questions {
