@@ -1,12 +1,19 @@
 .site__content-layout {
     padding: 0;
 }
+.site__wrap-center {
+    margin-bottom: 0;
+}
 input{
     color:#d6d6d6;
 }
 .site__aside {
     display: inline-block;
-    margin-bottom: 40px;
+    margin-bottom: 13px;
+    margin-left: 6px;
+}
+.subscribe {
+    margin-bottom: 5px;
 }
 /*---------------select---------------*/
 .inquiry {
@@ -111,10 +118,9 @@ input{
 .contact-us {
     border: 1px solid #dedede;
     box-shadow: 2px 3px 5px #dedede;
-    background: url(../img/contact1-us-bg.png) right bottom no-repeat;
+    background: url(../img/contact-us-bg.png) right bottom no-repeat;
+    background-size: 171px 143px;
     height: 480px;
-    margin-top: 32px;
-    margin-bottom: 46px;
     width: 307px;
 }
 .contact-us .site__title {
@@ -199,7 +205,7 @@ input{
 /*--------------site__center_contact-us--------------*/
 .site__wrap-center_long {
     width: 320px;
-    padding-bottom: 20px;
+    padding-bottom: 14px;
 }
 .site__wrap-center_long > span {
     position: relative;
@@ -234,7 +240,7 @@ input{
     margin-right: 0;
 }
 .communication fieldset:nth-child(3) {
-    margin-bottom: 7px;
+    margin-bottom: 8px;
 }
 .communication fieldset input[type='text'],
 .communication fieldset input[type='email'],
@@ -266,7 +272,7 @@ input{
     background: #31b8df;
     -webkit-transition: background 0.3s ease;
     transition: background 0.3s ease;
-    margin-top: 4px;
+    margin-top: 5px;
 }
 .communication input[type='submit']:hover {
     background: #019dca;
@@ -321,9 +327,15 @@ input{
 
 @media (min-width: 768px){
     /*--------------site__center_contact-us--------------*/
+    .site__aside {
+        width: 685px;
+        margin-left: 34px;
+        margin-bottom: 55px;
+    }
     .site__wrap-center_long {
         width: 768px;
         margin-left: -4px;
+        margin-bottom: 27px;
     }
     .site__title {
         height: 81px;
@@ -370,7 +382,7 @@ input{
     }
     .communication input[type='submit'] {
         font-size: 37px;
-        margin-top: 14px;
+        margin-top: 16px;
         height: 79px;
     }
     /*------------------/communication--------------*/
@@ -409,10 +421,14 @@ input{
         font-size: 30px;
     }
     /*--------------/select--------------*/
+
+    /*--------------site__aside--------------*/
     .contact-us {
-        width: 768px;
+        width: 685px;
         height: 868px;
         background: url(../img/contact-us-bg.png) right bottom no-repeat;
+        background-size: 483px 368px;
+        margin-top: 23px;
     }
     .contact-us .site__title {
         font-size: 55px;
@@ -422,7 +438,7 @@ input{
     }
     .contact-us dl {
         padding: 48px 0 40px 0;
-        margin: 0 71px;
+        margin: 0 0 0 33px;
     }
     .contact-us dl dt {
         font-size: 55px;
@@ -431,13 +447,22 @@ input{
     .contact-us dl dd {
         font-size: 45px;
     }
+    /*--------------/site__aside--------------*/
 }
 
 @media (min-width: 1024px) {
+    /*--------------site__aside--------------*/
+    .site__aside {
+        width: 224px;
+        margin-left: 34px;
+        margin-bottom: 120px;
+    }
     .contact-us {
         width: 225px;
         height: 352px;
-        background: url(../img/contact1-us-bg.png) right bottom no-repeat;
+        background: url(../img/contact-us-bg.png) right bottom no-repeat;
+        background-size: 131px 103px;
+        margin-top: 32px;
     }
     .contact-us .site__title {
         font-size: 18px;
@@ -458,7 +483,13 @@ input{
         font-size: 14px;
         line-height: 25px;
     }
+    /*--------------site__aside--------------*/
+
     /*--------------site__wrap-center_long--------------*/
+    .site__aside {
+        margin-left: 0;
+        width: 224px;
+    }
     .site__wrap-center_long {
         width: 771px;
         margin-left: 0;
@@ -510,9 +541,6 @@ input{
     .communication fieldset:nth-child(5) {
         display: block;
         margin-bottom: 19px;
-    }
-    .communication fieldset > label {
-
     }
     .communication fieldset input[type="text"],
     .communication fieldset input[type="email"],
