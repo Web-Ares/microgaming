@@ -35,7 +35,7 @@
 
     flags
 
-    casino-bonus
+    casino-bonuses
 
 
 */
@@ -475,6 +475,13 @@
     text-transform: uppercase;
     padding-top: 9px;
     margin-left: 10px;
+}
+.btn_gray{
+    background: #dfdfdf;
+    color: #727272;
+}
+.btn_gray:hover{
+    background: #c6c6c6;
 }
 /* ---------------- btn ---------------- */
 
@@ -1136,7 +1143,7 @@ span.swiper-pagination-bullet-active:hover{
     top: 8px;
     z-index: 3;
 }
-.casino-bonus .newest-games__tip {
+.casino-bonuses .newest-games__tip {
     right: -8px;
     top: 5px;
 }
@@ -1596,18 +1603,18 @@ span.swiper-pagination-bullet-active:hover{
 }
 /* ------------ /flags ------------- */
 
-/* ----------- casino-bonus ------------ */
-.casino-bonus {
+/* ----------- casino-bonuses ------------ */
+.casino-bonuses {
     margin-bottom: 4px;
 }
-.casino-bonus__title {
+.casino-bonuses__title {
     position: relative;
     padding: 47px 0 0 0;
     font-size: 15px;
     line-height: 17px;
     margin: 0 0 12px;
 }
-.casino-bonus__title:before {
+.casino-bonuses__title:before {
     content: '';
     position: absolute;
     background: url("../img/casino-bonus__title.png") no-repeat;
@@ -1618,7 +1625,11 @@ span.swiper-pagination-bullet-active:hover{
     margin-left: -20px;
     background-size: cover;
 }
-.casino-bonus__item {
+.casino-bonuses__list{
+    width: 320px;
+    margin: 0 auto;
+}
+.casino-bonuses__item {
     position: relative;
     display: inline-block;
     vertical-align: top;
@@ -1630,21 +1641,21 @@ span.swiper-pagination-bullet-active:hover{
     margin-bottom: 14px;
     margin-left: 16px;
 }
-.casino-bonus__item:nth-child(2n+1){
+.casino-bonuses__item:nth-child(2n+1){
     margin-left: 0;
 }
-.casino-bonus__pic {
+.casino-bonuses__pic {
     width: 100%;
     height: 63px;
     display: table;
 }
-.casino-bonus__pic > a,
-.casino-bonus__pic > div {
+.casino-bonuses__pic > a,
+.casino-bonuses__pic > div {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
 }
-.casino-bonus__name {
+.casino-bonuses__name {
     text-align: center;
     font-family: "Flama-Basic", sans-serif;
     text-transform: uppercase;
@@ -1652,7 +1663,7 @@ span.swiper-pagination-bullet-active:hover{
     color: #666;
     margin-bottom: 11px;
 }
-.casino-bonus__condition {
+.casino-bonuses__condition {
     font-family: "Flama-Bold", sans-serif;
     font-size: 18px;
     color: #31b8df;
@@ -1661,15 +1672,15 @@ span.swiper-pagination-bullet-active:hover{
     line-height: 21px;
     margin-bottom: 4px;
 }
-.casino-bonus__condition span {
+.casino-bonuses__condition span {
     display: block;
 }
-.casino-bonus_code {
+.casino-bonuses_code {
     display: block;
     text-align: center;
 }
-.casino-bonus_code dt,
-.casino-bonus_code dd {
+.casino-bonuses_code dt,
+.casino-bonuses_code dd {
     display: inline-block;
     vertical-align: top;
     font-size: 12px;
@@ -1677,16 +1688,16 @@ span.swiper-pagination-bullet-active:hover{
     font-family: "Flama-Basic", sans-serif;;
     text-transform: uppercase;
 }
-.casino-bonus_code dd {
+.casino-bonuses_code dd {
     font-family: "Flama-Bold", sans-serif;;
 }
-.casino-bonus__inner {
+.casino-bonuses__inner {
     width: 100%;
     height: 165px;
     overflow: hidden;
     padding-top: 14px;
 }
-.casino-bonus__corner {
+.casino-bonuses__corner {
     text-indent: -10000px;
     position: absolute;
     bottom: 0;
@@ -1696,7 +1707,7 @@ span.swiper-pagination-bullet-active:hover{
     height: 35px;
     display: none;
 }
-.casino-bonus__flag {
+.casino-bonuses__flag {
     position: absolute;
     background: url("../img/casino-bonus__flag.png") no-repeat;
     width: 28px;
@@ -1704,12 +1715,12 @@ span.swiper-pagination-bullet-active:hover{
     top: -6px;
     left: 7px;
 }
-.casino-bonus__flag span {
+.casino-bonuses__flag span {
     position: absolute;
     top: 4px;
     left: 4px;
 }
-.casino-bonus__hover {
+.casino-bonuses__hover {
     display: block;
     vertical-align: top;
     width: 115px;
@@ -1723,15 +1734,15 @@ span.swiper-pagination-bullet-active:hover{
     background: -webkit-linear-gradient(top,  rgba(44,175,212,1) 0%,rgba(37,138,168,1) 100%);
     background: linear-gradient(to bottom,  rgba(44,175,212,1) 0%,rgba(37,138,168,1) 100%);
 }
-.casino-bonus__hover:hover,
-.casino-bonus__hover:active{
+.casino-bonuses__hover:hover,
+.casino-bonuses__hover:active{
     background: rgb(37,138,168);
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI1OGFhOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyY2FmZDQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
     background: -moz-linear-gradient(top,  rgba(37,138,168,1) 0%, rgba(44,175,212,1) 100%);
     background: -webkit-linear-gradient(top,  rgba(37,138,168,1) 0%,rgba(44,175,212,1) 100%);
     background: linear-gradient(to bottom,  rgba(37,138,168,1) 0%,rgba(44,175,212,1) 100%);
 }
-.casino-bonus__hover > span {
+.casino-bonuses__hover > span {
     text-transform: uppercase;
     font-family: "Flama-Bold", sans-serif;;
     color: #fff;
@@ -1740,18 +1751,18 @@ span.swiper-pagination-bullet-active:hover{
     display: inline-block;
     vertical-align: top;
 }
-.casino-bonus__all {
+.casino-bonuses__all {
     text-align: right;
     padding-right: 18px;
 }
-.casino-bonus__all a {
+.casino-bonuses__all a {
     display: inline-block;
     position: relative;
     font-family: "Flama-Bold", sans-serif;;
     color: #666;
     font-size: 14px;
 }
-.casino-bonus__all a:after {
+.casino-bonuses__all a:after {
     content: '';
     position: absolute;
     background: url("../img/casino-bonus__all.png") no-repeat;
@@ -1762,10 +1773,10 @@ span.swiper-pagination-bullet-active:hover{
     -webkit-transition: right 0.1s ease;
     transition: right 0.1s ease;
 }
-.casino-bonus__all a:hover:after {
+.casino-bonuses__all a:hover:after {
     right: -15px;
 }
-.casino-bonus__get-bonus{
+.casino-bonuses__get-bonus{
     display: none;
     vertical-align: top;
     width: 117px;
@@ -1784,10 +1795,7 @@ span.swiper-pagination-bullet-active:hover{
     font-size: 15px;
     line-height: 15px;
 }
-.casino-bonus__more{
-    margin-bottom: 15px;
-}
-.casino-bonus__show-more{
+.casino-bonuses__show-more{
     font-size: 18px;
     line-height: 18px;
     font-family: "Flama-Light", sans-serif;
@@ -1800,11 +1808,14 @@ span.swiper-pagination-bullet-active:hover{
     transition: background-color .3s ease;
     -webkit-transition: background-color .3s ease;
 }
-.casino-bonus__show-more:hover,
-.casino-bonus__show-more:active{
-    background-color: #b9b9b9;
+.casino-bonuses__show-more:hover,
+.casino-bonuses__show-more:active{
+    background: #b9b9b9;
 }
-/* ----------- /casino-bonus ------------ */
+.casino-bonuses__more{
+
+}
+/* ----------- /casino-bonuses ------------ */
 
 /* --------------- pagination --------------- */
 .pagination {
@@ -2397,17 +2408,21 @@ span.swiper-pagination-bullet-active:hover{
     }
     /* ---------- /footer__menu ----------- */
 
-    /* -------------- casino-bonus --------------- */
-    .casino-bonus {
+    /* -------------- casino-bonuses --------------- */
+    .casino-bonuses {
         margin-bottom: 101px;
     }
-    .casino-bonus__item,
-    .casino-bonus__item:nth-child(2n+1){
+    .casino-bonuses__list{
+        width: 768px;
+    }
+    .casino-bonuses__item,
+    .casino-bonuses__item:nth-child(2n+1){
         margin-left: 0;
     }
-    .casino-bonus__item:nth-child(5n+1){
+    .casino-bonuses__item:nth-child(5n+1){
         margin-left: 0;
     }
+    /* -------------- /casino-bonuses --------------- */
     .casino-bonus__more{
         margin-bottom: 0;
     }
@@ -3012,7 +3027,14 @@ span.swiper-pagination-bullet-active:hover{
         width: 1000px;
         margin: 0 auto;
         position: relative;
-        padding: 0 31px 0 30px;}
+        padding: 0 31px 0 30px;
+    }
+    .newest-games_other-style{
+        background: #313534;
+    }
+    .newest-games_other-style .newest-games__wrap{
+        margin-bottom: 0 !important;
+    }
     .newest-games__wrap:after {
         display: block;
     }
@@ -3320,44 +3342,75 @@ span.swiper-pagination-bullet-active:hover{
     }
     /* -------------- /sample-text --------------- */
 
-    /* -------------- casino-bonus --------------- */
-    .casino-bonus {
+    /* -------------- casino-bonuses --------------- */
+    .casino-bonuses {
         margin-bottom: 39px;
     }
-    .casino-bonus__list{
-        max-width: 934px;
-        margin: 0 auto;
+    .casino-bonuses-wrap{
+        background: #666;
+        padding: 53px 0 64px;
+        position: relative;
+        margin: 0 0 26px;
     }
-    .casino-bonus__item {
+    .casino-bonuses-wrap .casino-bonuses__title{
+        background: none;
+        padding: 0;
+        margin: 0 0 33px;
+    }
+    .casino-bonuses-wrap .casino-bonuses__title:before{
+        display: none;
+    }
+    .casino-bonuses-wrap:before {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 17px solid transparent;
+        border-right: 17px solid transparent;
+        border-top: 17px solid #666666;
+        bottom: -17px;
+        left: 50%;
+        margin-left: -18px;
+    }
+    .casino-bonuses__list{
+        width: 925px;
+    }
+    .casino-bonuses-wrap .casino-bonuses__list{
+        width: 970px;
+    }
+    .casino-bonuses__item {
         width: 150px;
         height: 219px;
         margin-bottom: 8px;
     }
-    .casino-bonus__item,
-    .casino-bonus__item:nth-child(5n+1),
-    .casino-bonus__item:nth-child(2n+1){
+    .casino-bonuses__item,
+    .casino-bonuses__item:nth-child(5n+1),
+    .casino-bonuses__item:nth-child(2n+1){
         margin-left: 0;
     }
-    .casino-bonus__item:nth-child(6n+1){
+    .casino-bonuses-wrap .casino-bonuses__item{
+        margin-left: 10px;
+    }
+    .casino-bonuses__item:nth-child(6n+1){
         margin-left: 0;
     }
-    .casino-bonus__inner {
+    .casino-bonuses__inner {
         height: 219px;
         padding-top: 16px;
     }
-    .casino-bonus__pic {
+    .casino-bonuses__pic {
         height: 65px;
     }
-    .casino-bonus__name {
+    .casino-bonuses__name {
         margin-bottom: 14px;
     }
-    .casino-bonus__condition {
+    .casino-bonuses__condition {
         margin-bottom: 6px;
     }
-    .casino-bonus__corner{
+    .casino-bonuses__corner{
         display: block;
     }
-    .casino-bonus__hover {
+    .casino-bonuses__hover {
         position: absolute;
         z-index: 5;
         top: -2px;
@@ -3370,7 +3423,7 @@ span.swiper-pagination-bullet-active:hover{
         -webkit-transition: opacity 0.3s ease;
         transition: opacity 0.3s ease;
     }
-    .casino-bonus__hover > span {
+    .casino-bonuses__hover > span {
         position: absolute;
         bottom: 8px;
         right: 11px;
@@ -3380,34 +3433,34 @@ span.swiper-pagination-bullet-active:hover{
         font-size: 16px;
         line-height: 19px;
     }
-    .casino-bonus__hover > span > span {
+    .casino-bonuses__hover > span > span {
         display: block;
         margin-left: 14px;
     }
-    .casino-bonus__item:hover .casino-bonus__hover {
+    .casino-bonuses__item:hover .casino-bonuses__hover {
         opacity: 1;
     }
-    .casino-bonus__item:hover {
+    .casino-bonuses__item:hover {
         overflow: hidden;
     }
-    .casino-bonus__title {
+    .casino-bonuses__title {
         padding: 77px 0 0 0;
         margin-bottom: 22px;
         font-size: 24px;
         line-height: 28px;
     }
-    .casino-bonus__title:before {
+    .casino-bonuses__title:before {
         width: 68px;
         height: 66px;
         margin-left: -34px;
     }
-    .casino-bonus__get-bonus{
+    .casino-bonuses__get-bonus{
         display: block;
     }
-    .casino-bonus_code{
+    .casino-bonuses_code{
         margin: 0 0 3px;
     }
-    .casino-bonus__show-more{
+    .casino-bonuses__show-more{
         display: none;
     }
     .casino-bonus__more{
@@ -3428,7 +3481,7 @@ span.swiper-pagination-bullet-active:hover{
         border-bottom-color: #666;
         background-color: transparent;
     }
-    /* -------------- /casino-bonus --------------- */
+    /* -------------- /casino-bonuses --------------- */
 
     /*---------------- questions ----------------*/
     .questions {

@@ -9,7 +9,9 @@
 
     <title>Title</title>
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
     <link rel="stylesheet" href="css/single-bonus.css" />
+    <link rel="stylesheet" href="css/casino-review.css" />
 
 </head>
 <body>
@@ -99,99 +101,83 @@
             <!-- site__wrap-center -->
             <div class="site__wrap-center site__wrap-center_long">
 
-                <!-- site__title -->
-                <h1 class="site__title site__title_date">
-                    20 Free Spins
-                    <span>at [casino name]</span>
-                    <time datetime="2014-12-06">
-                        <span>06</span>
-                        <span>dec</span>
-                        2014
-                    </time>
-                </h1>
-                <!-- /site__title -->
+                <!-- about-casino -->
+                <div class="about-casino">
 
-                <!-- casino-bonus -->
-                <div class="casino-bonus">
+                    <div class="about-casino__preview">
 
-                    <!-- casino-bonus__logo -->
-                    <div class="casino-bonus__logo">
+                        <div class="about-casino__preview-pic">
+                            <img src="pic/preview-pic.png" alt="casono"/>
+                        </div><!--/preview-pic-->
 
-                        <div class="casino-bonus__logo-wrap">
-                            <span>
-                                <a href="#"><img src="pic/casino-bonus1.png" width="205" height="86" alt=""></a>
-                            </span>
+                        <div class="rate rate_big">
+                            <div style="width: 70%"></div>
+                        </div><!--/rate-->
+
+                        <span>4.5 / 5 (20 votes)</span>
+
+                        <!--about-casino__btns-->
+                        <div class="about-casino__btns">
+                            <a class="btn" href="#">play now</a><!--/btn-->
+                            <a class="btn btn_gray" href="#">review</a><!--/btn-->
+                            <a href="#" class="about-casino__review">Review</a>
                         </div>
+                        <!--/about-casino__btns-->
 
-                        <!-- casino-bonus__btn -->
-                        <div class="casino-bonus__btn">
-                            <a class="btn btn_play" href="#">play now</a>
-                            <a class="btn btn_review" href="#">Review</a>
-                        </div>
-                        <!-- /casino-bonus__btn -->
 
-                    </div>
-                    <!-- /casino-bonus__logo -->
 
-                    <!-- casino-bonus__info -->
-                    <div class="casino-bonus__info">
+                    </div><!--/about-casino__preview-->
+
+                    <div class="about-casino__text">
+
+                        <header>
+                            <span class="flags flag13">flags</span>
+                            <span class="accepted accepted_not">Players from England are not accepted</span>
+                        </header>
+
                         <dl>
-                            <dt>Code:</dt>
-                            <dd>No code required</dd>
+                            <dt>Languages:</dt>
+                            <dd>
+                                English, German, Spanish, French,
+                                Japanese, Italian, Russian, Swedish,
+                                Korean, Chinese, Arabic, Greek,
+                                Turkish, Portuguese, Dutch, Polish
+                            </dd>
+
+                            <dt>Currencies:</dt>
+                            <dd>$, Euro</dd>
+
+                            <dt>No. Of Games:</dt>
+                            <dd>500</dd>
+
+                            <dt>Payout:</dt>
+                            <dd>98.2%</dd>
+
+                            <dt>Site Ranking:</dt>
+                            <dd>5/140</dd>
                         </dl>
-                        <dl>
-                            <dt>Bonus:</dt>
-                            <dd>Free Spins</dd>
-                        </dl>
-                        <dl>
-                            <dt>Players:</dt>
-                            <dd>New</dd>
-                        </dl>
-                        <div class="casino-bonus__comments">
-                            Comments:
-                            <a href="#">4</a>
-                        </div>
-                        <div class="casino-bonus__likes">
-                            Like This Bonus:
-                            <a href="#" data-hover="510"></a>
-                        </div>
-                    </div>
-                    <!-- /casino-bonus__info -->
+
+                    </div><!--/about-casino__text-->
 
                 </div>
-                <!-- /casino-bonus -->
+                <!--/about-casino-->
 
-                <!-- casino-comments -->
-                <div class="casino-comments">
-
-                    <!-- casino-comments__item -->
-                    <div class="casino-comments__item">
-                        <span class="casino-comments__avatar">
-                            <img src="img/admin.png" alt="">
-                        </span>
-
-                        <p>
-                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections
-                            1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original
-                            form, accompanied by English versions from the 1914 translation.
-                        </p>
-                    </div>
-                    <!-- /casino-comments__item -->
-
-                </div>
-                <!-- /casino-comments -->
-
-                <ul class="bonus-list">
-
+                <!--review-list-->
+                <ul class="review-list">
                     <li class="review-card">
                         <h3 class="review-card__title">
-                            <span>Bonus code</span>
+                            <span>Overview</span>
                         </h3>
                         <div class="review-card__wrap">
                             <div class="review-card__inner">
 
                                 <p>
-                                    No Code Required
+                                    The renowned Cherokee name returns to the
+                                    Jeep vehicle lineup for the 2014 model year. The
+                                    all-new 2014 Jeep Cherokee delivers legendary
+                                    Jeep 4x4 capability, improved fuel economy,
+                                    superior on-road ride and handling, revolutionary
+                                    design, world-class
                                 </p>
 
                             </div><!--/review-card__inner-->
@@ -200,16 +186,30 @@
 
                     <li class="review-card">
                         <h3 class="review-card__title">
-                            <span>Bonus type</span>
+                            <span>Banking</span>
                         </h3>
                         <div class="review-card__wrap">
                             <div class="review-card__inner">
 
-                                <p>
-                                    No Deposit Bonus
-                                    for New players and
-                                    account holders
-                                </p>
+                                <dl class="banking-list">
+                                    <dt>Cash out Limits:</dt>
+                                    <dd>€2000 per week</dd>
+
+                                    <dt>Minimum Cash out:</dt>
+                                    <dd>€10</dd>
+
+                                    <dt>Cash out Timeframes Ewallets:	</dt>
+                                    <dd>1-3 business days</dd>
+
+                                    <dt>Wire Transfer:</dt>
+                                    <dd>3-5 business days</dd>
+
+                                    <dt>Credit cards:</dt>
+                                    <dd>3-5 business days</dd>
+
+                                    <dt>Cheque:</dt>
+                                    <dd>up to 30 business days</dd>
+                                </dl>
 
                             </div><!--/review-card__inner-->
                         </div><!--/review-card__wrap-->
@@ -217,16 +217,15 @@
 
                     <li class="review-card">
                         <h3 class="review-card__title">
-                            <span>Valid for</span>
+                            <span>deposit methods</span>
                         </h3>
                         <div class="review-card__wrap">
                             <div class="review-card__inner">
 
-                                <ul>
-                                    <li>New Players</li>
-                                    <li>Account Holders</li>
-                                    <li>All Players</li>
-                                </ul>
+                                <div>
+                                    <img src="pic/american-express.png" alt="american-express"/>
+                                    <img src="pic/pay-pal.png" alt="pay-pal"/>
+                                </div>
 
                             </div><!--/review-card__inner-->
                         </div><!--/review-card__wrap-->
@@ -234,15 +233,21 @@
 
                     <li class="review-card">
                         <h3 class="review-card__title">
-                            <span>Games Allowed</span>
+                            <span>general information</span>
                         </h3>
                         <div class="review-card__wrap">
                             <div class="review-card__inner">
 
-                                <ul>
-                                    <li>Keno</li>
-                                    <li>Slots</li>
-                                </ul>
+                                <dl>
+                                    <dt>Playing Methods:</dt>
+                                    <dd>Instant Play, Flash, Mobile, Live Dealer</dd>
+
+                                    <dt>OS Compatibility:</dt>
+                                    <dd>Windows, Mac, Linux, iOS, Android</dd>
+
+                                    <dt>Founded:</dt>
+                                    <dd>2003</dd>
+                                </dl>
 
                             </div><!--/review-card__inner-->
                         </div><!--/review-card__wrap-->
@@ -250,65 +255,45 @@
 
                     <li class="review-card">
                         <h3 class="review-card__title">
-                            <span>Wagering requirements</span>
+                            <span>Withdrawal Methods</span>
                         </h3>
                         <div class="review-card__wrap">
                             <div class="review-card__inner">
 
-                                <p>
-                                    40xB
-                                </p>
+                                <div>
+                                    <img src="pic/visa.png" alt="visa.png"/>
+                                    <img src="pic/pay-pal_2.png" alt="pay-pal"/>
+                                    <img src="pic/master-card.png" alt="pay-pal"/>
+                                </div>
 
                             </div><!--/review-card__inner-->
                         </div><!--/review-card__wrap-->
                     </li><!--/review-card-->
 
                     <li class="review-card">
-                        <h3 class="review-card__title">
-                            <span>Bonus Value</span>
+                        <h3 class="review-card__title ">
+                            <span>Contact us</span>
                         </h3>
                         <div class="review-card__wrap">
                             <div class="review-card__inner">
 
-                                <p>
-                                    200% + 30FS
-                                </p>
+                                <dl>
+                                    <dt>Chat Support:</dt>
+                                    <dd>Yes</dd>
+
+                                    <dt>MContact Email:</dt>
+                                    <dd>Support: csd@support.10bet.com</dd>
+
+                                    <dt>Phone Support:</dt>
+                                    <dd>International: 359(0)32-502023</dd>
+                                </dl>
 
                             </div><!--/review-card__inner-->
                         </div><!--/review-card__wrap-->
                     </li><!--/review-card-->
 
-                    <li class="review-card">
-                        <h3 class="review-card__title">
-                            <span>Minimum Cash out</span>
-                        </h3>
-                        <div class="review-card__wrap">
-                            <div class="review-card__inner">
-
-                                <p>
-                                    €10
-                                </p>
-
-                            </div><!--/review-card__inner-->
-                        </div><!--/review-card__wrap-->
-                    </li><!--/review-card-->
-
-                    <li class="review-card">
-                        <h3 class="review-card__title">
-                            <span>Expire By Date</span>
-                        </h3>
-                        <div class="review-card__wrap">
-                            <div class="review-card__inner">
-
-                                <p>
-                                    dd / mm / yyyy
-                                </p>
-
-                            </div><!--/review-card__inner-->
-                        </div><!--/review-card__wrap-->
-                    </li><!--/review-card-->
-
-                </ul><!--/bonus-list-->
+                </ul>
+                <!--/review-list-->
 
             </div>
             <!-- /site__wrap-center -->
@@ -339,279 +324,569 @@
         </div>
         <!-- /site__content-layout -->
 
-        <!-- microgaming-casinos -->
-        <div class="microgaming-casinos">
-            <h2 class="site__caption">valid for <span>casinos</span></h2>
-            <div class="site__content-layout">
+        <!-- newest-games -->
+        <div class="newest-games newest-games_other-style">
 
-                <!-- microgaming-casinos__list -->
-                <ul class="microgaming-casinos__list">
-                    <li>
+            <div class="newest-games__wrap no_margin">
 
-                        <!-- microgaming-casinos__logo -->
-                        <div class="microgaming-casinos__flag">
-                            <span class="flags big bg-flag1">flags</span>
+                <h2 class="content-title">the neweset <span>microgaming</span> games</h2>
+
+                <!-- /newest-games__slider -->
+                <div class="newest-games__slider">
+
+                    <div class="swiper-wrapper">
+                        <!-- swiper-slide -->
+                        <div class="swiper-slide">
+
+                            <!-- newest-games__layout -->
+                            <div class="newest-games__layout">
+
+                                <a href="#" class="newest-games__item mobile hot new-tip">
+
+                                    <div class="newest-games__inner">
+
+                                        <div class="newest-games__pic">
+                                            <img src="pic/games-slider__pic1.jpg" width="140" height="140" alt="games"/>
+                                        </div><!-- /games-slider__pic -->
+
+                                        <div class="newest-games__mobile">mobile</div><!-- /games-slider__mobile -->
+
+                                        <div class="newest-games__tip">
+                                            <div class="newest-games__hot">hot</div>
+                                            <div class="newest-games__new">new</div>
+                                        </div><!-- /games-slider__tip -->
+
+                                        <span class="newest-games__play">play for fun</span><!-- /games-slider__play -->
+
+                                    </div><!-- /game-slot__inner -->
+
+                                    <div class="newest-games__name">Name of the Game</div><!-- /games-slider__name -->
+
+                                    <div class="newest-games__description">Description of game</div><!-- /games-slider__description -->
+
+                                </a><!-- /game-slot__wrapper -->
+                                <a href="#" class="newest-games__item hot new-tip">
+
+                                    <div class="newest-games__inner">
+
+                                        <div class="newest-games__pic">
+                                            <img src="pic/games-slider__pic2.jpg" width="140" height="140" alt="games"/>
+                                        </div><!-- /games-slider__pic -->
+
+                                        <div class="newest-games__mobile">mobile</div><!-- /games-slider__mobile -->
+
+                                        <div class="newest-games__tip">
+                                            <div class="newest-games__hot">hot</div>
+                                            <div class="newest-games__new">new</div>
+                                        </div><!-- /games-slider__tip -->
+
+                                        <span class="newest-games__play">play for fun</span><!-- /games-slider__play -->
+
+                                    </div><!-- /game-slot__inner -->
+
+                                    <div class="newest-games__name">Name of the Game</div><!-- /games-slider__name -->
+
+                                    <div class="newest-games__description">Description of game</div><!-- /games-slider__description -->
+
+                                </a><!-- /game-slot__wrapper -->
+                                <a href="#" class="newest-games__item mobile new-tip">
+
+                                    <div class="newest-games__inner">
+
+                                        <div class="newest-games__pic">
+                                            <img src="pic/games-slider__pic3.jpg" width="140" height="140" alt="games"/>
+                                        </div><!-- /games-slider__pic -->
+
+                                        <div class="newest-games__mobile">mobile</div><!-- /games-slider__mobile -->
+
+                                        <div class="newest-games__tip">
+                                            <div class="newest-games__hot">hot</div>
+                                            <div class="newest-games__new">new</div>
+                                        </div><!-- /games-slider__tip -->
+
+                                        <span class="newest-games__play">play for fun</span><!-- /games-slider__play -->
+
+                                    </div><!-- /game-slot__inner -->
+
+                                    <div class="newest-games__name">Name of the Game</div><!-- /games-slider__name -->
+
+                                    <div class="newest-games__description">Description of game</div><!-- /games-slider__description -->
+
+                                </a><!-- /game-slot__wrapper -->
+                                <a href="#" class="newest-games__item mobile new-tip">
+
+                                    <div class="newest-games__inner">
+
+                                        <div class="newest-games__pic">
+                                            <img src="pic/games-slider__pic4.jpg" width="140" height="140" alt="games"/>
+                                        </div><!-- /games-slider__pic -->
+
+                                        <div class="newest-games__mobile">mobile</div><!-- /games-slider__mobile -->
+
+                                        <div class="newest-games__tip">
+                                            <div class="newest-games__hot">hot</div>
+                                            <div class="newest-games__new">new</div>
+                                        </div><!-- /games-slider__tip -->
+
+                                        <span class="newest-games__play">play for fun</span><!-- /games-slider__play -->
+
+                                    </div><!-- /game-slot__inner -->
+
+                                    <div class="newest-games__name">Name of the Game</div><!-- /games-slider__name -->
+
+                                    <div class="newest-games__description">Description of game</div><!-- /games-slider__description -->
+
+                                </a><!-- /game-slot__wrapper -->
+                                <a href="#" class="newest-games__item hot new-tip">
+
+                                    <div class="newest-games__inner">
+
+                                        <div class="newest-games__pic">
+                                            <img src="pic/games-slider__pic5.jpg" width="140" height="140" alt="games"/>
+                                        </div><!-- /games-slider__pic -->
+
+                                        <div class="newest-games__mobile">mobile</div><!-- /games-slider__mobile -->
+
+                                        <div class="newest-games__tip">
+                                            <div class="newest-games__hot">hot</div>
+                                            <div class="newest-games__new">new</div>
+                                        </div><!-- /games-slider__tip -->
+
+                                        <span class="newest-games__play">play for fun</span><!-- /games-slider__play -->
+
+                                    </div><!-- /game-slot__inner -->
+
+                                    <div class="newest-games__name">Name of the Game</div><!-- /games-slider__name -->
+
+                                    <div class="newest-games__description">Description of game</div><!-- /games-slider__description -->
+
+                                </a><!-- /game-slot__wrapper -->
+
+                            </div><!-- /games-slider__item -->
+                            <!-- /newest-games__layout -->
+
                         </div>
-                        <!-- microgaming-casinos__logo -->
+                        <!-- /swiper-slide -->
+                        <!-- swiper-slide -->
+                        <div class="swiper-slide">
 
-                        <!-- microgaming-casinos__logo -->
-                        <div class="microgaming-casinos__logo">
-                            <div>
-                                <img src="pic/micro-cas1.png" width="169" height="90" alt="casino"/>
-                            </div>
+                            <!-- newest-games__layout -->
+                            <div class="newest-games__layout">
+
+                                <a href="#" class="newest-games__item mobile hot new-tip">
+
+                                    <div class="newest-games__inner">
+
+                                        <div class="newest-games__pic">
+                                            <img src="pic/games-slider__pic1.jpg" width="140" height="140" alt="games"/>
+                                        </div><!-- /games-slider__pic -->
+
+                                        <div class="newest-games__mobile">mobile</div><!-- /games-slider__mobile -->
+
+                                        <div class="newest-games__tip">
+                                            <div class="game-slot__hot">hot</div>
+                                            <div class="game-slot__new">new</div>
+                                        </div><!-- /games-slider__tip -->
+
+                                        <span class="newest-games__play">play for fun</span><!-- /games-slider__play -->
+
+                                    </div><!-- /game-slot__inner -->
+
+                                    <div class="newest-games__name">Name of the Game</div><!-- /games-slider__name -->
+
+                                    <div class="newest-games__description">Description of game</div><!-- /games-slider__description -->
+
+                                </a><!-- /game-slot__wrapper -->
+                                <a href="#" class="newest-games__item hot new-tip">
+
+                                    <div class="newest-games__inner">
+
+                                        <div class="newest-games__pic">
+                                            <img src="pic/games-slider__pic2.jpg" width="140" height="140" alt="games"/>
+                                        </div><!-- /games-slider__pic -->
+
+                                        <div class="newest-games__mobile">mobile</div><!-- /games-slider__mobile -->
+
+                                        <div class="newest-games__tip">
+                                            <div class="newest-games__hot">hot</div>
+                                            <div class="newest-games__new">new</div>
+                                        </div><!-- /games-slider__tip -->
+
+                                        <span class="newest-games__play">play for fun</span><!-- /games-slider__play -->
+
+                                    </div><!-- /game-slot__inner -->
+
+                                    <div class="newest-games__name">Name of the Game</div><!-- /games-slider__name -->
+
+                                    <div class="newest-games__description">Description of game</div><!-- /games-slider__description -->
+
+                                </a><!-- /game-slot__wrapper -->
+                                <a href="#" class="newest-games__item mobile new-tip">
+
+                                    <div class="newest-games__inner">
+
+                                        <div class="newest-games__pic">
+                                            <img src="pic/games-slider__pic3.jpg" width="140" height="140" alt="games"/>
+                                        </div><!-- /games-slider__pic -->
+
+                                        <div class="newest-games__mobile">mobile</div><!-- /games-slider__mobile -->
+
+                                        <div class="newest-games__tip">
+                                            <div class="newest-games__hot">hot</div>
+                                            <div class="newest-games__new">new</div>
+                                        </div><!-- /games-slider__tip -->
+
+                                        <span class="newest-games__play">play for fun</span><!-- /games-slider__play -->
+
+                                    </div><!-- /game-slot__inner -->
+
+                                    <div class="newest-games__name">Name of the Game</div><!-- /games-slider__name -->
+
+                                    <div class="newest-games__description">Description of game</div><!-- /games-slider__description -->
+
+                                </a><!-- /game-slot__wrapper -->
+                                <a href="#" class="newest-games__item mobile new-tip">
+
+                                    <div class="newest-games__inner">
+
+                                        <div class="newest-games__pic">
+                                            <img src="pic/games-slider__pic4.jpg" width="140" height="140" alt="games"/>
+                                        </div><!-- /games-slider__pic -->
+
+                                        <div class="newest-games__mobile">mobile</div><!-- /games-slider__mobile -->
+
+                                        <div class="newest-games__tip">
+                                            <div class="newest-games__hot">hot</div>
+                                            <div class="newest-games__new">new</div>
+                                        </div><!-- /games-slider__tip -->
+
+                                        <span class="newest-games__play">play for fun</span><!-- /games-slider__play -->
+
+                                    </div><!-- /game-slot__inner -->
+
+                                    <div class="newest-games__name">Name of the Game</div><!-- /games-slider__name -->
+
+                                    <div class="newest-games__description">Description of game</div><!-- /games-slider__description -->
+
+                                </a><!-- /game-slot__wrapper -->
+                                <a href="#" class="newest-games__item hot new-tip">
+
+                                    <div class="newest-games__inner">
+
+                                        <div class="newest-games__pic">
+                                            <img src="pic/games-slider__pic5.jpg" width="140" height="140" alt="games"/>
+                                        </div><!-- /games-slider__pic -->
+
+                                        <div class="newest-games__mobile">mobile</div><!-- /games-slider__mobile -->
+
+                                        <div class="newest-games__tip">
+                                            <div class="newest-games__hot">hot</div>
+                                            <div class="newest-games__new">new</div>
+                                        </div><!-- /games-slider__tip -->
+
+                                        <span class="newest-games__play">play for fun</span><!-- /games-slider__play -->
+
+                                    </div><!-- /game-slot__inner -->
+
+                                    <div class="newest-games__name">Name of the Game</div><!-- /games-slider__name -->
+
+                                    <div class="newest-games__description">Description of game</div><!-- /games-slider__description -->
+
+                                </a><!-- /game-slot__wrapper -->
+
+                            </div><!-- /games-slider__item -->
+                            <!-- /newest-games__layout -->
+
                         </div>
-                        <!-- /microgaming-casinos__logo -->
+                        <!-- /swiper-slide -->
+                        <!-- swiper-slide -->
+                        <div class="swiper-slide">
 
-                        <!-- rate -->
-                        <div class="rate rate_big">
-                            <div style="width: 70%"></div>
+                            <!-- newest-games__layout -->
+                            <div class="newest-games__layout">
+
+                                <a href="#" class="newest-games__item mobile hot new-tip">
+
+                                    <div class="newest-games__inner">
+
+                                        <div class="newest-games__pic">
+                                            <img src="pic/games-slider__pic1.jpg" width="140" height="140" alt="games"/>
+                                        </div><!-- /games-slider__pic -->
+
+                                        <div class="newest-games__mobile">mobile</div><!-- /games-slider__mobile -->
+
+                                        <div class="newest-games__tip">
+                                            <div class="game-slot__hot">hot</div>
+                                            <div class="game-slot__new">new</div>
+                                        </div><!-- /games-slider__tip -->
+
+                                        <span class="newest-games__play">play for fun</span><!-- /games-slider__play -->
+
+                                    </div><!-- /game-slot__inner -->
+
+                                    <div class="newest-games__name">Name of the Game</div><!-- /games-slider__name -->
+
+                                    <div class="newest-games__description">Description of game</div><!-- /games-slider__description -->
+
+                                </a><!-- /game-slot__wrapper -->
+                                <a href="#" class="newest-games__item hot new-tip">
+
+                                    <div class="newest-games__inner">
+
+                                        <div class="newest-games__pic">
+                                            <img src="pic/games-slider__pic2.jpg" width="140" height="140" alt="games"/>
+                                        </div><!-- /games-slider__pic -->
+
+                                        <div class="newest-games__mobile">mobile</div><!-- /games-slider__mobile -->
+
+                                        <div class="newest-games__tip">
+                                            <div class="newest-games__hot">hot</div>
+                                            <div class="newest-games__new">new</div>
+                                        </div><!-- /games-slider__tip -->
+
+                                        <span class="newest-games__play">play for fun</span><!-- /games-slider__play -->
+
+                                    </div><!-- /game-slot__inner -->
+
+                                    <div class="newest-games__name">Name of the Game</div><!-- /games-slider__name -->
+
+                                    <div class="newest-games__description">Description of game</div><!-- /games-slider__description -->
+
+                                </a><!-- /game-slot__wrapper -->
+                                <a href="#" class="newest-games__item mobile new-tip">
+
+                                    <div class="newest-games__inner">
+
+                                        <div class="newest-games__pic">
+                                            <img src="pic/games-slider__pic3.jpg" width="140" height="140" alt="games"/>
+                                        </div><!-- /games-slider__pic -->
+
+                                        <div class="newest-games__mobile">mobile</div><!-- /games-slider__mobile -->
+
+                                        <div class="newest-games__tip">
+                                            <div class="newest-games__hot">hot</div>
+                                            <div class="newest-games__new">new</div>
+                                        </div><!-- /games-slider__tip -->
+
+                                        <span class="newest-games__play">play for fun</span><!-- /games-slider__play -->
+
+                                    </div><!-- /game-slot__inner -->
+
+                                    <div class="newest-games__name">Name of the Game</div><!-- /games-slider__name -->
+
+                                    <div class="newest-games__description">Description of game</div><!-- /games-slider__description -->
+
+                                </a><!-- /game-slot__wrapper -->
+                                <a href="#" class="newest-games__item mobile new-tip">
+
+                                    <div class="newest-games__inner">
+
+                                        <div class="newest-games__pic">
+                                            <img src="pic/games-slider__pic4.jpg" width="140" height="140" alt="games"/>
+                                        </div><!-- /games-slider__pic -->
+
+                                        <div class="newest-games__mobile">mobile</div><!-- /games-slider__mobile -->
+
+                                        <div class="newest-games__tip">
+                                            <div class="newest-games__hot">hot</div>
+                                            <div class="newest-games__new">new</div>
+                                        </div><!-- /games-slider__tip -->
+
+                                        <span class="newest-games__play">play for fun</span><!-- /games-slider__play -->
+
+                                    </div><!-- /game-slot__inner -->
+
+                                    <div class="newest-games__name">Name of the Game</div><!-- /games-slider__name -->
+
+                                    <div class="newest-games__description">Description of game</div><!-- /games-slider__description -->
+
+                                </a><!-- /game-slot__wrapper -->
+                                <a href="#" class="newest-games__item hot new-tip">
+
+                                    <div class="newest-games__inner">
+
+                                        <div class="newest-games__pic">
+                                            <img src="pic/games-slider__pic5.jpg" width="140" height="140" alt="games"/>
+                                        </div><!-- /games-slider__pic -->
+
+                                        <div class="newest-games__mobile">mobile</div><!-- /games-slider__mobile -->
+
+                                        <div class="newest-games__tip">
+                                            <div class="newest-games__hot">hot</div>
+                                            <div class="newest-games__new">new</div>
+                                        </div><!-- /games-slider__tip -->
+
+                                        <span class="newest-games__play">play for fun</span><!-- /games-slider__play -->
+
+                                    </div><!-- /game-slot__inner -->
+
+                                    <div class="newest-games__name">Name of the Game</div><!-- /games-slider__name -->
+
+                                    <div class="newest-games__description">Description of game</div><!-- /games-slider__description -->
+
+                                </a><!-- /game-slot__wrapper -->
+
+                            </div><!-- /games-slider__item -->
+                            <!-- /newest-games__layout -->
+
                         </div>
-                        <!-- /rate -->
+                        <!-- /swiper-slide -->
 
-                        <!-- microgaming-casinos__name -->
-                        <div class="microgaming-casinos__name">
-                            casino name
+                        <!-- swiper-slide -->
+                        <div class="swiper-slide">
+
+                            <!-- newest-games__layout -->
+                            <div class="newest-games__layout">
+
+                                <a href="#" class="newest-games__item mobile hot new-tip">
+
+                                    <div class="newest-games__inner">
+
+                                        <div class="newest-games__pic">
+                                            <img src="pic/games-slider__pic1.jpg" width="140" height="140" alt="games"/>
+                                        </div><!-- /games-slider__pic -->
+
+                                        <div class="newest-games__mobile">mobile</div><!-- /games-slider__mobile -->
+
+                                        <div class="newest-games__tip">
+                                            <div class="game-slot__hot">hot</div>
+                                            <div class="game-slot__new">new</div>
+                                        </div><!-- /games-slider__tip -->
+
+                                        <span class="newest-games__play">play for fun</span><!-- /games-slider__play -->
+
+                                    </div><!-- /game-slot__inner -->
+
+                                    <div class="newest-games__name">Name of the Game</div><!-- /games-slider__name -->
+
+                                    <div class="newest-games__description">Description of game</div><!-- /games-slider__description -->
+
+                                </a><!-- /game-slot__wrapper -->
+                                <a href="#" class="newest-games__item hot new-tip">
+
+                                    <div class="newest-games__inner">
+
+                                        <div class="newest-games__pic">
+                                            <img src="pic/games-slider__pic2.jpg" width="140" height="140" alt="games"/>
+                                        </div><!-- /games-slider__pic -->
+
+                                        <div class="newest-games__mobile">mobile</div><!-- /games-slider__mobile -->
+
+                                        <div class="newest-games__tip">
+                                            <div class="newest-games__hot">hot</div>
+                                            <div class="newest-games__new">new</div>
+                                        </div><!-- /games-slider__tip -->
+
+                                        <span class="newest-games__play">play for fun</span><!-- /games-slider__play -->
+
+                                    </div><!-- /game-slot__inner -->
+
+                                    <div class="newest-games__name">Name of the Game</div><!-- /games-slider__name -->
+
+                                    <div class="newest-games__description">Description of game</div><!-- /games-slider__description -->
+
+                                </a><!-- /game-slot__wrapper -->
+                                <a href="#" class="newest-games__item mobile new-tip">
+
+                                    <div class="newest-games__inner">
+
+                                        <div class="newest-games__pic">
+                                            <img src="pic/games-slider__pic3.jpg" width="140" height="140" alt="games"/>
+                                        </div><!-- /games-slider__pic -->
+
+                                        <div class="newest-games__mobile">mobile</div><!-- /games-slider__mobile -->
+
+                                        <div class="newest-games__tip">
+                                            <div class="newest-games__hot">hot</div>
+                                            <div class="newest-games__new">new</div>
+                                        </div><!-- /games-slider__tip -->
+
+                                        <span class="newest-games__play">play for fun</span><!-- /games-slider__play -->
+
+                                    </div><!-- /game-slot__inner -->
+
+                                    <div class="newest-games__name">Name of the Game</div><!-- /games-slider__name -->
+
+                                    <div class="newest-games__description">Description of game</div><!-- /games-slider__description -->
+
+                                </a><!-- /game-slot__wrapper -->
+                                <a href="#" class="newest-games__item mobile new-tip">
+
+                                    <div class="newest-games__inner">
+
+                                        <div class="newest-games__pic">
+                                            <img src="pic/games-slider__pic4.jpg" width="140" height="140" alt="games"/>
+                                        </div><!-- /games-slider__pic -->
+
+                                        <div class="newest-games__mobile">mobile</div><!-- /games-slider__mobile -->
+
+                                        <div class="newest-games__tip">
+                                            <div class="newest-games__hot">hot</div>
+                                            <div class="newest-games__new">new</div>
+                                        </div><!-- /games-slider__tip -->
+
+                                        <span class="newest-games__play">play for fun</span><!-- /games-slider__play -->
+
+                                    </div><!-- /game-slot__inner -->
+
+                                    <div class="newest-games__name">Name of the Game</div><!-- /games-slider__name -->
+
+                                    <div class="newest-games__description">Description of game</div><!-- /games-slider__description -->
+
+                                </a><!-- /game-slot__wrapper -->
+                                <a href="#" class="newest-games__item hot new-tip">
+
+                                    <div class="newest-games__inner">
+
+                                        <div class="newest-games__pic">
+                                            <img src="pic/games-slider__pic5.jpg" width="140" height="140" alt="games"/>
+                                        </div><!-- /games-slider__pic -->
+
+                                        <div class="newest-games__mobile">mobile</div><!-- /games-slider__mobile -->
+
+                                        <div class="newest-games__tip">
+                                            <div class="newest-games__hot">hot</div>
+                                            <div class="newest-games__new">new</div>
+                                        </div><!-- /games-slider__tip -->
+
+                                        <span class="newest-games__play">play for fun</span><!-- /games-slider__play -->
+
+                                    </div><!-- /game-slot__inner -->
+
+                                    <div class="newest-games__name">Name of the Game</div><!-- /games-slider__name -->
+
+                                    <div class="newest-games__description">Description of game</div><!-- /games-slider__description -->
+
+                                </a><!-- /game-slot__wrapper -->
+
+                            </div><!-- /games-slider__item -->
+                            <!-- newest-games__layout -->
+
                         </div>
-                        <!-- /microgaming-casinos__name -->
+                        <!-- /swiper-slide -->
+                    </div>
+                    <!-- /swiper-wrapper -->
 
-                        <!-- microgaming-casinos__btn -->
-                        <div class="microgaming-casinos__btn">
-                            <div>
-                                <div>
-                                    <a class="btn-green" href="#">review</a>
-                                </div>
-                                <div>
-                                    <a class="btn" href="#">play</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /microgaming-casinos__btn -->
+                    <!-- newest-games__points -->
+                    <div class="newest-games__points"></div>
+                    <!-- newest-games__points -->
 
-                    </li>
-                    <li>
-
-                        <!-- microgaming-casinos__logo -->
-                        <div class="microgaming-casinos__flag">
-                            <span class="flags big bg-flag1">flags</span>
-                        </div>
-                        <!-- microgaming-casinos__logo -->
-
-                        <!-- microgaming-casinos__logo -->
-                        <div class="microgaming-casinos__logo">
-                            <div>
-                                <img src="pic/micro-cas2.png" width="150" height="104" alt="casino"/>
-                            </div>
-                        </div>
-                        <!-- /microgaming-casinos__logo -->
-
-                        <!-- rate -->
-                        <div class="rate rate_big">
-                            <div style="width: 70%"></div>
-                        </div>
-                        <!-- /rate -->
-
-                        <!-- microgaming-casinos__name -->
-                        <div class="microgaming-casinos__name">
-                            casino name
-                        </div>
-                        <!-- /microgaming-casinos__name -->
-
-                        <!-- microgaming-casinos__btn -->
-                        <div class="microgaming-casinos__btn">
-                            <div>
-                                <div>
-                                    <a class="btn-green" href="#">review</a>
-                                </div>
-                                <div>
-                                    <a class="btn" href="#">play</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /microgaming-casinos__btn -->
-
-                    </li>
-                    <li>
-
-                        <!-- microgaming-casinos__logo -->
-                        <div class="microgaming-casinos__flag">
-                            <span class="flags big bg-flag1">flags</span>
-                        </div>
-                        <!-- microgaming-casinos__logo -->
-
-                        <!-- microgaming-casinos__logo -->
-                        <div class="microgaming-casinos__logo">
-                            <div>
-                                <img src="pic/micro-cas3.png" width="201" height="98" alt="casino"/>
-                            </div>
-                        </div>
-                        <!-- /microgaming-casinos__logo -->
-
-                        <!-- rate -->
-                        <div class="rate rate_big">
-                            <div style="width: 70%"></div>
-                        </div>
-                        <!-- /rate -->
-
-                        <!-- microgaming-casinos__name -->
-                        <div class="microgaming-casinos__name">
-                            casino name
-                        </div>
-                        <!-- /microgaming-casinos__name -->
-
-                        <!-- microgaming-casinos__btn -->
-                        <div class="microgaming-casinos__btn">
-                            <div>
-                                <div>
-                                    <a class="btn-green" href="#">review</a>
-                                </div>
-                                <div>
-                                    <a class="btn" href="#">play</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /microgaming-casinos__btn -->
-
-                    </li>
-                    <li>
-
-                        <!-- microgaming-casinos__logo -->
-                        <div class="microgaming-casinos__flag">
-                            <span class="flags big bg-flag1">flags</span>
-                        </div>
-                        <!-- microgaming-casinos__logo -->
-
-                        <!-- microgaming-casinos__logo -->
-                        <div class="microgaming-casinos__logo">
-                            <div>
-                                <img src="pic/micro-cas4.png" width="208" height="81" alt="casino"/>
-                            </div>
-                        </div>
-                        <!-- /microgaming-casinos__logo -->
-
-                        <!-- rate -->
-                        <div class="rate rate_big">
-                            <div style="width: 70%"></div>
-                        </div>
-                        <!-- /rate -->
-
-                        <!-- microgaming-casinos__name -->
-                        <div class="microgaming-casinos__name">
-                            casino name
-                        </div>
-                        <!-- /microgaming-casinos__name -->
-
-                        <!-- microgaming-casinos__btn -->
-                        <div class="microgaming-casinos__btn">
-                            <div>
-                                <div>
-                                    <a class="btn-green" href="#">review</a>
-                                </div>
-                                <div>
-                                    <a class="btn" href="#">play</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /microgaming-casinos__btn -->
-
-                    </li>
-                    <li>
-
-                        <!-- microgaming-casinos__logo -->
-                        <div class="microgaming-casinos__flag">
-                            <span class="flags big bg-flag1">flags</span>
-                        </div>
-                        <!-- microgaming-casinos__logo -->
-
-                        <!-- microgaming-casinos__logo -->
-                        <div class="microgaming-casinos__logo">
-                            <div>
-                                <img src="pic/micro-cas5.png" width="116" height="100" alt="casino"/>
-                            </div>
-                        </div>
-                        <!-- /microgaming-casinos__logo -->
-
-                        <!-- rate -->
-                        <div class="rate rate_big">
-                            <div style="width: 70%"></div>
-                        </div>
-                        <!-- /rate -->
-
-                        <!-- microgaming-casinos__name -->
-                        <div class="microgaming-casinos__name">
-                            casino name
-                        </div>
-                        <!-- /microgaming-casinos__name -->
-
-                        <!-- microgaming-casinos__btn -->
-                        <div class="microgaming-casinos__btn">
-                            <div>
-                                <div>
-                                    <a class="btn-green" href="#">review</a>
-                                </div>
-                                <div>
-                                    <a class="btn" href="#">play</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /microgaming-casinos__btn -->
-
-                    </li>
-                    <li>
-
-                        <!-- microgaming-casinos__logo -->
-                        <div class="microgaming-casinos__flag">
-                            <span class="flags big bg-flag1">flags</span>
-                        </div>
-                        <!-- microgaming-casinos__logo -->
-
-                        <!-- microgaming-casinos__logo -->
-                        <div class="microgaming-casinos__logo">
-                            <div>
-                                <img src="pic/micro-cas6.png" width="209" height="80" alt="casino"/>
-                            </div>
-                        </div>
-                        <!-- /microgaming-casinos__logo -->
-
-                        <!-- rate -->
-                        <div class="rate rate_big">
-                            <div style="width: 70%"></div>
-                        </div>
-                        <!-- /rate -->
-
-                        <!-- microgaming-casinos__name -->
-                        <div class="microgaming-casinos__name">
-                            casino name
-                        </div>
-                        <!-- /microgaming-casinos__name -->
-
-                        <!-- microgaming-casinos__btn -->
-                        <div class="microgaming-casinos__btn">
-                            <div>
-                                <div>
-                                    <a class="btn-green" href="#">review</a>
-                                </div>
-                                <div>
-                                    <a class="btn" href="#">play</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /microgaming-casinos__btn -->
-
-                    </li>
-
-                </ul>
-                <!-- /microgaming-casinos__list -->
+                </div>
+                <!-- /newest-games__slider -->
 
             </div>
+            <!-- /newest-games__wrap -->
+
         </div>
-        <!-- /microgaming-casinos -->
+        <!-- /newest-games -->
 
-        <!-- site__content-layout -->
-        <div class="site__content-layout">
+        <!-- casino-bonuses-wrap -->
+        <div class="casino-bonuses-wrap">
 
+            <!-- casino-bonuses -->
             <div class="casino-bonuses">
 
-                <h2 class="content-title casino-bonuses__title">Online <span>Latest</span> Bonuses</h2>
+                <h2 class="content-title casino-bonuses__title">More <span>Bonuses</span></h2>
 
                 <div class="casino-bonuses__list">
 
@@ -1083,11 +1358,22 @@
 
                     </div><!-- /casino-bonuses__item -->
 
+                    <a href="#" class="casino-bonuses__show-more">show more bonuses</a>
+
                 </div><!-- /casino-bonuses__list -->
+
+
 
             </div>
             <!-- /casino-bonuses -->
 
+        </div>
+        <!-- /casino-bonuses-wrap -->
+
+        <!-- site__content-layout -->
+        <div class="site__content-layout">
+
+            <!--comments-->
             <div class="comments">
 
                 <div class="coments__wrap">
@@ -1224,7 +1510,8 @@
 
                 </div><!--/coments__wrap-->
 
-            </div><!--/comments-->
+            </div>
+            <!--/comments-->
 
         </div>
         <!-- /site__content-layout -->
@@ -1279,6 +1566,7 @@
 <!-- /site -->
 
 <script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/swiper.min.js"></script>
 <script src="js/jquery.main.js"></script>
 </body>
 </html>
