@@ -611,7 +611,7 @@
     padding: 4px 9px;
     letter-spacing: 0.2px;
 }
-.active{
+.active-time{
     color: #fff;
     background-color: #ff7f7f;
 }
@@ -730,6 +730,18 @@
 }
 .top-casinos-casino {
     width: 132px;
+}
+.top-casinos-time{
+
+}
+.top-casinos-time span{
+    color: #e0e0e0;
+    font-size: 12px;
+    line-height: 15px;
+    display: block;
+    text-transform: lowercase;
+    font-weight: lighter;
+    font-family: "Flama-Basic", sans-serif;
 }
 .top-casinos-score {
     width: 105px;
@@ -1895,7 +1907,7 @@ span.swiper-pagination-bullet-active:hover{
         width: 332px;
         height: 72px;
         font-size: 31px;
-        padding-top: 22px;
+        padding-top: 20px;
         margin-left: 21px;
     }
     .btn_review {
@@ -3062,6 +3074,9 @@ span.swiper-pagination-bullet-active:hover{
     .top-casinos__head>div, .top-casinos__content>div {
         display: inline-block;
     }
+    .top-item .top-casinos__logo>div>img{
+        width: 71px;
+    }
     .top-casinos__logo>div>img {
         width: 63px;
     }
@@ -3108,10 +3123,22 @@ span.swiper-pagination-bullet-active:hover{
         font-size: 12px;
         display: block;
     }
+    .top-item .top-casinos__score-count{
+        display: inline-block;
+    }
     .top-casinos-item>div{
         display: inline-block;
         margin-bottom: -16px;
     }
+    .top-item>div{
+        vertical-align: top;
+    }
+    .top-item .btn_play{
+        position: relative;
+        top: 5px;
+        margin-bottom: 11px;
+    }
+
     .top-casinos-item> .show-row {
         display: none;
     }
@@ -3119,10 +3146,12 @@ span.swiper-pagination-bullet-active:hover{
         margin-left: 14px;
         position: absolute;
         left: -8px;
-        top: 58px;
+        top: 24px;
     }
     .top-casinos__bonus .bonus-list {
         width: 192px;
+        margin: 0;
+        margin-left: 66px;
     }
     .top-casinos-item {
         margin-left: 4px;
@@ -3140,9 +3169,15 @@ span.swiper-pagination-bullet-active:hover{
         margin-left: 56px;
     }
     .top-casinos-item>div:last-child{
+        margin-left: -3px;
         position: relative;
-        top: 2px;
-        left: -2px;
+        top: 6px;
+    }
+    .top-item>div:last-child {
+        margin-left: 15px;
+        left: 2px;
+        position: relative;
+        top: -12px;
     }
     .top-casinos__games:before {
         content: "";
@@ -3157,6 +3192,15 @@ span.swiper-pagination-bullet-active:hover{
     .top-casinos__head_line{
         background-color: #fafafa;
         border-bottom: 4px solid #31b8df;
+    }
+    .top-casinos__head-time{
+        padding-top: 7px;
+    }
+    .top-casinos__head-time .top-casinos-casino{
+        width: 165px;
+    }
+    .top-casinos__head-time .top-casinos-bonus{
+        width: 202px;
     }
     .top-casinos-country:after {
         content: "";
@@ -3212,7 +3256,7 @@ span.swiper-pagination-bullet-active:hover{
         width: 67px;
     }
     .top-casinos-country a.active:after {
-        bottom: 13px;
+        bottom: 15px;
     }
     .top-casinos__show-tablet {
         display: block;
@@ -3223,16 +3267,26 @@ span.swiper-pagination-bullet-active:hover{
     }
     .top-casinos__bonus .bonus-list li {
         font-size: 12px;
-        margin-right: 23px;
+        margin-right: 15px;
     }
     .top-casinos__bonus .bonus-list li span {
         font-size: 12px;
-        margin-top: 0;
+        margin-top: 10px;
     }
     .top-casinos__time {
         font-size: 12px;
-        margin-left: 0;
-
+        margin: 0;
+        margin-left: 9px;
+        padding: 5px;
+        position: relative;
+        top: -5px;
+    }
+    .top-item{
+        padding-top: 22px;
+        padding-bottom: 11px;
+    }
+    .top-item .btn_play, .top-item .btn_review{
+        margin-left: 0px;
     }
 
     .top-casinos-item .flag-country-tablet {
@@ -3240,9 +3294,13 @@ span.swiper-pagination-bullet-active:hover{
         width: 16px;
         height: 16px;
         margin-left: 5px;
+        top: -9px;
+        position: relative;
     }
     .top-item .top-casinos__casino {
-
+        margin-left: 5px;
+        top: -11px;
+        position: relative;
     }
     /* ----------- /top-casinos ------------- */
 
