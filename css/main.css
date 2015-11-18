@@ -3516,6 +3516,19 @@ span.swiper-pagination-bullet-active:hover{
         top: -11px;
         position: relative;
     }
+    .site__wrap-center_top .site__caption_smaller{
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 0px;
+    }
+    .top-casinos-logo_bonus{
+        width: 66px;
+        left: 0;
+        margin-bottom: 10px;
+    }
+    .show-game{
+        display: block;
+    }
     /* ----------- /top-casinos ------------- */
 
     /* -------------- sample-text --------------- */
