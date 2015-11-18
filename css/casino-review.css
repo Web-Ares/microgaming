@@ -1,0 +1,209 @@
+/*
+    main styles
+    version: 17.11.2015
+
+    about-casino
+
+    accepted
+
+*/
+
+/* --------------- about-casino --------------- */
+.about-casino {
+    margin: 0 0 12px;
+    position: relative;
+    padding-bottom: 80px;
+}
+.about-casino__preview {
+    text-align: center;
+}
+.about-casino__preview span {
+    font-family: "Flama-Light", sans-serif;
+    font-size: 16px;
+    color: #999;
+    display: block;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.about-casino__preview .btn {
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.about-casino__preview-pic {
+
+}
+.about-casino__preview-pic img {
+    display: block;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 78%;
+    height: auto;
+}
+.about-casino__text {
+
+}
+.about-casino__text header {
+    padding: 0 0 21px 0;
+    border-bottom: 1px dashed #d9d9d9;
+    display: none;
+}
+.about-casino__text dl {
+    font-size: 19px;
+    line-height: 22px;
+    color: #666666;
+}
+.about-casino__text dl dt {
+    font-family: "Flama-Bold", sans-serif;
+    margin-bottom: 5px;
+}
+.about-casino__text dl dd {
+    margin-bottom: 9px;
+}
+.about-casino__btns{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 72px;
+    width: 100%;
+}
+.about-casino__review{
+    vertical-align: top;
+    display: none;
+    font-size: 15px;
+    color: #424242;
+}
+/* --------------- /about-casino --------------- */
+
+/*------------accepted------------*/
+.accepted {
+    display: inline-block;
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 3px;
+    margin: 0 0 3px;
+}
+.accepted_not {
+    color: #c20000;
+}
+/*------------/accepted------------*/
+
+@media (min-width: 768px){
+
+    /* --------------- about-casino --------------- */
+    .about-casino {
+        padding: 24px 0 0 0;
+        margin: 0 0 58px;
+    }
+    .about-casino__preview {
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+        padding: 0 523px 11px 0;
+        text-align: center;
+        position: relative;
+    }
+    .about-casino__preview span {
+        font-family: "Flama-Light", sans-serif;
+        font-size: 12px;
+        color: #999;
+        display: block;
+        margin-bottom: 18px;
+    }
+    .about-casino__preview .btn {
+        width: 114px;
+        height: 34px;
+        line-height: 34px;
+        font-size: 14px;
+    }
+    .about-casino__preview-pic {
+        width: 208px;
+        display: table-cell;
+        height: 133px;
+        vertical-align: middle;
+    }
+    .about-casino__preview-pic img {
+        display: block;
+        vertical-align: middle;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+    .about-casino__text {
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
+        padding: 21px 0 0 0;
+    }
+    .about-casino__text header {
+        display: block;
+    }
+    .about-casino__text dl {
+        padding: 26px 0 0 0;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .about-casino__text dl dt {
+        display: inline-block;
+        vertical-align: top;
+        width: 24%;
+        margin-right: 3px;
+        margin-bottom: 11px;
+    }
+    .about-casino__text dl dd {
+        display: inline-block;
+        width: 71%;
+        vertical-align: top;
+        margin-bottom: 11px;
+    }
+    .about-casino__btns{
+        bottom: auto;
+        left: auto;
+        top: 30px;
+        right: 0;
+        width: 114px;
+    }
+    /* --------------- /about-casino --------------- */
+
+}
+
+@media (min-width: 1024px){
+
+    /* --------------- about-casino --------------- */
+    .about-casino {
+        padding: 24px 0 0 24px;
+        margin: 0 0 58px;
+    }
+    .about-casino__preview {
+        width: 208px;
+        padding: 0 0 11px 0;
+        margin-right: 49px;
+    }
+    .about-casino__text {
+        width: 482px;
+        padding: 21px 0 0 0;
+    }
+    .about-casino__btns{
+        position: relative;
+        bottom: auto;
+        left: auto;
+        margin: 0 auto;
+    }
+    .about-casino__btns .btn_gray{
+        display: none;
+    }
+    .about-casino__preview .btn {
+        margin-bottom: 10px;
+    }
+    .about-casino__review{
+        display: inline-block;
+    }
+    .about-casino__review:hover{
+        text-decoration: underline;
+    }
+    /* --------------- /about-casino --------------- */
+
+}
