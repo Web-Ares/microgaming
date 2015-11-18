@@ -1,0 +1,30 @@
+/*
+    main styles
+    version: 12.11.2015
+
+    singlegame
+
+*/
+
+/* --------------- singlegame --------------- */
+.singlegame{
+    margin: 0;
+    width: 0;
+    padding: 0;
+    height: 0;
+}
+/* --------------- /singlegame --------------- */
+
+@media (min-width: 768px){
+    /* --------------- singlegame --------------- */
+
+    /* --------------- /singlegame --------------- */
+}
+
+@media (min-width: 1024px){
+    /* --------------- singlegame --------------- */
+    .singlegame{
+
+    }
+    /* --------------- /singlegame --------------- */
+}
