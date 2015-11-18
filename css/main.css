@@ -1068,7 +1068,7 @@ span.swiper-pagination-bullet-active:hover{
 }
 /* ------------ /newest-games ------------- */
 
-/* ----------- game-slot ------------- */
+/* ----------- newest-games ------------- */
 .newest-games__layout {
     text-align: center;
 }
@@ -1186,11 +1186,11 @@ span.swiper-pagination-bullet-active:hover{
     transition: opacity 0.3s ease;
     opacity: 0;
 }
-.newest-games__item:hover .game-slot__inner {
+.newest-games__item:hover .newest-games__inner {
     border-color: #22e41c;
     background: #3f3f3f;
 }
-.newest-games__item:hover .game-slot__play {
+.newest-games__item:hover .newest-games__play {
     opacity: 1;
 }
 .newest-games__pic {
@@ -1216,7 +1216,7 @@ span.swiper-pagination-bullet-active:hover{
     -webkit-transition: opacity 0.3s ease;
     transition: opacity 0.3s ease;
 }
-.newest-games__item:hover .game-slot__pic:after {
+.newest-games__item:hover .newest-games__pic:after {
     opacity: 1;
 }
 .newest-games__slider div a:first-child{
