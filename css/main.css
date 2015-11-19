@@ -37,7 +37,6 @@
 
     casino-bonuses
 
-
 */
 
 /* --------------- placeholder --------------- */
@@ -1421,9 +1420,10 @@ span.swiper-pagination-bullet-active:hover{
     content: '';
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 50%;
     height: 211px;
     width: 211px;
+    margin-left: -105px;
     background-image: inherit;
     background-position: -21px top;
     transition: opacity .3s ease;
@@ -1904,9 +1904,6 @@ span.swiper-pagination-bullet-active:hover{
 .casino-bonuses__show-more:hover,
 .casino-bonuses__show-more:active{
     background: #b9b9b9;
-}
-.casino-bonuses__more{
-
 }
 /* ----------- /casino-bonuses ------------ */
 
@@ -2706,10 +2703,13 @@ span.swiper-pagination-bullet-active:hover{
         width: 223px;
         margin-bottom: 35px;
     }
-    .aside-inform{
+    .aside-inform, .top-games_down{
         display: none;
     }
     .site__aside > .aside-inform{
+        display: block;
+    }
+    .site__aside > .top-games_down{
         display: block;
     }
     .site__footer{
