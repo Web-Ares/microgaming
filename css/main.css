@@ -1605,6 +1605,65 @@ span.swiper-pagination-bullet-active:hover{
 }
 /* --------------- /to-top --------------- */
 
+/*---------------contact-us---------------*/
+.contact-us {
+    border: 1px solid #dedede;
+    box-shadow: 2px 3px 5px #dedede;
+    min-height: 351px;
+    margin-top: 32px;
+    position: relative;
+}
+.contact-us:before {
+    content: '';
+    width: 136px;
+    height: 113px;
+    background: url(../img/24.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+.contact-us .site__title {
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    font-size: 18px;
+    margin-bottom: 0;
+    height: 44px;
+    padding: 11px 0 0 19px;
+    position: relative;
+    z-index: 2;
+}
+.contact-us dl {
+    padding: 20px 0 24px 0;
+    margin: 0 12px;
+    border-bottom: 1px dashed #d9d9d9;
+    color: #999999;
+    position: relative;
+    z-index: 2;
+}
+.contact-us dl:last-of-type {
+    border-bottom: none;
+}
+.contact-us dl dt {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Flama-Bold', sans-serif;
+}
+.contact-us dl dd {
+    font-size: 14px;
+    line-height: 24px;
+}
+.contact-us dl dd a {
+    color: #999999;
+    line-height: 24px;
+}
+.contact-us dl dd a:hover {
+    text-decoration: underline;
+}
+/*---------------/contact-us-------------------*/
+
 /* --------------- footer__menu --------------- */
 .footer__menu{
     margin-bottom: 3px;
