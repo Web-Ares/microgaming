@@ -11,7 +11,17 @@
     rate
 
 */
-
+/* --------------- placeholder --------------- */
+::-webkit-input-placeholder {
+    color: #a4a4a4;
+}
+:-moz-placeholder {
+    color: #a4a4a4;
+}
+.placeholder {
+    color: #a4a4a4;
+}
+/* --------------- /placeholder --------------- */
 /*---------------- casino-bonus ----------------*/
 .casino-bonus {
     text-align: justify;
@@ -742,7 +752,7 @@
     border: none;
     margin-bottom: 4px;
     padding: 0 7px 0;
-    box-shadow: inset 1px 2px 6px #a4a4a4;
+    box-shadow: inset 1px 1px 5px #a4a4a4;
     display: block;
     color: #666;
     font-size: 11px;
@@ -776,7 +786,7 @@
 .required {
     position: relative;
     display: inline-block;
-    margin-bottom: 7px;
+    margin-bottom: 6px;
     font-size: 12px;
     color: #999999;
 }
@@ -791,7 +801,7 @@
 .add-your{
     position: relative;
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
     font-size: 12px;
     color: #999999;
 }
@@ -828,8 +838,10 @@ input[type="radio"]:checked + label > .add-your__experience-checked {
     width: 34px;
     height: 34px;
     left: -7px;
-    top: 3px;
-    background: url("../img/new-comment-hover.png")no-repeat;
+    top: 1px;
+    border-radius: 3px;
+    border: 2px solid #31b8df;
+    background: #eeeeee;
     background-size: contain;
 }
 .face{
@@ -841,6 +853,7 @@ input[type="radio"]:checked + label > .add-your__experience-checked {
 .face_happy{
     background: url('../img/new-comment-happy.png') no-repeat center;
     background-size: contain;
+    left: -3px;
 }
 .face_sad{
     background: url('../img/new-comment-sad.png') no-repeat center;
@@ -1142,8 +1155,8 @@ input[type="radio"]:checked + label > .add-your__experience-checked {
     }
 
     .new-comments h4 > span {
-        font-size: 14px;
-        margin-right: 2px;
+        font-size: 12px;
+        margin-right: 16px;
         margin-top: 6px;
     }
 
@@ -1229,12 +1242,11 @@ input[type="radio"]:checked + label > .add-your__experience-checked {
 
     input[type="radio"]:checked + label > .add-your__experience-checked {
         width: 70px;
-        height: 70px;
+        height: 68px;
         left: -16px;
-        top: -4px;
+        top: -5px;
         /*--------------/new-comments---------------*/
     }
-
 }
 @media (min-width: 1024px){
 
@@ -1434,7 +1446,9 @@ input[type="radio"]:checked + label > .add-your__experience-checked {
         padding: 61px 11px 0 0;
     }
     .new-comments h4 {
-        margin-bottom: 43px;
+        font-size: 18px;
+        margin-bottom: 42px;
+        padding-bottom: 8px;
     }
     .new-comments>div {
         width: 1000px;
@@ -1454,7 +1468,8 @@ input[type="radio"]:checked + label > .add-your__experience-checked {
         height: 33px;
         width: 798px;
         font-size: 12px;
-        padding-top: 5px;
+        padding-top: 8px;
+        letter-spacing: -1px;
     }
     .new-comments fieldset input[type='text']{
         width: 306px;
@@ -1464,6 +1479,9 @@ input[type="radio"]:checked + label > .add-your__experience-checked {
         top: 2px;
         width: 57px;
         height: 49px;
+    }
+    .face_happy {
+        left: 2px;
     }
     .add-your {
         margin-bottom: 34px !important;
