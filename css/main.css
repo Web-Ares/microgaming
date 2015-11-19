@@ -186,6 +186,7 @@
     font-weight: normal;
     background: #fff;
     text-align: center;
+    margin-top: 10px;
 }
 .site__title_date {
     padding: 13px 65px 10px 12px;
@@ -2119,7 +2120,7 @@ span.swiper-pagination-bullet-active:hover{
         border-right: 1px solid #dedede;
         border-bottom: 4px solid #31b8df;
         margin-bottom: 12px;
-        padding: 2px 0 11px 21px;
+        padding: 6px 0 8px 21px;
         font-size: 24px;
         line-height: 27px;
         text-align: left;
@@ -2811,6 +2812,9 @@ span.swiper-pagination-bullet-active:hover{
     }
     .site .site__caption_big {
         padding-top: 16px;
+    }
+    .site__title{
+        margin-top: 0;
     }
     /* --------------- /site -------------- */
 
