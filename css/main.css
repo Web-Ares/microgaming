@@ -1719,7 +1719,7 @@ span.swiper-pagination-bullet-active:hover{
     background-size: cover;
 }
 .casino-bonuses__list{
-    max-width: 320px;
+    max-width: 307px;
     margin: 0 auto;
 }
 .casino-bonuses__item {
@@ -1934,11 +1934,18 @@ span.swiper-pagination-bullet-active:hover{
     border: 1px solid #dedede;
     box-shadow: 2px 3px 5px #dedede;
     margin: 0 0 16px;
+    background-size: cover;
 }
 .get-bonus__title {
+    display: table;
+    height: 150px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+.get-bonus__title>div{
     display: table-cell;
     height: 100px;
-    width: 335px;
     vertical-align: middle;
 }
 .get-bonus__title img {
@@ -1947,6 +1954,7 @@ span.swiper-pagination-bullet-active:hover{
     margin: 0 auto;
     width: 68%;
     height: auto;
+    max-width: 200px;
 }
 .get-bonus span {
     display: block;
@@ -2055,13 +2063,13 @@ span.swiper-pagination-bullet-active:hover{
         border-right: 1px solid #dedede;
         border-bottom: 4px solid #31b8df;
         margin-bottom: 12px;
-        padding: 9px 0 7px 14px;
+        padding: 2px 0 11px 21px;
         font-size: 24px;
         line-height: 27px;
         text-align: left;
     }
     .site__title_date {
-        padding: 13px 65px 14px 12px;
+        padding: 9px 65px 14px 12px;
     }
     /* --------------- /site -------------- */
 
@@ -2605,10 +2613,10 @@ span.swiper-pagination-bullet-active:hover{
 
     /* -------------- casino-bonuses --------------- */
     .casino-bonuses {
-        margin-bottom: 101px;
+        margin-bottom: 19px;
     }
     .casino-bonuses__list{
-        max-width: 768px;
+        max-width: 731px;
     }
     .casino-bonuses__item,
     .casino-bonuses__item:nth-child(2n+1){
@@ -3744,4 +3752,10 @@ span.swiper-pagination-bullet-active:hover{
         font-size: 12px;
     }
     /*--------------/subscribe----------------*/
+
+    /*--------------get-bonus__title----------------*/
+    .get-bonus__title {
+        height: 110px;
+    }
+    /*--------------/get-bonus__title----------------*/
 }
