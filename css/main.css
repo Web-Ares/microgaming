@@ -248,6 +248,7 @@
     right: 0;
     width: 118px;
     z-index: 2;
+    cursor: pointer;
 }
 .header__search input[type="search"]{
     width: 94px;
