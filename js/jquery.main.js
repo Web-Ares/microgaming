@@ -31,6 +31,9 @@
                     $('.aside-inform').clone().appendTo(".site_drop-down");
                     $('.site_drop-down').addClass('site_full-aside');
                     $('.site_drop-down').removeClass('site_drop-down');
+                    $('.top-games_down').clone().appendTo(".top-games_aside-down");
+                    $('.top-games_aside-down').addClass('top-games_aside-top');
+                    $('.top-games_aside-down').removeClass('top-games_aside-down');
                 }
             },
             'resize':function(){
@@ -38,6 +41,9 @@
                     $('.aside-inform').clone().appendTo(".site_drop-down");
                     $('.site_drop-down').addClass('site_full-aside');
                     $('.site_drop-down').removeClass('site_drop-down');
+                    $('.top-games_down').clone().appendTo(".top-games_aside-down");
+                    $('.top-games_aside-down').addClass('top-games_aside-top');
+                    $('.top-games_aside-down').removeClass('top-games_aside-down');
                 }
             }
         });

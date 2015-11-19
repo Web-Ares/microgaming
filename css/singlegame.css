@@ -6,25 +6,248 @@
 
 */
 
-/* --------------- singlegame --------------- */
-.singlegame{
-    margin: 0;
-    width: 0;
-    padding: 0;
-    height: 0;
+/* --------------- top-games --------------- */
+.top-games_down{
+    margin-bottom: 20px;
 }
-/* --------------- /singlegame --------------- */
+/* --------------- top-games --------------- */
+
+/*--------------game-layout----------------*/
+.site .game-layout__title {
+    padding: 12px 0;
+    font-size: 18px;
+}
+.game-layout__navigate,
+.game-layout__wrap,
+.game-layout__control{
+    display: none;
+}
+.game-layout__error{
+    margin: -18px -6px 0 -7px;
+    border: 1px solid #797979;
+    box-shadow: 0 0 3px #797979;
+    background: url("../img/bg-error.jpg") repeat center/5%;
+}
+.game-layout__error>div{
+
+}
+.game-layout__rate{
+    display: block;
+    margin-left: 26px;
+    padding-top: 7px;
+}
+.game-layout__rate:before{
+    content: 'Rate:';
+    display: inline-block;
+    font-family: "Flama-Light", sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.game-layout__share{
+    margin-left: 6px;
+    padding-top: 14px;
+}
+.game-layout__share a{
+    display: inline-block;
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    margin-right: 6px;
+    background: url("../img/icons-social-colors.png");
+    cursor: pointer;
+    transition: opacity .3s ease;
+    -webkit-transition: opacity .3s ease;
+}
+.game-layout__share a:hover{
+    opacity: .7;
+}
+.game-layout__share a + a{
+    background-position: -45px 0;
+}
+.game-layout__share a + a + a{
+    background-position: -90px 0;
+}
+.game-layout__share:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.game-layout__share:before{
+    content: 'Share:';
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 13px;
+    font-family: "Flama-Light", sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+/*--------------/game-layout----------------*/
+
+/*-----------top-casinos_bigger-------------*/
+.top-casinos_bigger{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+.top-casinos_bigger .top-casinos__rating{
+    width: 230px;
+    height: 36px;
+    margin-left: 8px;
+    background-size: 48px 36px;
+}
+.top-casinos_bigger .top-casinos__rating > div{
+    height: 36px;
+    background-size: 48px 36px;
+    transition: background-image .3s ease;
+    -webkit-transition: background-image .3s ease;
+}
+.top-casinos_bigger .top-casinos__rating > div:hover{
+    background-image: url("../img/score3.png");
+    cursor: pointer;
+}
+.top-casinos_bigger .top-casinos__score-count{
+    display: block;
+    margin-left: 22px;
+    padding-top: 5px;
+    font: 14px "Flama-Light", sans-serif;
+    color: #666;
+}
+.top-casinos_bigger .top-casinos__score-count span{
+    position: relative;
+    display: block;
+    color: #bfbfbf;
+    text-transform: uppercase;
+}
+.top-casinos_bigger .top-casinos__score-count span:after{
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 12px;
+    margin-left: 5px;
+    background: url("../img/icons-good.png");
+}
+/*-----------/top-casinos_bigger------------*/
 
 @media (min-width: 768px){
-    /* --------------- singlegame --------------- */
+    /*--------------game-layout----------------*/
+    .site .game-layout__title{
+        padding: 18px 0 23px;
+        font-size: 43px;
+    }
+    .game-layout__rate:before {
+        vertical-align: middle;
+    }
+    /*--------------/game-layout----------------*/
 
-    /* --------------- /singlegame --------------- */
+    /* --------------- top-games --------------- */
+    .top-games_down a{
+        display: inline-block;
+        width: 47%;
+    }
+    /* --------------- /top-games --------------- */
+
+    /*-----------top-casinos_bigger-------------*/
+    .top-casinos_bigger {
+        vertical-align: middle;
+    }
+    .top-casinos_bigger .top-casinos__score-count{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    /*-----------/top-casinos_bigger------------*/
 }
 
 @media (min-width: 1024px){
-    /* --------------- singlegame --------------- */
-    .singlegame{
-
+    /* --------------- top-games --------------- */
+    .top-games_down a{
+        display: block;
+        width: 100%;
     }
-    /* --------------- /singlegame --------------- */
+    .game-layout__control{
+        display: block;
+        float: right;
+    }
+    .game-layout__control a{
+        display: inline-block;
+        width: 98px;
+        height: 105px;
+        margin-right: 17px;
+        background: url("../img/icons-controls.png") no-repeat 0 0;
+        transition: opacity .3s ease;
+        -webkit-transition: opacity .3s ease;
+        cursor: pointer;
+    }
+    .game-layout__control a:hover{
+        opacity: .8;
+    }
+    .game-layout__control a+a{
+        background-position: -117px 0;
+    }
+    .game-layout__control a+a+a{
+        background-position: -235px 0;
+    }
+    /* --------------- /top-games --------------- */
+
+    /* ------------ casino-bonuses -------------- */
+    .casino-bonuses_rare .casino-bonuses__item{
+        margin-left: 27px;
+        margin-bottom: 13px;
+    }
+    .casino-bonuses_rare .casino-bonuses__item:nth-child(3n+1){
+        margin-left: 15px;
+    }
+    /* ----------- /casino-bonuses -------------- */
+
+    /*--------------game-layout----------------*/
+    .game-layout{
+        position: relative;
+        margin: -18px 0 32px;
+        padding: 24px 0 6px;
+        background-color: #262626;
+        color: #bfbfbf;
+    }
+    .game-layout:before {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -16px;
+        border: 16px solid transparent;
+        border-top: 17px solid #313534;
+    }
+    .game-layout__title{
+        margin-bottom: 17px;
+        font-size: 30px;
+        font-family: "Flama-Bold", sans-serif;
+        font-weight: normal;
+        color: #31b8df;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .game-layout__navigate{
+        display: block;
+        margin-bottom: 22px;
+        padding: 0 4px;
+    }
+    .game-layout__navigate a{
+        font-size: 14px;
+        font-family: "Flama-Bold", sans-serif;
+        color: #bfbfbf;
+        border-bottom: 1px solid transparent;
+        transition: border-bottom-color .3s ease;
+        -webkit-transition: border-bottom-color .3s ease;
+    }
+    .game-layout__navigate a+a{
+        float: right;
+    }
+    .game-layout__navigate a:hover{
+        border-bottom-color: #bfbfbf;
+    }
+    .game-layout__wrap{
+        display: block;
+        margin-bottom: 10px;
+        box-shadow: 0 0 5px #333;
+    }
+    /*--------------/game-layout----------------*/
 }
