@@ -210,7 +210,7 @@
     display: block;
     vertical-align: top;
     border: 1px solid #dedede;
-    box-shadow: 2px 3px 5px #dedede;
+    box-shadow: 2px 3px 5px -1px #dedede;
     padding: 0 10px 24px 10px;
     overflow: hidden;
     margin-bottom: 11px;
@@ -595,7 +595,7 @@
 
 /*-----------------comments-------------------*/
 .comments {
-    padding: 20px 0 0 0;
+    padding: 14px 0 0 0;
 }
 .comments .flags{
     width: 10px;
@@ -605,7 +605,7 @@
     margin: 1px 0 0 1px;
 }
 .coments__wrap {
-    padding: 0 0 115px 0;
+    padding: 0 0 25px 0;
 }
 .coments__wrap .site__title {
     font-size: 19px;
@@ -853,15 +853,15 @@ input[type="radio"]:checked + label > .add-your__experience-checked {
 
     /*---------------review-card----------------*/
     .review-list{
-        padding-left: 9px;
+        padding: 0 19px;
     }
     .review-card,
     .review-card:nth-child(2n){
         padding: 0 12px 0 12px;
-        height: 293px;
-        width: 353px;
+        height: 294px;
+        width: 339px;
         display: inline-block;
-        margin: 0 12px 26px 0;
+        margin: 0 11px 18px 0;
     }
     .review-card:nth-child(2n){
         margin-right: 0;
@@ -877,22 +877,22 @@ input[type="radio"]:checked + label > .add-your__experience-checked {
         min-height: 58px;
     }
     .review-card__title {
-        padding: 88px 0 0 0;
-        margin-bottom: 11px;
+        padding: 77px 0 0 0;
+        margin-bottom: 13px;
         white-space: nowrap;
     }
     .review-card__title span {
-        padding: 0 10px;
-        font-size: 14px;
-        line-height: 16px;
+        padding: 0 18px;
+        font-size: 18px;
+        line-height: 18px;
         margin: 0;
     }
     .review-card__title:after {
-        top: 95px;
+        top: 87px;
     }
     .review-card__inner p {
-        font-size: 14px;
-        line-height: 24px;
+        font-size: 16px;
+        line-height: 26px;
     }
     .review-list li:nth-child(1) h3,
     .review-list li:nth-child(2) h3,
@@ -920,24 +920,24 @@ input[type="radio"]:checked + label > .add-your__experience-checked {
         height: 8px;
     }
     .review-card__inner dl {
-        font-size: 12px;
+        font-size: 16px;
         padding: 0 2px;
-        line-height: 15px;
+        line-height: 16px;
     }
     .review-card__inner dl dt {
-        width: 45%;
+        width: 51%;
         margin: 0 0 9px;
     }
     .review-card__inner dl dd {
-        vertical-align: top;
-        width: 52%;
+        vertical-align: bottom;
+        width: 47%;
         margin: 0 0 9px;
     }
     .review-card__inner dl.banking-list dt {
-        width: 69%;
+        width: 58%;
     }
     .review-card__inner dl.banking-list dd {
-        width: 30%;
+        width: 40%;
     }
     .review-card__inner div img {
         margin: 0 6px 14px;
@@ -1090,28 +1090,28 @@ input[type="radio"]:checked + label > .add-your__experience-checked {
     .coments__wrap .site__title {
         font-size: 18px;
         line-height: 18px;
-        padding: 31px 5px 20px 29px;
-        margin-bottom: 33px;
+        padding: 25px 5px 23px 29px;
+        margin-bottom: 31px;
         width: 100%;
-        height: 82px;
-        border: 4px solid #31b8df;
+        height: 71px;
+        border: 2px solid #31b8df
     }
 
     .coments__wrap .site__title span {
         font-size: 14px;
         line-height: 14px;
-        margin: 3px 17px 0 0;
+        margin: 1px 17px 0 0;
     }
 
     .comments__inner {
         padding: 0 0 0 16px;
-        margin: 0 0 33px 0;
+        margin: 0 0 32px 0;
     }
 
     .comments__inner > dl {
         font-size: 12px;
-        margin-right: 19px;
-        margin-top: 4px;
+        margin-right: 21px;
+        margin-top: 7px;
     }
 
     .comments__inner > span:last-of-type {
@@ -1119,14 +1119,14 @@ input[type="radio"]:checked + label > .add-your__experience-checked {
         font-size: 14px;
         line-height: 14px;
         color: #666;
-        margin: 2px 0 7px 5px;
+        margin: 4px 0 7px 5px;
     }
 
     .comments__inner > p {
         font-size: 14px;
         line-height: 17px;
         padding: 8px 13px 10px 13px;
-        margin: 0 0 0 38px;
+        margin: 0 17px 0 38px;
         min-height: 58px;
     }
 
@@ -1281,12 +1281,91 @@ input[type="radio"]:checked + label > .add-your__experience-checked {
     /*---------------- /casino-bonus ----------------*/
 
     /*---------------- /casino-bonus ----------------*/
+    .review-list{
+        padding:0 0 0 6px;
+    }
     .review-card,
     .review-card:nth-child(2n){
+        padding: 0 12px 0 12px;
+        height: 293px;;
         width: 369px;
+        margin: 0 12px 26px 0;
+    }
+    .review-card:nth-child(2n){
+        margin-right: 0;
     }
     .review-card__wrap {
+        height: 174px;
         width: 342px;
+    }
+    .review-card__inner {
+        min-height: 58px;
+    }
+    .review-card__title {
+        padding: 88px 0 0 0;
+        margin-bottom: 11px;
+    }
+    .review-card__title span {
+        padding: 0 35px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .review-card__title:after {
+        top: 95px;
+    }
+    .review-card__inner p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .review-list li:nth-child(1) h3,
+    .review-list li:nth-child(2) h3,
+    .review-list li:nth-child(3) h3,
+    .review-list li:nth-child(4) h3,
+    .review-list li:nth-child(5) h3,
+    .review-list li:nth-child(6) h3,
+    .review-list li:nth-child(7) h3,
+    .review-list li:nth-child(8) h3 {
+        background-position: center 16px;
+        background-size: auto;
+    }
+    .review-card__inner ul {
+        font-size: 14px;
+        min-width: 101px;
+        line-height: 14px;
+    }
+    .review-card__inner ul li {
+        padding: 8px 20px 9px 31px;
+    }
+    .review-card__inner ul li:before {
+        left: 13px;
+        top: 11px;
+        width: 6px;
+        height: 8px;
+    }
+    .review-card__inner dl {
+        font-size: 12px;
+        padding: 0 2px;
+        line-height: 15px;
+    }
+    .review-card__inner dl dt {
+        width: 45%;
+        margin: 0 0 9px;
+    }
+    .review-card__inner dl dd {
+        vertical-align: top;
+        width: 52%;
+        margin: 0 0 9px;
+    }
+    .review-card__inner dl.banking-list dt {
+        width: 69%;
+    }
+    .review-card__inner dl.banking-list dd {
+        width: 30%;
+    }
+    .review-card__inner div img {
+        margin: 0 6px 14px;
+        width: auto;
+        height: auto;
     }
     /*---------------- /casino-bonus ----------------*/
 
@@ -1336,6 +1415,17 @@ input[type="radio"]:checked + label > .add-your__experience-checked {
     .comments {
         background: #f7f7f7;
         padding: 20px 0 0 0;
+    }
+    .coments__wrap .site__title {
+        font-size: 18px;
+        line-height: 18px;
+        padding: 28px 5px 23px 29px;
+        margin-bottom: 31px;
+        height: 82px;
+        border: 4px solid #31b8df;
+    }
+    .coments__wrap {
+        padding: 0 0 115px 0;
     }
     /*---------------/comments----------------*/
 
