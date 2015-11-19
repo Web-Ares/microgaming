@@ -13,6 +13,9 @@
 /* --------------- top-games --------------- */
 
 /*--------------game-layout----------------*/
+.game-layout{
+    margin-bottom: 27px;
+}
 .site .game-layout__title {
     padding: 12px 0;
     font-size: 18px;
@@ -24,36 +27,150 @@
 }
 .game-layout__error{
     margin: -18px -6px 0 -7px;
+    padding: 34px 0 20px;
     border: 1px solid #797979;
     box-shadow: 0 0 3px #797979;
     background: url("../img/bg-error.jpg") repeat center/5%;
 }
-.game-layout__error>div{
-
+.game-layout__error > div{
+    padding: 20px 5px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #666;
+}
+.game-layout__error > div > span{
+    display: block;
+    font-size: 21px;
+}
+.game-layout__get-flash{
+    text-align: left;
+}
+.game-layout__get-flash > a{
+    color: #e26c00;
+    text-decoration: underline;
+}
+.game-layout__get-flash > a:hover{
+    text-decoration: none;
+}
+.game-layout__error > div{
+    position: relative;
+    box-shadow: 0 0 15px #777;
+    z-index: 2;
+}
+.game-layout__error > div:before{
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("../img/bg-error.png") no-repeat;
+    border-bottom: 2px solid #fff;
+    background-size: cover;
+    z-index: -1;
+}
+.game-layout__error > div > a:hover{
+    text-decoration: none;
+}
+.game-layout__error .casino-bonuses__item{
+    display: block;
+    width: 94%;
+    height: 238px;
+    margin: 13px auto 15px;
+}
+.game-layout__error .casino-bonuses__item img{
+    width: 142px;
+    height: 75px;
+}
+.game-layout__error .casino-bonuses__inner{
+    margin-bottom: 10px;
+}
+.game-layout__error .casino-bonuses__name{
+    font-size: 20px;
+}
+.game-layout__error .casino-bonuses__condition{
+    margin-bottom: -2px;
+}
+.game-layout__error .casino-bonuses__condition span{
+    display: inline-block;
+}
+.game-layout__error .casino-bonuses_code dt,
+.game-layout__error .casino-bonuses_code dd{
+    font-size: 14px;
+}
+.game-layout__error .casino-bonuses__flag{
+    display: none;
+}
+.game-layout__error .casino-bonuses .newest-games__new{
+    margin-right: 0;
+    width: 68px;
+    height: 41px;
+}
+.game-layout__error .casino-bonuses__hover{
+    position: relative;
+    width: 160px;
+    height: 46px;
+    padding: 14px 0;
+    background: url("../img/bg-buttons.png") no-repeat;
+    background-size: 100% auto;
+}
+.game-layout__error .casino-bonuses__hover:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../img/bg-buttons.png") no-repeat 0 -53px;
+    background-size: 100% auto;
+    opacity: 0;
+    transition: opacity .3s ease;
+    -webkit-transition: opacity .3s ease;
+}
+.game-layout__error .casino-bonuses__hover span{
+    position: relative;
+    color: #666;
+    font-size: 19px;
+    text-shadow: 1px 1px 0 #fff;
+    transition: color .3s ease;
+    -webkit-transition: color .3s ease;
+    z-index: 2;
+}
+.game-layout__error .casino-bonuses__hover:hover span{
+    color: #009815;
+}
+.game-layout__error .casino-bonuses__hover:hover:before{
+    opacity: 1;
+}
+.game-layout__error .casino-bonuses__item + .casino-bonuses__item{
+    display: none;
 }
 .game-layout__rate{
     display: block;
-    margin-left: 26px;
-    padding-top: 7px;
+    margin-left: 11px;
+    padding-top: 25px;
 }
 .game-layout__rate:before{
     content: 'Rate:';
+    position: relative;
+    top: 5px;
     display: inline-block;
     font-family: "Flama-Light", sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     text-transform: uppercase;
 }
 .game-layout__share{
-    margin-left: 6px;
-    padding-top: 14px;
+    margin-left: 12px;
+    padding-top: 26px;
 }
 .game-layout__share a{
     display: inline-block;
     vertical-align: middle;
-    width: 35px;
-    height: 35px;
+    width: 42px;
+    height: 42px;
     margin-right: 6px;
     background: url("../img/icons-social-colors.png");
+    background-size: auto 100%;
     cursor: pointer;
     transition: opacity .3s ease;
     -webkit-transition: opacity .3s ease;
@@ -62,10 +179,10 @@
     opacity: .7;
 }
 .game-layout__share a + a{
-    background-position: -45px 0;
+    background-position: -54px 0;
 }
 .game-layout__share a + a + a{
-    background-position: -90px 0;
+    background-position: -108px 0;
 }
 .game-layout__share:after{
     content: '';
@@ -78,7 +195,7 @@
     vertical-align: middle;
     margin-right: 13px;
     font-family: "Flama-Light", sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     text-transform: uppercase;
 }
 /*--------------/game-layout----------------*/
@@ -91,14 +208,14 @@
     margin-bottom: 0;
 }
 .top-casinos_bigger .top-casinos__rating{
-    width: 230px;
-    height: 36px;
+    width: 165px;
+    height: 25px;
     margin-left: 8px;
-    background-size: 48px 36px;
+    background-size: 34px 25px;
 }
 .top-casinos_bigger .top-casinos__rating > div{
-    height: 36px;
-    background-size: 48px 36px;
+    height: 25px;
+    background-size: 34px 25px;
     transition: background-image .3s ease;
     -webkit-transition: background-image .3s ease;
 }
@@ -108,9 +225,10 @@
 }
 .top-casinos_bigger .top-casinos__score-count{
     display: block;
-    margin-left: 22px;
-    padding-top: 5px;
-    font: 14px "Flama-Light", sans-serif;
+    width: 150px;
+    margin-left: 36px;
+    padding-top: 9px;
+    font: 16px "Flama-Light", sans-serif;
     color: #666;
 }
 .top-casinos_bigger .top-casinos__score-count span{
@@ -130,22 +248,146 @@
 /*-----------/top-casinos_bigger------------*/
 
 @media (min-width: 768px){
+    /*--------------site----------------*/
+    .site .site__caption:before{
+        top: 100%;
+        bottom: auto;
+        margin-left: -18px;
+        border-width: 22px 18px 0 18px;
+    }
+    /*--------------site----------------*/
+
     /*--------------game-layout----------------*/
+    .game-layout__error{
+        margin: 30px 0 11px 0;
+        padding: 45px 64px 20px 93px;
+    }
+    .game-layout__error > div {
+        padding: 72px 49px;
+        font-size: 16px;
+    }
+    .game-layout__error > div > span{
+        font-size: 32px;
+        line-height: 33px;
+    }
+    .game-layout__error .casino-bonuses{
+        margin-bottom: 20px;
+    }
+    .game-layout__error .casino-bonuses__item{
+        width: auto;
+        height: 103px;
+        margin: 24px 47px 11px 30px;
+    }
+    .game-layout__error .casino-bonuses__inner{
+        height: auto;
+        padding-top: 12px;
+        overflow: visible;
+    }
+    .game-layout__error .casino-bonuses__pic{
+        float: left;
+        width: auto;
+        height: 49px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    .game-layout__error .casino-bonuses__name{
+        position: absolute;
+        top: 65px;
+        left: 33px;
+        font-size: 14px;
+    }
+    .game-layout__error .casino-bonuses__item img {
+        width: 99px;
+        height: 52px;
+    }
+    .game-layout__error .casino-bonuses__condition{
+        font-size: 20px;
+    }
+    .game-layout__error .casino-bonuses .newest-games__new {
+        margin-top: 3px;
+        margin-right: 4px;
+        width: 30px;
+        height: 18px;
+    }
+    .game-layout__error .casino-bonuses__hover {
+        float: right;
+        width: 116px;
+        height: 32px;
+        margin-right: 79px;
+        margin-top: -5px;
+        padding: 8px 0;
+    }
+    .game-layout__error .casino-bonuses__hover span{
+        font-size: 12px;
+        text-transform: none;
+    }
+    .game-layout__error .casino-bonuses__hover:before {
+        background-position: 0 -38px;
+    }
     .site .game-layout__title{
         padding: 18px 0 23px;
         font-size: 43px;
     }
+    .game-layout__rate{
+         display: block;
+         margin-left: 26px;
+         padding-top: 7px;
+    }
     .game-layout__rate:before {
+        top: 0;
         vertical-align: middle;
+        font-size: 24px;
+    }
+    .game-layout__share{
+        margin-left: 6px;
+        padding-top: 14px;
+    }
+    .game-layout__share:before {
+        font-size: 24px;
+    }
+    .game-layout__share a{
+        width: 35px;
+        height: 35px;
+    }
+    .game-layout__share a + a{
+        background-position: -45px 0;
+    }
+    .game-layout__share a + a + a{
+        background-position: -90px 0;
+    }
+    .game-layout__error .casino-bonuses__item + .casino-bonuses__item{
+        display: block;
+        margin-top: 0;
+    }
+    .game-layout__get-flash{
+        margin: 0 -20px;
+    }
+    .game-layout__control{
+        display: block;
+        float: right;
+        padding-top: 12px;
+    }
+    .game-layout__control a{
+        display: inline-block;
+        width: 70px;
+        height: 73px;
+        margin-right: 13px;
+        background: url("../img/icons-controls.png") no-repeat 0 0;
+        background-size: 238px auto;
+        transition: opacity .3s ease;
+        -webkit-transition: opacity .3s ease;
+        cursor: pointer;
+    }
+    .game-layout__control a:hover{
+        opacity: .8;
+    }
+    .game-layout__control a+a{
+        background-position: -84px 0;
+    }
+    .game-layout__control a+a+a{
+        background-position: -169px 0;
     }
     /*--------------/game-layout----------------*/
-
-    /* --------------- top-games --------------- */
-    .top-games_down a{
-        display: inline-block;
-        width: 47%;
-    }
-    /* --------------- /top-games --------------- */
 
     /*-----------top-casinos_bigger-------------*/
     .top-casinos_bigger {
@@ -154,6 +396,15 @@
     .top-casinos_bigger .top-casinos__score-count{
         display: inline-block;
         vertical-align: middle;
+        padding-top: 0;
+    }
+    .top-casinos_bigger .top-casinos__score-count{
+        margin-left: 22px;
+        font-size: 14px;
+    }
+    .top-games_down a{
+        display: inline-block;
+        width: 47%;
     }
     /*-----------/top-casinos_bigger------------*/
 }
@@ -164,22 +415,17 @@
         display: block;
         width: 100%;
     }
-    .game-layout__control{
-        display: block;
-        float: right;
+    .game-layout__error{
+        display: none;
     }
-    .game-layout__control a{
-        display: inline-block;
+    .game-layout__control{
+        padding-top: 0;
+    }
+    .game-layout__control a {
         width: 98px;
         height: 105px;
         margin-right: 17px;
-        background: url("../img/icons-controls.png") no-repeat 0 0;
-        transition: opacity .3s ease;
-        -webkit-transition: opacity .3s ease;
-        cursor: pointer;
-    }
-    .game-layout__control a:hover{
-        opacity: .8;
+        background-size: auto;
     }
     .game-layout__control a+a{
         background-position: -117px 0;
@@ -250,4 +496,25 @@
         box-shadow: 0 0 5px #333;
     }
     /*--------------/game-layout----------------*/
+
+    /* --------------- top-games --------------- */
+    .top-casinos_bigger .top-casinos__rating{
+        width: 230px;
+        height: 36px;
+        margin-left: 8px;
+        background-size: 48px 36px;
+    }
+    .top-casinos_bigger .top-casinos__rating > div {
+        height: 36px;
+        background-size: 48px 36px;
+    }
+    .top-casinos_bigger .top-casinos__score-count{
+        margin-left: 22px;
+        font-size: 14px;
+    }
+    .top-games_down a{
+        display: inline-block;
+        width: 47%;
+    }
+    /* --------------- /top-games --------------- */
 }
