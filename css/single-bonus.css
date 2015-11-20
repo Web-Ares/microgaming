@@ -1010,6 +1010,9 @@ input[type="radio"]:checked + label > .add-your__experience-checked {
         background-position: center 16px;
         background-size: auto;
     }
+    .bonus-list li:nth-child(3) h3{
+        background-position: center 25px;
+    }
     .bonus-list .review-card__inner ul {
         font-size: 14px;
         min-width: 101px;
