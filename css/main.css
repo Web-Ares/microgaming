@@ -875,7 +875,7 @@
     background: none;
     background: #fafafa;
     border-bottom: 2px solid #d9d9d9;
-    border-top: 1px solid #d9d9d9;
+    border-top: 2px solid #d9d9d9;
     border-left: 1px solid #d9d9d9;
     border-right: 1px solid #d9d9d9;
 }
@@ -904,7 +904,7 @@
     background: none;
     background: #fafafa;
     border-bottom: 2px solid #d9d9d9;
-    border-top: 1px solid #d9d9d9;
+    border-top: 2px solid #d9d9d9;
     border-left: 1px solid #d9d9d9;
     border-right: 1px solid #d9d9d9;
 }
@@ -2502,6 +2502,7 @@ span.swiper-pagination-bullet-active:hover{
         margin-top: -27px;
         width: 64px;
         border-bottom: 5px solid #d9d9d9;
+        border-top: 1px solid #d9d9d9;
     }
     .top-casinos-country .swiper-button-next:before{
         left: 24px;
@@ -2516,6 +2517,7 @@ span.swiper-pagination-bullet-active:hover{
         margin-top: -27px;
         width: 64px;
         border-bottom: 5px solid #d9d9d9;
+        border-top: 1px solid #d9d9d9;
     }
     .top-casinos-country .swiper-button-prev:before{
         left: 24px;
