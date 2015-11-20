@@ -3014,6 +3014,7 @@ span.swiper-pagination-bullet-active:hover{
         -webkit-transition: color .3s ease;
     }
     .menu > ul ul > .active > a:after,
+    .menu > ul > .active > a:after,
     .menu > ul > .sub-menu > a:after {
         content: '';
         position: absolute;
