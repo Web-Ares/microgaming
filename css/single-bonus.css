@@ -173,6 +173,7 @@
 .casino-comments {
     overflow: hidden;
     padding: 0 3px 0 7px;
+    margin-bottom: 13px;
 }
 .casino-comments__item {
     margin-bottom: 14px;
@@ -181,7 +182,7 @@
 .casino-comments__avatar {
     float: left;
     width: 50px;
-    margin-top: -6px;
+    margin-top: -2px;
 }
 .casino-comments__avatar img {
     display: block;
@@ -191,8 +192,8 @@
     position: relative;
     display: block;
     border-radius: 0 5px 5px 5px;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 19px;
+    line-height: 23px;
     color: #999999;
     padding: 13px 10px 13px 18px;
     margin: 0 0 0 39px;
@@ -1252,6 +1253,19 @@ input[type="radio"]:checked + label > .add-your__experience-checked {
     }
 }
 @media (min-width: 1024px){
+
+    /*---------------casino-comments----------------*/
+    .casino-comments {
+        margin-bottom: 0;
+    }
+    .casino-comments__avatar {
+        margin-top: -6px;
+    }
+    .casino-comments__item p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    /*---------------/casino-comments----------------*/
 
     /*---------------- casino-bonus ----------------*/
     .casino-bonus {
