@@ -7,13 +7,6 @@
     main styles
     version: 11.11.2015
 
-
-
-
-
-
-
-
     placeholder
 
     fonts
@@ -1020,8 +1013,6 @@
 .top-casinos-country a:hover{
     background: #cccccc;
 }
-
-
 /* ----------------- /top-casinos ----------------- */
 
 /* --------------- swiper-promo --------------- */
@@ -3056,8 +3047,8 @@ span.swiper-pagination-bullet-active:hover{
     .menu > ul > li:hover > a:after,
     .menu > ul > li.active > a:after,
     .menu > ul ul > li:hover > a:after,
-    .menu > ul ul > li.active > a:after/*,
-    .menu > ul > li:hover > a:before*/ {
+    .menu > ul ul > li.active > a:after,
+    .menu > ul > li:hover > a:before{
         opacity: 1;
         visibility: visible;
     }
@@ -3067,10 +3058,13 @@ span.swiper-pagination-bullet-active:hover{
     .menu > ul > li:hover > a:after{
         z-index: 3;
     }
-    menu > ul > li:hover > a:before{
+    .menu > ul > li:hover > a:before{
         z-index: 2;
     }
-    .menu > ul > li > a:hover {
+    .menu > ul > li:hover > a {
+        color: #62d9fc;
+    }
+    .menu > ul > li:hover > a {
         color: #00addf;
     }
     .menu > ul ul {
