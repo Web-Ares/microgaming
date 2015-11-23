@@ -271,11 +271,17 @@
         }
         if (_obj.hasClass('newest-games__slider')){
             var _swiperSlider = new Swiper(_obj, {
-                slidesPerView: 1,
-                pagination: _paginator2,
-                loop: true,
-                autoplay: 5000,
-                paginationClickable: true
+                pagination: '.newest-games__points',
+                paginationClickable: true,
+                slidesPerView: 5,
+                autoplay: 10000,
+                spaceBetween: 0,
+                loop: false,
+                breakpoints: {
+                    1024: {
+                        slidesPerView: 3
+                    }
+                }
             });
         }
         if (_obj.hasClass('top-casinos-country')){
