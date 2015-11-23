@@ -182,7 +182,6 @@
 @media (min-width: 1024px) {
     /*------------------ slots --------------*/
     .slots {
-        padding: 21px 0;
         position: relative;
     }
     .slots__item {
@@ -231,7 +230,7 @@
         width: 497px;
         height: 574px;
         left: 100%;
-        top: -24px;
+        top: -44px;
         margin-left: -38px;
     }
     .slots__pirate {
@@ -240,7 +239,7 @@
         width: 431px;
         height: 586px;
         right: 100%;
-        top: -21px;
+        top: -41px;
         margin-right: -6px;
     }
     .slots__pirate-main {

@@ -2811,6 +2811,7 @@ span.swiper-pagination-bullet-active:hover{
     }
     .site .site__caption_big {
         padding-top: 16px;
+        font-size: 30px;
     }
     .site__title{
         margin-top: 0;
