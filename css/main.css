@@ -1167,9 +1167,6 @@ span.swiper-pagination-bullet-active:hover{
 .newest-games__layout {
     text-align: center;
 }
-.slots .newest-games__layout {
-    padding: 0 8px 0 9px;
-}
 .newest-games__layout:after {
     width: 100%;
     content: '';
@@ -1320,25 +1317,13 @@ span.swiper-pagination-bullet-active:hover{
 .newest-games__item:hover .newest-games__pic:after {
     opacity: 1;
 }
-.newest-games__slider div a:first-child{
-    display: none;
-}
-.newest-games__slider div a:last-child{
-    display: none;
-}
 .newest-games__points{
     display: inline-block;
-    position: absolute;
-    top: 10px;
-    right: 14px;
-    z-index: 2;
-}
-.newest-games__points {
+    position: relative;
+    margin: 0 auto;
+    bottom: 21px;
     top: auto;
-    bottom: 5px;
-    left: 50%;
-    right: auto;
-    margin-left: -48px;
+    z-index: 2;
 }
 .newest-games__points span{
     width: 18px;
@@ -1365,6 +1350,7 @@ span.swiper-pagination-bullet-active:hover{
     position: relative;
     height: 192px;
     overflow: hidden;
+    text-align: center;
 }
 span.swiper-pagination-bullet-active{
     background-color: #fff;
@@ -2591,7 +2577,8 @@ span.swiper-pagination-bullet-active:hover{
         margin-left: 17px;
     }
     .newest-games__points {
-        margin-left: -100px;
+        margin-left: 40px;
+        bottom: 44px;
     }
     .newest-games__play {
         bottom: 54px;
@@ -3292,17 +3279,12 @@ span.swiper-pagination-bullet-active:hover{
         width: 37px;
         height: 23px;
     }
-    .newest-games__slider div a:first-child {
-        display: inline-block;
-    }
-    .newest-games__slider div a:last-child {
-        display: inline-block;
-    }
     .newest-games__layout{
         width: 1000px;
         margin: 0 auto;
         position: relative;
         padding: 0 31px 0 30px;}
+
     .newest-games__wrap:after {
         display: block;
     }
@@ -3338,7 +3320,8 @@ span.swiper-pagination-bullet-active:hover{
         height: 235px;
     }
     .newest-games__points{
-        margin-left: -32px;
+        bottom: 22px;
+        margin-left: 0;
     }
     .newest-games__play {
         bottom: 57px;
