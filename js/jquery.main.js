@@ -102,6 +102,7 @@
         //private properties
         var _obj = obj,
             _site = $('.site'),
+            _btn = _obj.children('a'),
             _sub = _obj.children('ul'),
             _window = $(window),
             _windowWidth = $(window).width();
@@ -121,18 +122,20 @@
                     }
                 });
 
-                _obj.on({
+                _btn.on({
                     click: function () {
-                        if (_obj.hasClass('mobile-active')){
-                            _sub.slideUp(500);
-                            _obj.removeClass('mobile-active');
-                        } else {
-                            $('.menu li').removeClass('mobile-active');
-                            $('.menu li ul').slideUp(500);
-                            $(this).addClass('mobile-active');
-                            _sub.slideDown(500);
+                        if(_windowWidth<=749) {
+                            if (_obj.hasClass('mobile-active')) {
+                                _sub.slideUp(500);
+                                _obj.removeClass('mobile-active');
+                            } else {
+                                $('.menu li').removeClass('mobile-active');
+                                $('.menu li ul').slideUp(500);
+                                $(this).parent('li').addClass('mobile-active');
+                                _sub.slideDown(500);
+                            }
+                            return false
                         }
-                        return false
                     }
                 });
             },
@@ -317,7 +320,6 @@
 
         _init();
     };
-
 
     var Pirate = function (obj) {
         this.obj = obj;
