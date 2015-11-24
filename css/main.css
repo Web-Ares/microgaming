@@ -973,7 +973,8 @@
     vertical-align: top;
     width: 18px;
     height: 18px;
-    background: url("../img/small_flags.png") no-repeat;
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
     text-indent: -5000px;
     text-transform: uppercase;
 }
@@ -1694,7 +1695,8 @@ span.swiper-pagination-bullet-active:hover{
     vertical-align: top;
     width: 18px;
     height: 18px;
-    background: url("../img/small_flags.png") no-repeat;
+    background: url(../img/spritesheet.png) no-repeat;
+    background-repeat: no-repeat;
     text-indent: -5000px;
 }
 .big{
