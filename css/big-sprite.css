@@ -1,0 +1,2417 @@
+.sprite {
+    background-image: url(../img/bigsprite.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-flag-congo_big {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -5px;
+}
+
+.sprite-flag-congo_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -5px;
+}
+
+.sprite-flag-abkhazia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -5px;
+}
+
+.sprite-flag-abkhazia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -5px;
+}
+
+.sprite-flag-aland-islands_big {
+    width: 26px;
+    height: 26px;
+    background-position: -149px -5px;
+}
+
+.sprite-flag-aland-islands_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -185px -5px;
+}
+
+.sprite-flag-algeria_big {
+    width: 26px;
+    height: 26px;
+    background-position: -221px -5px;
+}
+
+.sprite-flag-algeria_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -257px -5px;
+}
+
+.sprite-flag-antigua-and-barbuda_big {
+    width: 26px;
+    height: 26px;
+    background-position: -293px -5px;
+}
+
+.sprite-flag-antigua-and-barbuda_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -329px -5px;
+}
+
+.sprite-flag-argentinas_big {
+    width: 26px;
+    height: 26px;
+    background-position: -365px -5px;
+}
+
+.sprite-flag-argentinas_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -401px -5px;
+}
+
+.sprite-flag-armenia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -437px -5px;
+}
+
+.sprite-flag-armenia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -473px -5px;
+}
+
+.sprite-flag-aruba_big {
+    width: 26px;
+    height: 26px;
+    background-position: -509px -5px;
+}
+
+.sprite-flag-aruba_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -545px -5px;
+}
+
+.sprite-flag-australia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -581px -5px;
+}
+
+.sprite-flag-australia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -617px -5px;
+}
+
+.sprite-flag-austria_big {
+    width: 26px;
+    height: 26px;
+    background-position: -653px -5px;
+}
+
+.sprite-flag-austria_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -689px -5px;
+}
+
+.sprite-flag-azerbaijan_big {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -41px;
+}
+
+.sprite-flag-azerbaijan_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -41px;
+}
+
+.sprite-flag-bagamas_big {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -41px;
+}
+
+.sprite-flag-bagamas_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -41px;
+}
+
+.sprite-flag-bahrain_big {
+    width: 26px;
+    height: 26px;
+    background-position: -149px -41px;
+}
+
+.sprite-flag-bahrain_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -185px -41px;
+}
+
+.sprite-flag-bangladesh_big {
+    width: 26px;
+    height: 26px;
+    background-position: -221px -41px;
+}
+
+.sprite-flag-bangladesh_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -257px -41px;
+}
+
+.sprite-flag-barbados_big {
+    width: 26px;
+    height: 26px;
+    background-position: -293px -41px;
+}
+
+.sprite-flag-barbados_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -329px -41px;
+}
+
+.sprite-flag-bashkortostan_big {
+    width: 26px;
+    height: 26px;
+    background-position: -365px -41px;
+}
+
+.sprite-flag-bashkortostan_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -401px -41px;
+}
+
+.sprite-flag-basque_big {
+    width: 26px;
+    height: 26px;
+    background-position: -437px -41px;
+}
+
+.sprite-flag-basque_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -473px -41px;
+}
+
+.sprite-flag-bavaria_big {
+    width: 26px;
+    height: 26px;
+    background-position: -509px -41px;
+}
+
+.sprite-flag-bavaria_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -545px -41px;
+}
+
+.sprite-flag-belgium_big {
+    width: 26px;
+    height: 26px;
+    background-position: -581px -41px;
+}
+
+.sprite-flag-belgium_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -617px -41px;
+}
+
+.sprite-flag-benin_big {
+    width: 26px;
+    height: 26px;
+    background-position: -653px -41px;
+}
+
+.sprite-flag-benin_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -689px -41px;
+}
+
+.sprite-flag-bolivia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -77px;
+}
+
+.sprite-flag-bolivia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -77px;
+}
+
+.sprite-flag-bonaire_big {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -77px;
+}
+
+.sprite-flag-bonaire_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -77px;
+}
+
+.sprite-flag-bosnia-and-herzegovina_big {
+    width: 26px;
+    height: 26px;
+    background-position: -149px -77px;
+}
+
+.sprite-flag-bosnia-and-herzegovina_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -185px -77px;
+}
+
+.sprite-flag-botsvana_big {
+    width: 26px;
+    height: 26px;
+    background-position: -221px -77px;
+}
+
+.sprite-flag-botsvana_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -257px -77px;
+}
+
+.sprite-flag-brazil_big {
+    width: 26px;
+    height: 26px;
+    background-position: -293px -77px;
+}
+
+.sprite-flag-brazil_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -329px -77px;
+}
+
+.sprite-flag-british-indian-ocean-territory_big {
+    width: 26px;
+    height: 26px;
+    background-position: -365px -77px;
+}
+
+.sprite-flag-british-indian-ocean-territory_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -401px -77px;
+}
+
+.sprite-flag-bulgaria_big {
+    width: 26px;
+    height: 26px;
+    background-position: -437px -77px;
+}
+
+.sprite-flag-bulgaria_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -473px -77px;
+}
+
+.sprite-flag-burkina-fason_big {
+    width: 26px;
+    height: 26px;
+    background-position: -509px -77px;
+}
+
+.sprite-flag-burkina-fason_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -545px -77px;
+}
+
+.sprite-flag-burundi_big {
+    width: 26px;
+    height: 26px;
+    background-position: -581px -77px;
+}
+
+.sprite-flag-burundi_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -617px -77px;
+}
+
+.sprite-flag-cabo-verde_big {
+    width: 26px;
+    height: 26px;
+    background-position: -653px -77px;
+}
+
+.sprite-flag-cabo-verde_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -689px -77px;
+}
+
+.sprite-flag-cameroon_big {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -113px;
+}
+
+.sprite-flag-cameroon_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -113px;
+}
+
+.sprite-flag-canada_big {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -113px;
+}
+
+.sprite-flag-canada_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -113px;
+}
+
+.sprite-flag-central-african-republict_big {
+    width: 26px;
+    height: 26px;
+    background-position: -149px -113px;
+}
+
+.sprite-flag-central-african-republict_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -185px -113px;
+}
+
+.sprite-flag-chile_big {
+    width: 26px;
+    height: 26px;
+    background-position: -221px -113px;
+}
+
+.sprite-flag-chile_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -257px -113px;
+}
+
+.sprite-flag-china_big {
+    width: 26px;
+    height: 26px;
+    background-position: -293px -113px;
+}
+
+.sprite-flag-china_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -329px -113px;
+}
+
+.sprite-flag-city-london_big {
+    width: 26px;
+    height: 26px;
+    background-position: -365px -113px;
+}
+
+.sprite-flag-city-london_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -401px -113px;
+}
+
+.sprite-flag-comoros_big {
+    width: 26px;
+    height: 26px;
+    background-position: -437px -113px;
+}
+
+.sprite-flag-comoros_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -473px -113px;
+}
+
+.sprite-flag-costa_rica_big {
+    width: 25px;
+    height: 26px;
+    background-position: -509px -113px;
+}
+
+.sprite-flag-costa_rica_big-hover {
+    width: 25px;
+    height: 26px;
+    background-position: -544px -113px;
+}
+
+.sprite-flag-crimea_big {
+    width: 26px;
+    height: 26px;
+    background-position: -579px -113px;
+}
+
+.sprite-flag-crimea_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -615px -113px;
+}
+
+.sprite-flag-crimean-tatars_big {
+    width: 26px;
+    height: 26px;
+    background-position: -651px -113px;
+}
+
+.sprite-flag-crimean-tatars_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -687px -113px;
+}
+
+.sprite-flag-cuba_big {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -149px;
+}
+
+.sprite-flag-cuba_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -149px;
+}
+
+.sprite-flag-cyprus_big {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -149px;
+}
+
+.sprite-flag-cyprus_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -149px;
+}
+
+.sprite-flag-czech-republic_big {
+    width: 26px;
+    height: 26px;
+    background-position: -149px -149px;
+}
+
+.sprite-flag-czech-republic_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -185px -149px;
+}
+
+.sprite-flag-denmark_big {
+    width: 26px;
+    height: 26px;
+    background-position: -221px -149px;
+}
+
+.sprite-flag-denmark_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -257px -149px;
+}
+
+.sprite-flag-djibouti_big {
+    width: 26px;
+    height: 26px;
+    background-position: -293px -149px;
+}
+
+.sprite-flag-djibouti_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -329px -149px;
+}
+
+.sprite-flag-dominican-republic_big {
+    width: 26px;
+    height: 26px;
+    background-position: -365px -149px;
+}
+
+.sprite-flag-dominican-republic_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -401px -149px;
+}
+
+.sprite-flag-dr-congo_big {
+    width: 26px;
+    height: 26px;
+    background-position: -437px -149px;
+}
+
+.sprite-flag-dr-congo_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -473px -149px;
+}
+
+.sprite-flag-ecuador_big {
+    width: 26px;
+    height: 26px;
+    background-position: -509px -149px;
+}
+
+.sprite-flag-ecuador_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -545px -149px;
+}
+
+.sprite-flag-england_big {
+    width: 26px;
+    height: 26px;
+    background-position: -581px -149px;
+}
+
+.sprite-flag-england_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -617px -149px;
+}
+
+.sprite-flag-equatorial-guinea_big {
+    width: 26px;
+    height: 26px;
+    background-position: -653px -149px;
+}
+
+.sprite-flag-equatorial-guinea_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -689px -149px;
+}
+
+.sprite-flag-estonia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -185px;
+}
+
+.sprite-flag-estonia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -185px;
+}
+
+.sprite-flag-ethiopia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -185px;
+}
+
+.sprite-flag-ethiopia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -185px;
+}
+
+.sprite-flag-european-union_big {
+    width: 26px;
+    height: 26px;
+    background-position: -149px -185px;
+}
+
+.sprite-flag-european-union_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -185px -185px;
+}
+
+.sprite-flag-faroe_islands_big {
+    width: 26px;
+    height: 26px;
+    background-position: -221px -185px;
+}
+
+.sprite-flag-faroe_islands_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -257px -185px;
+}
+
+.sprite-flag-finland_big {
+    width: 26px;
+    height: 26px;
+    background-position: -293px -185px;
+}
+
+.sprite-flag-finland_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -329px -185px;
+}
+
+.sprite-flag-france_big {
+    width: 26px;
+    height: 26px;
+    background-position: -365px -185px;
+}
+
+.sprite-flag-france_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -401px -185px;
+}
+
+.sprite-flag-french-guiana_big {
+    width: 26px;
+    height: 26px;
+    background-position: -437px -185px;
+}
+
+.sprite-flag-french-guiana_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -473px -185px;
+}
+
+.sprite-flag-frontier-ukraine_big {
+    width: 26px;
+    height: 26px;
+    background-position: -509px -185px;
+}
+
+.sprite-flag-frontier-ukraine_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -545px -185px;
+}
+
+.sprite-flag-gabon_big {
+    width: 26px;
+    height: 26px;
+    background-position: -581px -185px;
+}
+
+.sprite-flag-gabon_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -617px -185px;
+}
+
+.sprite-flag-gagauzia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -653px -185px;
+}
+
+.sprite-flag-gagauzia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -689px -185px;
+}
+
+.sprite-flag-gambia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -221px;
+}
+
+.sprite-flag-gambia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -221px;
+}
+
+.sprite-flag-georgia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -221px;
+}
+
+.sprite-flag-georgia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -221px;
+}
+
+.sprite-flag-germany_big {
+    width: 26px;
+    height: 26px;
+    background-position: -149px -221px;
+}
+
+.sprite-flag-germany_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -185px -221px;
+}
+
+.sprite-flag-ghana_big {
+    width: 26px;
+    height: 26px;
+    background-position: -221px -221px;
+}
+
+.sprite-flag-ghana_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -257px -221px;
+}
+
+.sprite-flag-greece_big {
+    width: 26px;
+    height: 26px;
+    background-position: -293px -221px;
+}
+
+.sprite-flag-greece_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -329px -221px;
+}
+
+.sprite-flag-greenland_big {
+    width: 26px;
+    height: 26px;
+    background-position: -365px -221px;
+}
+
+.sprite-flag-greenland_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -401px -221px;
+}
+
+.sprite-flag-grenada_big {
+    width: 26px;
+    height: 26px;
+    background-position: -437px -221px;
+}
+
+.sprite-flag-grenada_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -473px -221px;
+}
+
+.sprite-flag-guinea-bissau_big {
+    width: 26px;
+    height: 26px;
+    background-position: -509px -221px;
+}
+
+.sprite-flag-guinea-bissau_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -545px -221px;
+}
+
+.sprite-flag-guinea_big {
+    width: 26px;
+    height: 26px;
+    background-position: -581px -221px;
+}
+
+.sprite-flag-guinea_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -617px -221px;
+}
+
+.sprite-flag-guyana_big {
+    width: 26px;
+    height: 26px;
+    background-position: -653px -221px;
+}
+
+.sprite-flag-guyana_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -689px -221px;
+}
+
+.sprite-flag-hawaii_big {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -257px;
+}
+
+.sprite-flag-hawaii_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -257px;
+}
+
+.sprite-flag-heard-island-and-mcdonald-islands_big {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -257px;
+}
+
+.sprite-flag-heard-island-and-mcdonald-islands_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -257px;
+}
+
+.sprite-flag-hijaz_big {
+    width: 26px;
+    height: 26px;
+    background-position: -149px -257px;
+}
+
+.sprite-flag-hijaz_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -185px -257px;
+}
+
+.sprite-flag-honduras_big {
+    width: 26px;
+    height: 26px;
+    background-position: -221px -257px;
+}
+
+.sprite-flag-honduras_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -257px -257px;
+}
+
+.sprite-flag-hong-kong_big {
+    width: 26px;
+    height: 26px;
+    background-position: -293px -257px;
+}
+
+.sprite-flag-hong-kong_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -329px -257px;
+}
+
+.sprite-flag-hungary_big {
+    width: 26px;
+    height: 26px;
+    background-position: -365px -257px;
+}
+
+.sprite-flag-hungary_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -401px -257px;
+}
+
+.sprite-flag-iceland_big {
+    width: 26px;
+    height: 26px;
+    background-position: -437px -257px;
+}
+
+.sprite-flag-iceland_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -473px -257px;
+}
+
+.sprite-flag-india_big {
+    width: 26px;
+    height: 26px;
+    background-position: -509px -257px;
+}
+
+.sprite-flag-india_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -545px -257px;
+}
+
+.sprite-flag-indonesia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -581px -257px;
+}
+
+.sprite-flag-indonesia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -617px -257px;
+}
+
+.sprite-flag-iran_big {
+    width: 26px;
+    height: 26px;
+    background-position: -653px -257px;
+}
+
+.sprite-flag-iran_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -689px -257px;
+}
+
+.sprite-flag-iraq_big {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -293px;
+}
+
+.sprite-flag-iraq_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -293px;
+}
+
+.sprite-flag-ireland_big {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -293px;
+}
+
+.sprite-flag-ireland_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -293px;
+}
+
+.sprite-flag-israel_big {
+    width: 26px;
+    height: 26px;
+    background-position: -149px -293px;
+}
+
+.sprite-flag-israel_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -185px -293px;
+}
+
+.sprite-flag-italy_big {
+    width: 26px;
+    height: 26px;
+    background-position: -221px -293px;
+}
+
+.sprite-flag-italy_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -257px -293px;
+}
+
+.sprite-flag-ivory_coast_big {
+    width: 26px;
+    height: 26px;
+    background-position: -293px -293px;
+}
+
+.sprite-flag-ivory_coast_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -329px -293px;
+}
+
+.sprite-flag-jamaica_big {
+    width: 26px;
+    height: 26px;
+    background-position: -365px -293px;
+}
+
+.sprite-flag-jamaica_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -401px -293px;
+}
+
+.sprite-flag-japan_big {
+    width: 26px;
+    height: 26px;
+    background-position: -437px -293px;
+}
+
+.sprite-flag-japan_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -473px -293px;
+}
+
+.sprite-flag-jordan_big {
+    width: 26px;
+    height: 26px;
+    background-position: -509px -293px;
+}
+
+.sprite-flag-jordan_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -545px -293px;
+}
+
+.sprite-flag-kenya_big {
+    width: 26px;
+    height: 26px;
+    background-position: -581px -293px;
+}
+
+.sprite-flag-kenya_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -617px -293px;
+}
+
+.sprite-flag-komi-republic_big {
+    width: 26px;
+    height: 26px;
+    background-position: -653px -293px;
+}
+
+.sprite-flag-komi-republic_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -689px -293px;
+}
+
+.sprite-flag-korea_big {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -329px;
+}
+
+.sprite-flag-korea_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -329px;
+}
+
+.sprite-flag-kosovo_big {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -329px;
+}
+
+.sprite-flag-kosovo_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -329px;
+}
+
+.sprite-flag-kurasawa_big {
+    width: 26px;
+    height: 26px;
+    background-position: -149px -329px;
+}
+
+.sprite-flag-kurasawa_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -185px -329px;
+}
+
+.sprite-flag-kuwait_big {
+    width: 26px;
+    height: 26px;
+    background-position: -221px -329px;
+}
+
+.sprite-flag-kuwait_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -257px -329px;
+}
+
+.sprite-flag-kyrgyzstan_big {
+    width: 26px;
+    height: 26px;
+    background-position: -293px -329px;
+}
+
+.sprite-flag-kyrgyzstan_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -329px -329px;
+}
+
+.sprite-flag-lao_big {
+    width: 26px;
+    height: 26px;
+    background-position: -365px -329px;
+}
+
+.sprite-flag-lao_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -401px -329px;
+}
+
+.sprite-flag-latvia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -437px -329px;
+}
+
+.sprite-flag-latvia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -473px -329px;
+}
+
+.sprite-flag-lesotho_big {
+    width: 26px;
+    height: 26px;
+    background-position: -509px -329px;
+}
+
+.sprite-flag-lesotho_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -545px -329px;
+}
+
+.sprite-flag-liberia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -581px -329px;
+}
+
+.sprite-flag-liberia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -617px -329px;
+}
+
+.sprite-flag-libya_big {
+    width: 26px;
+    height: 26px;
+    background-position: -653px -329px;
+}
+
+.sprite-flag-libya_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -689px -329px;
+}
+
+.sprite-flag-lithuania_big {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -365px;
+}
+
+.sprite-flag-lithuanial_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -365px;
+}
+
+.sprite-flag-luxembourg_big {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -365px;
+}
+
+.sprite-flag-luxembourg_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -365px;
+}
+
+.sprite-flag-macao_big {
+    width: 26px;
+    height: 26px;
+    background-position: -149px -365px;
+}
+
+.sprite-flag-macao_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -185px -365px;
+}
+
+.sprite-flag-macedonia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -221px -365px;
+}
+
+.sprite-flag-macedonia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -257px -365px;
+}
+
+.sprite-flag-madagascar_big {
+    width: 26px;
+    height: 26px;
+    background-position: -293px -365px;
+}
+
+.sprite-flag-madagascar_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -329px -365px;
+}
+
+.sprite-flag-madeira_big {
+    width: 26px;
+    height: 26px;
+    background-position: -365px -365px;
+}
+
+.sprite-flag-madeira_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -401px -365px;
+}
+
+.sprite-flag-malawi_big {
+    width: 26px;
+    height: 26px;
+    background-position: -437px -365px;
+}
+
+.sprite-flag-malawi_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -473px -365px;
+}
+
+.sprite-flag-malaysia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -509px -365px;
+}
+
+.sprite-flag-malaysia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -545px -365px;
+}
+
+.sprite-flag-maldives_big {
+    width: 26px;
+    height: 26px;
+    background-position: -581px -365px;
+}
+
+.sprite-flag-maldives_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -617px -365px;
+}
+
+.sprite-flag-mali_big {
+    width: 26px;
+    height: 26px;
+    background-position: -653px -365px;
+}
+
+.sprite-flag-mali_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -689px -365px;
+}
+
+.sprite-flag-malta_big {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -401px;
+}
+
+.sprite-flag-malta_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -401px;
+}
+
+.sprite-flag-marshall-islands_big {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -401px;
+}
+
+.sprite-flag-marshall-islands_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -401px;
+}
+
+.sprite-flag-mauritania_big {
+    width: 26px;
+    height: 26px;
+    background-position: -149px -401px;
+}
+
+.sprite-flag-mauritania_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -185px -401px;
+}
+
+.sprite-flag-mauritius_big {
+    width: 26px;
+    height: 26px;
+    background-position: -221px -401px;
+}
+
+.sprite-flag-mauritius_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -257px -401px;
+}
+
+.sprite-flag-micronesia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -293px -401px;
+}
+
+.sprite-flag-micronesia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -329px -401px;
+}
+
+.sprite-flag-monaco_big {
+    width: 26px;
+    height: 26px;
+    background-position: -365px -401px;
+}
+
+.sprite-flag-monaco_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -401px -401px;
+}
+
+.sprite-flag-mongolia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -437px -401px;
+}
+
+.sprite-flag-mongolia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -473px -401px;
+}
+
+.sprite-flag-morocco_big {
+    width: 26px;
+    height: 26px;
+    background-position: -509px -401px;
+}
+
+.sprite-flag-morocco_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -545px -401px;
+}
+
+.sprite-flag-myanmar_big {
+    width: 26px;
+    height: 26px;
+    background-position: -581px -401px;
+}
+
+.sprite-flag-myanmar_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -617px -401px;
+}
+
+.sprite-flag-nagorno-karabakh_big {
+    width: 26px;
+    height: 26px;
+    background-position: -653px -401px;
+}
+
+.sprite-flag-nagorno-karabakh_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -689px -401px;
+}
+
+.sprite-flag-namibia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -437px;
+}
+
+.sprite-flag-namibia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -437px;
+}
+
+.sprite-flag-nauru_big {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -437px;
+}
+
+.sprite-flag-nauru_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -437px;
+}
+
+.sprite-flag-nepal_big {
+    width: 26px;
+    height: 26px;
+    background-position: -149px -437px;
+}
+
+.sprite-flag-nepal_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -185px -437px;
+}
+
+.sprite-flag-netherlands_big {
+    width: 26px;
+    height: 26px;
+    background-position: -221px -437px;
+}
+
+.sprite-flag-netherlands_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -257px -437px;
+}
+
+.sprite-flag-niger_big {
+    width: 26px;
+    height: 26px;
+    background-position: -293px -437px;
+}
+
+.sprite-flag-niger_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -329px -437px;
+}
+
+.sprite-flag-nigeria_big {
+    width: 26px;
+    height: 26px;
+    background-position: -365px -437px;
+}
+
+.sprite-flag-nigeria_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -401px -437px;
+}
+
+.sprite-flag-niue_big {
+    width: 26px;
+    height: 26px;
+    background-position: -437px -437px;
+}
+
+.sprite-flag-niue_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -473px -437px;
+}
+
+.sprite-flag-nortern-korea_big {
+    width: 26px;
+    height: 26px;
+    background-position: -509px -437px;
+}
+
+.sprite-flag-nortern-korea_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -545px -437px;
+}
+
+.sprite-flag-norway_big {
+    width: 26px;
+    height: 26px;
+    background-position: -581px -437px;
+}
+
+.sprite-flag-norway_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -617px -437px;
+}
+
+.sprite-flag-pacific-ocean_big {
+    width: 26px;
+    height: 26px;
+    background-position: -653px -437px;
+}
+
+.sprite-flag-pacific-ocean_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -689px -437px;
+}
+
+.sprite-flag-pakistan_big {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -473px;
+}
+
+.sprite-flag-pakistan_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -473px;
+}
+
+.sprite-flag-palau_big {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -473px;
+}
+
+.sprite-flag-palau_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -473px;
+}
+
+.sprite-flag-palestine_big {
+    width: 25px;
+    height: 26px;
+    background-position: -149px -473px;
+}
+
+.sprite-flag-palestine_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -184px -473px;
+}
+
+.sprite-flag-paraguay_big {
+    width: 26px;
+    height: 26px;
+    background-position: -220px -473px;
+}
+
+.sprite-flag-paraguay_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -256px -473px;
+}
+
+.sprite-flag-peru_big {
+    width: 26px;
+    height: 26px;
+    background-position: -292px -473px;
+}
+
+.sprite-flag-peru_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -328px -473px;
+}
+
+.sprite-flag-philippines_big {
+    width: 26px;
+    height: 26px;
+    background-position: -364px -473px;
+}
+
+.sprite-flag-philippines_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -400px -473px;
+}
+
+.sprite-flag-poland_big {
+    width: 26px;
+    height: 26px;
+    background-position: -436px -473px;
+}
+
+.sprite-flag-poland_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -472px -473px;
+}
+
+.sprite-flag-puerto-rico_big {
+    width: 26px;
+    height: 26px;
+    background-position: -508px -473px;
+}
+
+.sprite-flag-puerto-rico_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -544px -473px;
+}
+
+.sprite-flag-qatar_big {
+    width: 26px;
+    height: 26px;
+    background-position: -580px -473px;
+}
+
+.sprite-flag-qatar_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -616px -473px;
+}
+
+.sprite-flag-romania_big {
+    width: 26px;
+    height: 26px;
+    background-position: -652px -473px;
+}
+
+.sprite-flag-romania_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -688px -473px;
+}
+
+.sprite-flag-russia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -509px;
+}
+
+.sprite-flag-russia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -509px;
+}
+
+.sprite-flag-rwanda_big {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -509px;
+}
+
+.sprite-flag-rwanda_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -509px;
+}
+
+.sprite-flag-saba_big {
+    width: 26px;
+    height: 26px;
+    background-position: -149px -509px;
+}
+
+.sprite-flag-saba_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -185px -509px;
+}
+
+.sprite-flag-saint-kitts-and-nevis_big {
+    width: 26px;
+    height: 26px;
+    background-position: -221px -509px;
+}
+
+.sprite-flag-saint-kitts-and-nevis_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -257px -509px;
+}
+
+.sprite-flag-saint-martin_big {
+    width: 26px;
+    height: 26px;
+    background-position: -293px -509px;
+}
+
+.sprite-flag-saint-martin_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -329px -509px;
+}
+
+.sprite-flag-samoa_big {
+    width: 26px;
+    height: 26px;
+    background-position: -365px -509px;
+}
+
+.sprite-flag-samoa_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -401px -509px;
+}
+
+.sprite-flag-san-tome_big {
+    width: 26px;
+    height: 26px;
+    background-position: -437px -509px;
+}
+
+.sprite-flag-san-tome_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -473px -509px;
+}
+
+.sprite-flag-scotland_big {
+    width: 26px;
+    height: 26px;
+    background-position: -509px -509px;
+}
+
+.sprite-flag-scotland_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -545px -509px;
+}
+
+.sprite-flag-sea-ukraine_big {
+    width: 26px;
+    height: 26px;
+    background-position: -581px -509px;
+}
+
+.sprite-flag-sea-ukraine_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -617px -509px;
+}
+
+.sprite-flag-senegal_big {
+    width: 26px;
+    height: 26px;
+    background-position: -653px -509px;
+}
+
+.sprite-flag-senegal_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -689px -509px;
+}
+
+.sprite-flag-serbia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -545px;
+}
+
+.sprite-flag-serbia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -545px;
+}
+
+.sprite-flag-seychelles_big {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -545px;
+}
+
+.sprite-flag-seychelles_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -545px;
+}
+
+.sprite-flag-sierra-leone_big {
+    width: 26px;
+    height: 26px;
+    background-position: -149px -545px;
+}
+
+.sprite-flag-sierra-leone_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -185px -545px;
+}
+
+.sprite-flag-singapores_big {
+    width: 26px;
+    height: 26px;
+    background-position: -221px -545px;
+}
+
+.sprite-flag-singapores_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -257px -545px;
+}
+
+.sprite-flag-slovakia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -293px -545px;
+}
+
+.sprite-flag-slovakia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -329px -545px;
+}
+
+.sprite-flag-slovenia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -365px -545px;
+}
+
+.sprite-flag-slovenia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -401px -545px;
+}
+
+.sprite-flag-solomon-islands_big {
+    width: 26px;
+    height: 26px;
+    background-position: -437px -545px;
+}
+
+.sprite-flag-solomon-islands_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -473px -545px;
+}
+
+.sprite-flag-somalia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -509px -545px;
+}
+
+.sprite-flag-somalia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -545px -545px;
+}
+
+.sprite-flag-south-africa_big {
+    width: 26px;
+    height: 26px;
+    background-position: -581px -545px;
+}
+
+.sprite-flag-south-africa_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -617px -545px;
+}
+
+.sprite-flag-south-ossetia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -653px -545px;
+}
+
+.sprite-flag-south-ossetia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -689px -545px;
+}
+
+.sprite-flag-south-sudan_big {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -581px;
+}
+
+.sprite-flag-south-sudan_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -581px;
+}
+
+.sprite-flag-spain_big {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -581px;
+}
+
+.sprite-flag-spain_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -581px;
+}
+
+.sprite-flag-st-eustatius_big {
+    width: 26px;
+    height: 26px;
+    background-position: -149px -581px;
+}
+
+.sprite-flag-st-eustatius_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -185px -581px;
+}
+
+.sprite-flag-st-guernsey_big {
+    width: 26px;
+    height: 26px;
+    background-position: -221px -581px;
+}
+
+.sprite-flag-st-guernsey_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -257px -581px;
+}
+
+.sprite-flag-st-lucia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -293px -581px;
+}
+
+.sprite-flag-st-lucia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -329px -581px;
+}
+
+.sprite-flag-st-vincent_big {
+    width: 26px;
+    height: 26px;
+    background-position: -365px -581px;
+}
+
+.sprite-flag-st-vincent_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -401px -581px;
+}
+
+.sprite-flag-suriname_big {
+    width: 26px;
+    height: 26px;
+    background-position: -437px -581px;
+}
+
+.sprite-flag-suriname_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -473px -581px;
+}
+
+.sprite-flag-swedena_big {
+    width: 26px;
+    height: 26px;
+    background-position: -509px -581px;
+}
+
+.sprite-flag-swedena_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -545px -581px;
+}
+
+.sprite-flag-switzerland_big {
+    width: 26px;
+    height: 26px;
+    background-position: -581px -581px;
+}
+
+.sprite-flag-switzerland_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -617px -581px;
+}
+
+.sprite-flag-syrian-arab-republic_big {
+    width: 26px;
+    height: 26px;
+    background-position: -653px -581px;
+}
+
+.sprite-flag-syrian-arab-republic_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -689px -581px;
+}
+
+.sprite-flag-taiwan_big {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -617px;
+}
+
+.sprite-flag-taiwan_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -617px;
+}
+
+.sprite-flag-tajikistan_big {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -617px;
+}
+
+.sprite-flag-tajikistan_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -617px;
+}
+
+.sprite-flag-tanzania_big {
+    width: 26px;
+    height: 26px;
+    background-position: -149px -617px;
+}
+
+.sprite-flag-tanzania_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -185px -617px;
+}
+
+.sprite-flag-tatarstan_big {
+    width: 26px;
+    height: 26px;
+    background-position: -221px -617px;
+}
+
+.sprite-flag-tatarstan_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -257px -617px;
+}
+
+.sprite-flag-thailand_big {
+    width: 26px;
+    height: 26px;
+    background-position: -293px -617px;
+}
+
+.sprite-flag-thailand_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -329px -617px;
+}
+
+.sprite-flag-timor-leste_big {
+    width: 26px;
+    height: 26px;
+    background-position: -365px -617px;
+}
+
+.sprite-flag-timor-leste_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -401px -617px;
+}
+
+.sprite-flag-togo_big {
+    width: 26px;
+    height: 26px;
+    background-position: -437px -617px;
+}
+
+.sprite-flag-togo_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -473px -617px;
+}
+
+.sprite-flag-tonga_big {
+    width: 26px;
+    height: 26px;
+    background-position: -509px -617px;
+}
+
+.sprite-flag-tonga_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -545px -617px;
+}
+
+.sprite-flag-trinidad-and-tobago_big {
+    width: 26px;
+    height: 26px;
+    background-position: -581px -617px;
+}
+
+.sprite-flag-trinidad-and-tobago_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -617px -617px;
+}
+
+.sprite-flag-trnc_big {
+    width: 26px;
+    height: 26px;
+    background-position: -653px -617px;
+}
+
+.sprite-flag-trnc_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -689px -617px;
+}
+
+.sprite-flag-tunisia_big {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -653px;
+}
+
+.sprite-flag-tunisia_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -653px;
+}
+
+.sprite-flag-turkey_big {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -653px;
+}
+
+.sprite-flag-turkey_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -653px;
+}
+
+.sprite-flag-tuvalu_big {
+    width: 26px;
+    height: 26px;
+    background-position: -149px -653px;
+}
+
+.sprite-flag-tuvalu_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -185px -653px;
+}
+
+.sprite-flag-ukraine_big {
+    width: 26px;
+    height: 26px;
+    background-position: -221px -653px;
+}
+
+.sprite-flag-ukraine_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -257px -653px;
+}
+
+.sprite-flag-united-arab-emirates_big {
+    width: 26px;
+    height: 26px;
+    background-position: -293px -653px;
+}
+
+.sprite-flag-united-arab-emirates_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -329px -653px;
+}
+
+.sprite-flag-united_kingdom_big {
+    width: 26px;
+    height: 26px;
+    background-position: -365px -653px;
+}
+
+.sprite-flag-united_kingdom_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -401px -653px;
+}
+
+.sprite-flag-unklnow3_big {
+    width: 26px;
+    height: 26px;
+    background-position: -437px -653px;
+}
+
+.sprite-flag-unklnow3_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -473px -653px;
+}
+
+.sprite-flag-unknow2_big {
+    width: 26px;
+    height: 26px;
+    background-position: -509px -653px;
+}
+
+.sprite-flag-unknow2_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -545px -653px;
+}
+
+.sprite-flag-unknow5_big {
+    width: 26px;
+    height: 26px;
+    background-position: -581px -653px;
+}
+
+.sprite-flag-unknow5_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -617px -653px;
+}
+
+.sprite-flag-unknow6_big {
+    width: 26px;
+    height: 26px;
+    background-position: -653px -653px;
+}
+
+.sprite-flag-unknow6_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -689px -653px;
+}
+
+.sprite-flag-unknow7_big {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -689px;
+}
+
+.sprite-flag-unknow7_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -689px;
+}
+
+.sprite-flag-unknow_big {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -689px;
+}
+
+.sprite-flag-unknow_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -689px;
+}
+
+.sprite-flag-uruguayl_big {
+    width: 26px;
+    height: 26px;
+    background-position: -149px -689px;
+}
+
+.sprite-flag-uruguayl_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -185px -689px;
+}
+
+.sprite-flag-usa_big {
+    width: 26px;
+    height: 26px;
+    background-position: -221px -689px;
+}
+
+.sprite-flag-usa_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -257px -689px;
+}
+
+.sprite-flag-uzbekistan_big {
+    width: 26px;
+    height: 26px;
+    background-position: -293px -689px;
+}
+
+.sprite-flag-uzbekistan_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -329px -689px;
+}
+
+.sprite-flag-vietnam_big {
+    width: 26px;
+    height: 26px;
+    background-position: -365px -689px;
+}
+
+.sprite-flag-vietnam_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -401px -689px;
+}
+
+.sprite-flag-wallis-and-futuna-islands_big {
+    width: 26px;
+    height: 26px;
+    background-position: -437px -689px;
+}
+
+.sprite-flag-wallis-and-futuna-islands_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -473px -689px;
+}
+
+.sprite-flag-western-sahara2_big {
+    width: 26px;
+    height: 26px;
+    background-position: -509px -689px;
+}
+
+.sprite-flag-western-sahara2_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -545px -689px;
+}
+
+.sprite-flag-western-sahara_big {
+    width: 26px;
+    height: 26px;
+    background-position: -581px -689px;
+}
+
+.sprite-flag-western-sahara_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -617px -689px;
+}
+
+.sprite-flag-yemen_big {
+    width: 26px;
+    height: 26px;
+    background-position: -653px -689px;
+}
+
+.sprite-flag-yemen_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -689px -689px;
+}
+
+.sprite-flag-zanzibar_big {
+    width: 26px;
+    height: 26px;
+    background-position: -725px -5px;
+}
+
+.sprite-flag-zanzibar_big-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -725px -41px;
+}
