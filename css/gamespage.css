@@ -26,6 +26,14 @@
     -webkit-transition: border-color .3s ease;
     transition: border-color .3s ease;
     margin-bottom: 18px;
+    overflow: hidden;
+}
+.slots__pic > img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 .slots__item:hover .slots__pic {
     border-color: #22e41c;
@@ -41,6 +49,7 @@
     -webkit-transition: opacity .3s ease;
     transition: opacity .3s ease;
     opacity: 0;
+    z-index: 1;
 }
 .slots__item:hover .slots__pic:before {
     opacity: 1;
@@ -53,6 +62,7 @@
     height: 100%;
     padding-top: 50%;
     text-align: center;
+    z-index: 1;
 }
 .slots__btn {
     -webkit-transition: opacity .3s ease;
@@ -83,11 +93,13 @@
     position: absolute;
     top: -8px;
     left: 13px;
+    z-index: 2;
 }
 .slots__type {
     position: absolute;
     top: 17px;
     right: -20px;
+    z-index: 2;
 }
 .slots__hot,
 .slots__new {
