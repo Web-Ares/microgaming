@@ -978,33 +978,6 @@
     text-indent: -5000px;
     text-transform: uppercase;
 }
-.flag1 {
-    background-position: -128px -1px;
-}
-.flag2 {
-    background-position: 0 -238px;
-}
-.flag3 {
-    background-position: -43px -87px;
-}
-.flag4 {
-    background-position: -21px 0;
-}
-.flag5 {
-    background-position: -64px -194px;
-}
-.flag6 {
-    background-position: -215px -87px;
-}
-.flag7 {
-    background-position: -128px -87px;
-}
-.flag8 {
-    background-position: -194px -65px;
-}
-.flag9 {
-    background-position: 0 -87px;
-}
 .top-casinos-country a.active {
     position: relative;
     font-family: 'Flama-Bold',sans-serif;
