@@ -9629,7 +9629,7 @@ input[type="radio"]:checked + label > .add-your__experience-checked {
         display: inline-block;
         vertical-align: top;
         width: 541px;
-        margin: 0 4px;
+        margin: 0 3px;
         margin-bottom: 35px;
     }
     .site__wrap-center_long{
